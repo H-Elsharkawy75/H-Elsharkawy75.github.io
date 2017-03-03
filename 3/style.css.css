@@ -1,0 +1,640 @@
+body{
+    font-family: cursive;
+}
+.photo{ padding:0px; margin:0px}
+.contaner { 
+width:900px;
+margin:auto;
+}
+/********************************state header***/
+.header .slider{ 
+    background-image: url(image/6.jpg);
+    height: 500px;
+    width: 1340;
+    background-size:cover;
+    image-resolution: snap;
+}
+.header .slider .intro{
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 5px ;
+}
+.header .slider .intro button{
+    background: none;
+    width: 140px;
+    color: #fff;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.header .navebare{ 
+    border-bottom: 2px solid #dbdbdb;
+    height: 40px;
+}
+
+.header .navebare ul{ 
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+   
+}
+.header .navebare ul img{width: 150px; height: 30px;float:left;padding-top: 6px }
+.header .navebare ul li{
+    float: right;
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+.header .navebare ul li a{
+    text-decoration: none;
+    font-family: Kozuka Mincho ...; font-style:bold;font-size:20px;color: #3f3838;
+    
+}
+.header .navebare ul li a:hover{
+    border-bottom: 2px solid #f64c00;
+}
+
+/********************************end header***/
+/********start page welvom to******/
+.welcom{
+    text-align: center
+}
+.welcom h3{
+    color: #2ec278;
+    font-family: Kozuka Mincho ...;
+}
+.welcom h2{
+    font-family: Kozuka Mincho ...;
+    border-bottom: 2px solid #f64c00;
+    border-bottom-width: thin;
+    text-align: center;
+}
+.contaner .para{
+    font-family: Kozuka Mincho ...;
+    color: #696969;
+}
+
+/****start fearther****/
+.fearther{
+    overflow: hidden;
+    margin-top: 50px;
+}
+/************************starte feat1**********/
+.fearther .feat1{
+    float: left;
+    width: 25% ;
+    background-color: #ebebeb;
+    height: 130px;
+    overflow: hidden;
+}
+.fearther .feat1 ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    list-style: none; 
+}
+.fearther .feat1 ul li{
+    float: none;
+}
+.fearther .feat1 ul li a{
+     
+    text-decoration: none;
+    background: #ebebeb; 
+    padding: 12px;
+    display: block;
+    color: #807e7e;
+    text-align: center ;
+    border-bottom: 1px solid #f6f6f6;
+}
+.fearther .feat1 ul li a:hover{
+    background: #ed5512;
+    color: #fff;
+}
+/****************************************end feat1************/
+
+/****************starte feat2*************/
+.fearther .feat2{
+    float: left;
+    width: 75%;
+    overflow: hidden;
+
+}
+.feat2 .pp{
+    width:70%; 
+    float: left;
+}
+.feat2 .imgg{
+    float: left;
+    width: 30%;
+    border-image-repeat: round;
+}
+.feat2 .pp ul{
+    padding: 0px;
+    margin: 20px;
+    list-style: none;    
+}
+.feat2 .pp ul li h3{
+    color: #696969;
+    font-family: Kozuka Mincho ...;
+}
+.feat2 .pp ul li p{
+    color: #919191;
+    font-family: Kozuka Mincho ...;
+}
+/********************end feat2*******/
+
+/************endfearther****/
+/******************************starte about******/
+.about{
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+.about .baner{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.about .engineer{
+    width: 50%;
+    float: right;
+    margin: 30px;
+    margin-right: 60px;
+}
+.about .engineer h3{
+    color: #56c693;
+    font-family: Kozuka Mincho ...;
+    line-height: 0px;
+    letter-spacing: -1px;
+}
+.about .engineer h2{
+    line-height: 1px;
+    padding-bottom: 20px;
+    color: #252525;
+    letter-spacing: 2px;
+    font-family: Kozuka Mincho ...;
+}
+.about .engineer p{
+    font-family:Kozuka Mincho ...;
+    color: #929292;
+}
+.about .engineer .hopes{
+    overflow: hidden;
+    margin: 20px 10px 50px 50px;
+}
+.about .engineer .hopes >div{
+    float: left;
+    width: 50%;
+    min-height: 40px;
+    font-family: Kozuka Mincho ...;
+}
+.about .engineer .hopes >div h3{
+    color: #f64c00;
+    
+}
+/*********************end about***************/
+
+/*********************************************************tsarte meet oue*************/
+.meet{
+    overflow: hidden;
+    margin-top: 50px;
+    font-family:Kozuka Mincho ...; 
+}
+.meet h4,h1{
+    text-align: center;
+    line-height: 0px;
+}.meet h4{
+    color: #56c693;
+    
+}
+.meet h1 a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid #a5b1af;
+    
+}
+.meet >div{
+    line-height: 0px;
+    text-align: center;
+    margin-top: 40px;
+    float:left;
+    width: 25%;
+}
+.meet >div >img{
+    border-radius: 50%;
+    border-bottom-left-radius: 20px solid #56c693;
+}
+.meet >div >img:hover{
+    transform: scale(1.1);
+}
+.meet >div h5 p{
+    text-align: center;
+    
+}
+.meet >div h5{
+    color: #a5b1af;
+}
+.meet >div p{
+    color: #f64c00
+}
+.meet .links >img{
+    float: left;
+    width: 5.25%;
+}
+/*********************************************************end meet our*************/
+
+/*****************      * بدايه البرجراف اللى تحت الصور المدوره *******/     
+.quis p{
+    text-align: center;
+    color: #929292;
+    margin: 50px ;
+}
+/*****************      * نهايه البرجراف اللى تحت الصور المدوره *******/
+
+/********************start servis****************/
+   
+.servic{
+    background-image: url(image/8.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    height: 450px;
+    text-align: center;
+    
+    font-family: Kozuka Mincho ...;
+    opacity: 0.7%;
+    overflow: hidden;
+}
+.servic h4{
+    padding-top: 50px;
+    color: #56c693;  
+}
+.servic h1{
+    color: #a5b1af;
+}
+.contaner .quis >div{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 55px;
+    
+}.contaner .quis >div img{
+   /**** background-color: #fff;
+    border-radius: 50%;**/
+    line-height: 0px;
+}
+.contaner .quis >div h3{
+    color: #f64c00;
+}
+.contaner .quis >div p{
+    color: #a5b1af;
+    font-size: 15px;
+}
+/********************end servis****************/
+/************************starte gallarey*******/
+.gallarey {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.gallarey h4{
+    text-align: center;
+    color: #56c693;
+}
+.gallarey .owerwork{
+    overflow: hidden;
+}
+.gallarey .owerwork > div{
+    float: left;
+    width: 25%;
+    margin-bottom: -8px;
+    
+}
+.gallarey .owerwork > div img{
+    width: 90%;
+    margin: 15px;
+    border-radius: 2%;
+}
+.gallarey .owerwork > div img:hover{
+    transform: scale(1.1);
+    border-radius: 10%;
+}
+
+/************************end gallarey*******/
+/***************************** starte button***********/
+.hic{
+    background-image: url(image/9.jpg);
+    background-size: cover;
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+}
+.hic p{
+    text-align: center;
+    color: #000;
+    font-family: Kozuka Mincho ...;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.hic .button{
+    overflow: hidden;
+    padding-top: 30px;
+}
+.hic .button > button{
+    background: none;
+    width: 200px;
+    border: 2px solid #fff;
+    height: 100px;
+    line-height: 10px;
+}
+.hic .button > button:hover{
+    border: 2px solid #f64c00;
+}
+.hic .button > button h3{
+    color: #fff;
+    font-size: 30px;
+    font-family:Kozuka Mincho ...; 
+    padding-top: 5px;
+}
+.hic .button > button h2{
+    color: #56c693;
+}
+/***************************** end button***********/
+/************************starte online********/
+.online{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    text-align:center;
+    line-height: 0px;
+    font-family: Kozuka Mincho ...;
+    border: 2px solid #dadada;
+    width: 70%;
+    margin-left: 15%;
+}
+.online h4{
+    color:#35dd7e;
+    text-align: center;
+
+}
+.online  input{
+    margin-top: 20px;
+    width: 80%;
+    height: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #dadada;
+}
+.online .tapels >div{
+    width: 80%%;
+    margin-left: 20px;
+    padding-left: 50px;
+    text-align: justify;
+    
+}
+.online .tapels >div >input{
+    float: left;
+    width: 37.4%;
+    margin-left: 18px;
+    padding-right: 40px; 
+    text-align: justify;
+}
+.online .tapols >div{
+    width: 80%%;
+    margin-left: 20px;
+    padding-left: 50px;
+    text-align: justify;
+    background-color: #f8f8f8;
+}
+.online .tapols >div >input{
+    float: left;
+    width: 22.5%;
+    margin-left: 18px;
+    padding-right: 40px; 
+    background-color: #f8f8f8;
+    border: 1px solid #dadada;
+}
+.online .tapols >div >select{
+    float: left;
+    width: 27.5%;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 18px;
+    padding-right: 40px;
+    background-color: #f8f8f8;
+    border: 1px solid #dadada;
+}
+.online .butoon >div input{
+    float: left;
+    width: 27.4%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 12.5%;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #35dd7e;
+    border: 1px solid #dadada; 
+}
+/************************ end online********/
+/**************************starte Mail us**************/
+.mail{
+    padding-top: 20px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(image/32.JPG);
+    background-size: cover;
+    height: 480px;
+    
+    
+}
+.mail h4{
+   color:#35dd7e;
+ 
+}
+.mail .tables{
+    width: 80%
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.85;
+    filter: blur(5px);
+    
+}
+.mail .tables > div input{
+    float: left;
+    width: 39%;
+    text-align:justify;
+    margin-left: 30px;;
+    padding-right: 40px;
+    height: 25px;
+    margin-bottom: 10px;
+    background-color:#dadada ;
+    opacity: 0.5;
+    filter: blur(10px);
+   border: 1px solid #dadada;
+}
+.mail .tables > div input:hover{
+    color: black;
+    font-size: 20px;
+    opacity: 0.8;
+}
+/**************************************************/
+.mail .table2{
+    overflow:hidden;
+    width: 100%;  
+}
+.mail .table2 > div textarea{
+    height: 100px;
+    width: 90.5%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    opacity: 0.3;
+    filter: blur(5px);
+    
+    
+}
+.mail .table2 > div textarea:hover{
+    color: black;
+    font-size: 20px;
+    opacity: 0.5;
+}
+/*********************************/
+.button2{
+    overflow: hidden;
+    width: 80%;
+    padding-top: 30px;
+}
+.button2 > div input{
+    width: 30%;
+    margin-left: 100px;
+    background-color: #ef682e;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #ef682e;
+    padding-left: 10px;
+    text-align: center;
+}
+.button2 > div input:hover{
+    background-color: #fff;
+    color: #ef682e;
+    font-size: 20px;
+}
+/**************************end Mail us**************/
+
+/********************starte me******/
+.me{
+    overflow: hidden;
+    text-align: center;
+}
+.me ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 25%;
+}
+.me ul li{
+    float: left;
+    padding: 10px;
+    margin-left: 15px;;
+}
+.me ul li a{
+    text-decoration: none;
+    font-family: Kozuka Mincho ...; 
+    font-style:bold;
+    font-size:20px;
+    color: #3f3838;
+}
+.me .ss{
+    width: 80%;
+    overflow: hidden;
+    margin-top: -10px;
+}
+.me .ss >div {
+    margin-left: 50%;
+}
+.me .ss >div img{
+    float: left;
+    margin-left: 15px;
+
+}
+.lll{
+    padding-top: 20px;
+    overflow: hidden;
+    line-height: 0px;
+    font-size: 20px;
+}
+.lll >div p{
+    line-height: 0px;
+}
+.lll >div img{
+    line-height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding-top: 20px;
+    border-top: 2px solid #c7c7c7;
+    text-align: center;
+    font-family: Kozuka Mincho ...;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.footer span{
+    color: crimson;
+    font-family:Segoe Script;
+    
+}
+.footer  span a{
+    text-decoration: none;
+    color:#f64c00;
+}
+.footer  span a:hover{color:#3f3838; border-bottom: 2px solid #f64c00 
+}
