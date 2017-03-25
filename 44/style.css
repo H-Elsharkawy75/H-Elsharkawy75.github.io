@@ -1,0 +1,606 @@
+body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: arial, tahoma;
+}
+.contaner{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    overflow: hidden;
+}
+header .up {
+    padding-top: 10px;
+}
+
+header .up .titel{
+    float: left;
+    width: 68%;    
+}
+header .up .titel a h2{
+    float: left;
+    margin-top: 0px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+header .up .titel a span{
+    color: #0a9dbe;
+    border: 2px solid #0a9dbe;
+    padding: 3px;
+}
+header .up .hhh{
+    float: right;
+    width: 32%;
+    padding-top: 20px;
+  
+}
+header .up .hhh p{
+    float: right;
+    margin-top: 7px;
+    padding-right: 2px;
+    font-size: 20px;
+}
+header .up .hhh p span{
+    color: #fd282a;
+}
+
+header .up .hhh .button button{
+    font-family:bein normal ;
+    float: left;
+    background-color: #f42b24;
+    width: 80px;
+    height: 40px;
+    color: #fff;
+    border: 2px solid #f42b24;
+    transition: all  .5s ease-in-out;
+}
+header .up .hhh button:hover{
+    color: #f42b24;
+    background-color: #fff;
+}
+
+.contaner .link{
+    overflow:auto;
+
+}
+.contaner .link .links{
+    float: left;
+    width: 80%;
+   
+}
+.contaner .link .links ul {
+    float: left;
+    border-top: 2px solid #ddd;
+    margin-left: -38px;
+    transition: all .3s ease-in-out;
+}
+.contaner .link .links ul li{
+    display: block;
+    padding-left: 0px;
+    float: left;
+    list-style: none;
+}
+.contaner .link .links ul li a{
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    color: #797979;
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    float: left;
+    transition: all .3s ease-in-out;
+}
+.contaner .link .links ul li a img{
+    padding-left: 3px;
+}
+.contaner .link .links ul li ul{
+    padding: 0;
+    margin-left: 0px;
+    border-top: 2px solid #fff;
+    float: none;
+}
+.contaner .link .links ul li ul li{
+    float: none;
+   /* opacity: .7;*/
+    display: none;
+    width: 100px;
+    
+}
+.contaner .link .links ul li:hover ul li {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+.contaner .link .links ul li:hover{
+    animation: ussein 1s 1 ease-in-out;
+}
+@-webkit-keyframes ussein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.contaner .link .links ul li a:hover{
+    background-color: #0a9dbe;
+    color: #fff;
+    position: relative;
+}
+.contaner .link .scerch{
+    width: 20%;
+    float: left;
+    padding-top: 25px;
+    border-top: 2px solid #ddd;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin-top: 16px;
+    border-bottom: 2px solid #ddd;
+}
+.contaner .link .scerch input{
+    float: left;
+    width: 80%;
+    border: 2px solid #fff;
+}
+.contaner .link .scerch img{
+    float: left;
+    width: 10%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+/*****************************************************************start slider***************/
+
+.slider{
+    margin-top: -36px;
+    padding: 0;
+    background-image: url(image/slide-3.jpg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+.slider h1{
+    padding: 0;
+    padding-top: 100px;
+    margin-left:15%;
+    color: #fcffff;
+}
+.slider h1 span{
+    color: #00d9ff;
+}
+.slider .icon{
+    padding-top: 70px;
+    text-align: center;
+    
+}
+.slider .icon >div{
+    width: 25%;
+    float: left;
+    color: #fffdff;
+}
+.slider .icon >div >img{
+    transition: all .5s ease-in-out;
+}
+.slider .icon >div >img:hover{
+    transform: scale(1.2);
+}
+.slider .buton{
+    margin-left: 35%;
+    padding-top: 165px;
+   
+}
+.slider .buton >button{
+    float: left;
+    width: 25%;  
+    text-align: center;
+    margin-left: 15px;
+    font-size: 17px;
+    height: 35px;
+    background: none;
+    border: 1px solid #fffdff;
+    color: #fffdff;
+    transition: all .5s linear;
+}
+.slider .buton >button:hover{
+    background-color: #f72b2c;
+    border: 1px solid #f72b2c;
+    transform: scale(1.1);
+}
+/**********************************************************************end slider**********/
+/******************************************start our*********************/
+
+.our .art{
+    float: left;
+    width: 60%;
+    color: #4b4c44;
+}
+.our .art .line{
+    border-bottom: 2px solid #ffacb3;
+    width: 130px;
+}
+.our .art p{
+    color: #a3a3a3;
+}
+.our .img{
+    float: left;
+    width: 30%;
+    padding: 40px;
+}
+/******************************************end our*********************/
+/*****************************************************starte make*****************/
+
+.make .img{
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+.make .bussnes{
+    width: 50%;
+    float: left;
+    background-color: #0a9dbe;
+    height: 500px;
+}
+.make .bussnes h2{
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #e9f7ff;
+}
+.make .bussnes p{
+    color: #006473;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+.make .bussnes .icon >div{
+    line-height: 15px;
+    padding-top: -15px;
+}
+.make .bussnes .icon >div img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+.make .bussnes .icon >div img:hover{
+    animation: hussein  3s infinite ease-in-out;
+}
+@-webkit-keyframes hussein{
+    0%{
+        transform: rotateZ(0);
+    }
+    33%{
+      transform: rotateZ(40deg);
+    }
+    66%{
+        transform: rotateZ(-40deg);
+    }
+    100%{
+        transform: rotateZ(0);
+    }
+    
+}
+.make .bussnes .icon >div >div{
+    float: left;
+    width: 60%;
+    padding-left: 50px;
+}
+.make .bussnes .icon >div >div h3{
+    color: #e9f7ff;
+}
+.make .bussnes .icon >div >div p{
+    padding-top: -15px;
+    padding-left: 0;
+}
+/*****************************************************end make*****************/
+/*******************************************************************************************strate****/
+.latest{
+    margin-top: 850px;
+    padding-bottom: 30px;
+}
+.latest .line{
+    border-bottom: 2px solid #ffacb3;
+    width: 130px;
+    margin-left: 20px;
+}
+.latest h2{
+    color: #20160d;
+    padding-left: 20px;
+}
+.latest p{
+    color: #a3a3a3;
+    padding-left: 20px;
+}
+.latest .img{
+text-align: center;
+}
+
+.latest .img >div{
+    width: 22%;
+    float: left;
+    padding: 10px;
+}
+.latest .img >div >img{
+    z-index: 1;
+    position: relative;
+    border-radius: 15px;
+}
+.latest .img >div >div{
+    width: 80%;
+    background-color: red;
+    text-align: center;
+    margin-top: -22px;
+    margin-left: 20px;
+    z-index: 2;
+    position: relative;
+    top: -8;
+    left: 0;
+    height: 25px;
+    line-height: 175%;
+    border-radius: 2px;
+}
+.latest .img >div >div p{
+    color: #fff;
+    text-align: center;
+}
+.latest .img >div h3{
+    color: #696a65;
+    margin: 0;
+    text-align: center;
+    padding-left: 5px;
+}
+.latest .img >div p{
+    color: #a3a3a3;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+/*******************************************************end*************************/
+
+
+/********************************* starte state*************************/
+.state{
+    margin-top: 330px;
+    background-image: url(image/04.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.state .contaner .our_state .our{
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+}
+.state .contaner .our_state .our h2{
+    color: #fafffa;
+}
+.state .contaner .our_state .our .line{
+    border-bottom: 2px solid #f1423f;
+    width: 90px;
+}
+.state .contaner .our_state .our p{
+    color: #c6c1ad;
+    line-height: 20px;
+}
+.state .contaner .our_state .buton{
+    float: left;
+    width: 60%;
+    padding-top: 100px;
+}
+.state .contaner .our_state .buton >div{
+    float: left;
+    widows: 32%;
+    padding: 5px;
+    
+}
+.state .contaner .our_state .buton >div >button{
+    padding: 20px;
+    background: none;
+    border: 3px solid #c6c1ad;
+    transition: all .5s linear;
+}
+.state .contaner .our_state .buton >div >button:hover{
+    transform: scale(1.1);
+}
+.state .contaner .our_state .buton >div >button img{
+    transition: all .5s ease-in-out;
+}
+.state .contaner .our_state .buton >div >button img:hover{
+    animation: husse  3s infinite ease-in-out;
+}
+@-webkit-keyframes husse{
+    0%{
+        transform: rotateZ(0);
+    }
+    33%{
+      transform: rotateZ(40deg);
+    }
+    66%{
+        transform: rotateZ(-40deg);
+    }
+    100%{
+        transform: rotateZ(0);
+    }
+    
+}
+.state .contaner .our_state .buton >div >button h2{
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.state .contaner .our_state .buton >div >button h2:hover{
+    transform: scale(1.1);
+}
+.state .contaner .our_state .buton >div >button h3{
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.state .contaner .our_state .buton >div >button h3:hover{
+    transform: scale(1.1);
+}
+
+.state .subscrib{
+   text-align: center;
+    background-color: red;
+}
+.state .subscrib .hhhh{
+    float: left;
+    width: 40%;
+    margin-top: 30px;
+    color: #fff;   
+}
+.state .subscrib .email{
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+}
+.state .subscrib .email input{
+   height: 30px; 
+}
+.state .subscrib .email button{
+    background-color: #069fc8;
+    border: 2px solid #069fc8;
+    transition: all .5s ease-in-out;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+}
+.state .subscrib .email button:hover{
+    background-color: #fff;
+    border: 2px solid #069fc8;
+    color: #069fc8
+}
+/********************************* end state*************************/
+.con{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.con .first{
+    float: left;
+    width: 30%;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+.con .first .titell a h2{
+    float: left;
+    margin-top: 0px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.con .first .titell a span{
+    color: #0a9dbe;
+    border: 2px solid #0a9dbe;
+    padding: 3px;
+}
+.con .first .hhdh p{
+    color: #b4b4b4;
+}
+.con .first .hhdh p a{
+    color: red;
+}
+.con .second{
+    float: left;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.con .second h3{
+    color: #0f9bb2;
+}
+.con .second p{
+    color:#b4b4b4;
+    line-height: 5px;
+}
+.con .second img{
+    transition: all .5s ease-in-out;
+}
+.con .second img:hover{
+    transform: scale(1.2);
+}
+.con .thered{
+    float: left;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.con .thered h3{
+    color: #0f9bb2;
+}
+.con .thered p{
+    color:#b4b4b4;
+    line-height: 5px;
+}
+.con .thered img{
+    transition: all .5s ease-in-out;
+}
+.con .thered img:hover{
+    transform: scale(1.2);
+}
+.con .fourth{
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.con .fourth img{
+    transition: all .5s ease-in-out;
+}
+.con .fourth img:hover{
+    transform: scale(1.2);
+}
+.con .fourth h3{
+    color: #0f9bb2;
+    margin-bottom: 10px;
+}
+.con .fourth a{
+    color: red;
+    
+}
+/*********************************************************************end***********/
+
+/******************************************footer**********************/
+
+.footer{
+    background-color: #212121;
+    height: 100px;
+    margin-top: 240px;
+}
+.footer .up ul{
+    text-decoration: none;
+    padding-top: 15px;
+}
+.footer .up ul li{
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer .up ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .2s linear;
+}
+.footer .up ul li a:hover{
+    color: #149bb1;
+}
+.footer .dow .left{
+    float: left;
+    margin-left: -350px;
+}
+.footer .dow .left p{
+    color: #dddddd;
+}
+.footer .dow .left p span{
+    color: #149bb1;
+    transition: all .2s ease-in-out;
+}
+.footer .dow .left p span:hover{
+    color: #ffffff;
+}
+.footer .dow .right{
+    float: right;
+}
