@@ -1,0 +1,315 @@
+body{
+    height: 5000px;
+    padding-top: 50px;
+    background-color: #ddd;
+}
+
+
+/****************************************************starte navbar**************/
+.navbar navbar-default{
+    background-color: blue;
+}
+/***********************     Elsharkawy*******الخاص بكلمه *******/
+.navbar-inverse .navbar-brand h3 {
+    color: #b59d9d;
+    margin-top: 0px;
+  -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;  
+}
+.navbar-inverse .navbar-brand h3 span{
+    color: #7e0000;
+}
+.navbar-inverse .navbar-brand h3:hover{
+    color: #b59d9d;
+    transform: translateX(30px);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #7e0000;
+    color: #fff;
+    margin-left: 309px;
+}
+
+/************************ drodowen-meu*****************/
+.dropdown-menu{
+    min-width: 200px;
+}
+.dropdown-menu > li > a:hover{/********اول drodowen-meu******/
+    color: #fff;
+    background-color: #7e0000;
+}
+.dropdown-menu > li > a{
+    padding: 7px 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.dropdown-menu > li > a:hover{
+    padding-left: 30px;
+}
+.dropdown-menu{
+    min-width: 200px;      
+}
+.navbar-nav > li > .dropdown-menu{/********تانى drodowen-meu******/
+    left: 0;
+   
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus{
+    color: #b59d9d;
+}
+.navbar-inverse .navbar-nav > li > a{   
+    color: #b59d9d;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #fff;
+    background-color: #7e0000;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus{
+    background-color: #7e0000;
+    color: #fff;
+    
+}
+
+/*----- الخاصين ببتوع التلت شرط اللى لما بصغر الشاشه بيظهرو فوق بعض واللى يفتح الاقسام فى الموبايل -------*/
+
+
+
+
+.navbar-inverse{
+    background-color: #fff;
+    border-bottom:2px solid #7e0000;
+}
+.navbar-toggle .sr-only .icon-bar{
+    background-color: #fff;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #7e0000;
+    background-color: #fff;
+    color: #7e0000;
+}
+.navbar-inverse .navbar-toggle:hover{
+    border-color: #7e0000;
+    background-color: #fff;
+    color: #7e0000;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+    color: #7e0000;
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover{
+    background-color: #7e0000;
+    color: #7e0000;
+}
+
+.navbar-header .icon-bar:hover{
+    background-color: #fff;
+    color: #7e0000;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+/*************************************** media اللى بتصغر الشاشه******************/
+@media (max-width: 767px)
+{
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: #ddd;
+        color: #7e0000
+    }
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+         background-color: #7e0000;
+         color: #fff;
+         margin-left: 0; 
+     } 
+    .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #7e0000;
+    color: #7e0000;
+}
+}
+@media (max-width: 767px){
+    .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 30px;
+    }
+}
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #9d9d9d;
+        -webkit-transition: all .7s ease-in-out;
+        -moz-transition: all .7s ease-in-out;
+        -o-transition: all .7s ease-in-out;
+        transition: all .7s ease-in-out;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+        padding-left: 40px;
+        background-color: #7e0000;
+        color: #fff;
+    }
+}
+
+
+/*********************************************************************************end navbar*******************************/
+
+/*********************************************************************************starte carasoul*******************************/
+
+.carousel-inner{
+    height: 500px;
+}
+.carousel-caption{
+    position: absolute;
+    right: 20%;
+    bottom: 265px;
+    font-size: 30px;
+    
+
+}
+
+.carousel-inner{
+        height: 329px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 20%;
+    bottom: 270px;
+    font-size: 30px;
+}
+
+@media (max-width: 767px){
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 170px;
+    font-size: 25px;
+    }
+}
+@media(max-width: 767px){
+    .carousel-inner{
+        height: 330px;
+        bottom: 0px;
+        padding-bottom: 0;
+        }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 50px;
+        font-size: 25px;
+        }
+}
+
+@media (max-width: 420px){
+    .carousel-inner{
+        height: 180px;
+        bottom: -5px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        font-size: 20px;
+        }
+    }
+
+
+
+@media (max-width: 270px){
+    .carousel-inner{
+        height: 110px;
+        bottom: -5px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        font-size: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************************end carasoul*******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
