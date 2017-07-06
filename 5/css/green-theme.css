@@ -1,0 +1,208 @@
+/*****start defoult********/
+
+/********activ lenk**********/
+/********************************start navebar**************/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #175818;
+    
+}
+.navbar-inverse .navbar-brand h3 span{
+    color: #175818;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+    background-color: #175818;
+    
+}
+.dropdown-menu > li > a:hover{/********اول drodowen-meu******/
+    color: #fff;
+    background-color: #175818;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #fff;
+    background-color: #175818;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus{
+    background-color: #175818;
+    color: #fff;
+    
+}
+.navbar-inverse{
+    
+    border-bottom:2px solid #175818;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #175818;
+    
+    color: #175818;
+}
+.navbar-inverse .navbar-toggle:hover{
+    border-color: #175818;
+    
+   color: #175818;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    
+    color: #175818;
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover{
+    background-color: #175818;
+    color: #175818;
+}
+.navbar-header .icon-bar:hover{
+    
+    color: #175818;
+}
+   
+
+  @media (max-width: 768px)
+{
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        
+        color: #fff;
+    }
+    .navbar-inverse .navbar-nav > .active > a,
+    .navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar-inverse .navbar-nav > .active > a:focus {
+         background-color: #175818;
+         
+         
+     } 
+    .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #175818;
+    color: #175818;
+}
+}
+@media (max-width: 768px){
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+        
+        background-color: #175818;
+        
+    }
+}
+/*******************************end nave bare****************/
+
+/***************************************starte carasoul*******************************/
+
+
+/**********not found*****/
+
+/**************************************end carasoul*******************************/
+
+
+/******************start about********/
+.about a{
+    
+    color: #175818;
+}
+.about .huss{
+    color: #175818;
+    
+}
+
+/******************end about**********/
+/*********************start features**********/
+.features h1{
+    
+    color: #175818;
+    
+}
+.features .feat span.glyphicon:hover{
+    
+    color: #175818;
+}
+/************************end features************/
+/*******************start testimonials******************/
+.testimonials h1 span {
+    color: #175818;
+    
+}
+.testimonials  .carousel-indicators li img{
+    
+    border: 2px solid #175818;
+    
+}
+.testimonials .carousel-inner .item span{
+    color: #175818;
+    
+}
+/**************************end testimonials******************/
+/***********start prise table**********/
+.price h1{
+    
+    color: #175818;
+    
+}
+/**************end prise table***********/
+/************strat Our team*********/
+.our-team .team .person .fa:hover {
+    
+    color: #175818;
+}
+/*************end Our team***********/
+/**************start subsribe*********/
+.subscribe h1{
+   
+    color: #175818;
+    
+}
+/*******end subscribe********/
+/*******************start statistics*********/
+
+/****not found/***/
+/**********************end statistics*******/
+/************************start skills***********/
+.our-skills h1{
+    
+    color: #175818;
+    
+}
+/************************end skills*************/
+/***************start conatct us**************/
+.contact-us .conc h1 span{
+    color: #175818;
+    
+}
+.contact-us .conc button{
+    background: #175818;
+    
+}
+/*******************end conatct us**************/
+/*********************start footer*************/
+.copyright .huss{
+    color: #175818;
+    
+}
+/**********************end footer****************/
+/******************tool box**************/
+.option-box .color-option{
+    
+    border: 4px solid #175818;
+   
+}
+.option-box .gear-check{
+   
+    background: #175818;
+   
+}
+/*********************end tool box**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****end defoult********/
