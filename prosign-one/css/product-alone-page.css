@@ -1,0 +1,1168 @@
+/********************** Start carousel-pr0duct***************/
+.carousel {
+    position: relative;
+    width: 99%;
+    height: auto;
+        margin-top: -20px;
+    /*border: 2px solid #ddd;
+    border-radius: 10px;*/
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 20%;
+    
+    font-size: 30px;
+
+}
+
+.carousel-inner {
+
+    border-radius: 5px;
+        /*margin-bottom: 130px;*/
+        margin-bottom: 0px;
+}
+
+.carousel-caption{
+    bottom: 80px;
+    margin-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    background: rgba(3,3,3,0.5);
+    border-radius: 10px;
+    
+}
+.carousel-caption h1{
+    padding-top: 0px;
+}
+.carousel-indicators {
+    /* bottom: -132px; */
+    /* left: 145px; */
+    width: 100%;
+    /* margin: auto; */
+    margin-left: auto;
+    position: static;
+}
+.carousel .carousel-inner .item img{
+    line-height: 1;
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+@media(max-width:768px){
+    .carousel .carousel-inner .item img{
+    height: auto;
+}
+}
+.carousel .carousel-inner .item .gfgf{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.carousel .carousel-inner .item .gfgf .artical{
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.carousel .carousel-inner .item .gfgf .artical h1{
+    margin-top: -20px;
+    height: 40px;
+        font-size: 35px;
+}
+.carousel .carousel-inner .item .gfgf .artical span{
+ color: #f15b2a;
+        padding: 20px;
+}
+.carousel .carousel-inner .item .gfgf .artical .btn {
+    width: 120px;
+    padding-left: 11px;
+    height: 40px;
+    padding-top: 8px;
+    line-height: -50px;
+    background: #f15b2a;
+    color: #fff;
+    border-radius: 50px;
+    outline: 0;
+    margin-left: 120px;
+        border: 2px solid #f15b2a;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+}
+
+.carousel .carousel-inner .item .gfgf .artical .btn:hover {
+    width: 120px;
+    padding-left: 11px;
+    height: 40px;
+    padding-top: 8px;
+    line-height: -50px;
+    background: #fff;
+    border: 2px solid #f15b2a;
+    color: #f15b2a;
+}
+.carousel .carousel-inner .item .gfgf .artical .lead{
+    padding-top: 10px;
+        font-size: 18px;
+}
+.carousel .carousel-inner .item .gfgf .asas{
+    padding-top: 20px;
+    padding-right: 0px;
+}
+.carousel .carousel-inner .item .gfgf .imagesds{
+    width: 100%;
+    display: block;
+   /* height: 100%;
+    border: 2px solid #000;
+    border-radius: 10px;*/
+    overflow: hidden;
+}
+@media (max-width:768px) {
+.carousel .carousel-inner .item .gfgf .imagesds{
+    width: 100%;
+    display: block;
+    height: auto;
+   /* border: 2px solid #000;
+    border-radius: 10px;*/
+    overflow: hidden;
+}
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+    cursor: default;
+    
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    cursor: default;
+   
+}
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    color: #f00;
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    color: #f00;
+}
+
+/*
+.glyphicon glyphicon glyphicon-arrow-left {
+    position: relative;
+    top: 200px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f00;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-arrow-left {
+position: relative;
+    top: 10px;
+    left: 508%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f15b2a;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+}
+*/
+@media (max-width:768px) {
+.glyphicon-arrow-left {
+
+        left: 455%;
+}
+}
+.glyphicon-arrow-right {
+position: relative;
+    top: 10px;
+    right: 0%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f15b2a;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+   /* margin-left: 20px;*/
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(241, 91, 42);
+    border:2px;
+    border-radius: 0px;
+            -webkit-transition: all .7s ease-in-out;
+        -moz-transition: all .7s ease-in-out;
+        -o-transition: all .7s ease-in-out;
+        transition: all .7s ease-in-out;
+    opacity: .5;
+    border-radius: 50%;
+}
+.carousel-indicators li .image-product{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.carousel-indicators .active {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    /*margin-left: 20px;*/
+    background-color: #fff;
+    border: 2px solid #f15b2a;
+    opacity: 1;
+    border-radius: 10px;
+}
+.carousel-indicators .active .image-product{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media(max-width:768px){
+    .carousel-indicators li {
+    width: 65px;
+    height: 65px;
+
+}
+    .carousel-indicators li .image-product{
+
+    width: 65px;
+    height: 65px;
+
+}
+    .carousel-indicators .active {
+    width: 65px;
+    height: 65px;
+
+}
+    
+}
+
+/*********************************** End carousel-pr0duct***************/
+
+/************************** Start Proudect Analiyses ***********/
+.product-name {
+    
+}
+.product-name .Analysese{
+    
+    margin-top: 40px;
+    margin-left: 20px;
+        margin-bottom: 40px;
+}
+.product-name .Analysese h1{
+        color: #000;
+}
+.product-name .Analysese span{
+        color: #f15b2a;
+    font-size: 18px;
+    margin-left: 30px;
+} 
+.product-name .Analysese .rate{
+    font-family: 'Ionicons';
+    font-size: 40px;
+    display: -webkit-box;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.product-name .Analysese .rate > .star::after{
+    content: "\f3ae";
+        color: #a7a5a5;
+    
+}
+.product-name .Analysese .rate > .full::after{
+    content: "\f2fc";
+        color: #f15b2a;
+    
+}
+.product-name .Analysese .rate > .half::after{
+    content: "\f3ad";
+        color: #f15b2a;
+    
+}
+.product-name .Analysese .percent{
+    display: inline-flex;
+    font-size: 30px;
+    color: #000;
+    margin-left: 20px;
+}
+.product-name .Analysese .percent-rate{
+    display: inline-flex;
+    font-size: 20px;
+    color: #f15b2a;
+    margin-left: 20px;
+    font-family: 'Cagliostro', sans-serif;
+    transition: 1s;
+        cursor: pointer;
+}
+.product-name .Analysese .percent-rate .span-2{
+        margin-left: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #a7a5a5;
+    transition: 1s;
+}
+.product-name .Analysese .percent-rate:hover{
+    transform: translateX(20px);
+    color: #000;
+}
+.product-name .Analysese .percent-rate:hover .span-2 {
+    color: #f15b2a;
+}
+@media(max-width:768px){
+    .product-name .Analysese .rate{
+    font-size: 30px;
+}
+    .product-name .Analysese .percent {
+    display: inline-flex;
+    font-size: 23px;
+    color: #000;
+    margin-left: 10px;
+}
+}
+
+
+ .Analysese .price-number{
+    float: left;
+    
+}
+ .Analysese .price-number .sale{
+        color: #000;
+    font-size: 25px;
+}
+ .Analysese .price-number .descount{
+    
+}
+ .Analysese .price-number .descount .descount-price{
+        text-decoration: line-through;
+    color: #a7a5a5;
+}
+ .Analysese .price-number .descount .descount-percent{
+        margin-left: 10px;
+    border: 2px solid #f15b2a;
+    padding: 3px;
+}
+
+
+
+.product-name .Analysese .line{
+    border-bottom: 2px solid #f15b2a;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.product-name .Analysese .details{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.product-name .Analysese .details h2{
+    
+}
+.product-name .Analysese .details p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #000;
+}
+.product-name .Analysese .details p span{
+        font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.product-name .Analysese .price{
+    
+}
+
+.product-name .Analysese .price .price-number{
+    float: left;
+    
+}
+.product-name .Analysese .price .price-number .sale{
+        color: #000;
+    font-size: 25px;
+}
+.product-name .Analysese .price .price-number .descount{
+    
+}
+.product-name .Analysese .price .price-number .descount .descount-price{
+        text-decoration: line-through;
+    color: #a7a5a5;
+}
+.product-name .Analysese .price .price-number .descount .descount-percent{
+        margin-left: 10px;
+    border: 2px solid #f15b2a;
+    padding: 3px;
+}
+.product-name .Analysese .price .price-buy{
+    float: right;
+        margin-right: 20px;
+}
+.product-name .Analysese .price .price-buy a{
+    display: block;
+    background: #f15b2a;
+    text-align: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #f15b2a;
+    outline: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+@media (max-width: 768px){
+    .product-name .Analysese .price .price-buy a {
+            margin-top: 10px; 
+        }  
+    }
+.product-name .Analysese .price .price-buy a:hover{
+    background: #fff;
+    color: #f15b2a;
+    border: 2px solid #f15b2a;
+} 
+.product-name .Analysese .price .save{
+    text-align: center;
+    margin-top: 5px;/*15*/
+    cursor: pointer;
+}
+.product-name .Analysese .price .save .save-like{
+    border: 2px solid #f15b2a;
+    background: #f15b2a;
+    /* width: 150px; */
+    margin: auto;
+    font-size: 22px;
+    padding: 3px;
+    margin-top: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.product-name .Analysese .price .save .save-like:hover{
+    color: #f15b2a;
+    background: #fff;
+}
+.product-name .Analysese .price .save .save-like i{
+    color: #a7a5a5;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+} 
+.product-name .Analysese .price .save:hover .save-like i{
+    color: #f15b2a;
+}
+/************************** End Proudect Analiyses ***********/
+
+/************************ Staart Share******************/
+.Share{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.Share p{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.Share p span{
+    color: #f15b2a;
+}
+.Share .share-icon{
+    padding: 30px;
+    text-align: center;
+    padding-top: 0px;
+}
+.Share .share-icon h3{
+        color: #000;
+    margin-bottom: 30px;
+}
+.Share .share-icon h3 span{
+    color: #f15b2a;
+        margin-left: 10px;
+}
+.Share .share-icon i{
+        display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background: #f15b2a;
+    line-height: 50px;
+    font-size: 20px;
+    border: 2px solid #f15b2a;
+    border-radius: 50%;
+    color: #fff;
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.Share .share-icon i:hover{
+    background: #fff;
+border: 2px solid #f15b2a;
+color: #f15b2a;
+    transform: scale(1.2) rotate(360deg);
+    
+}
+/**********************End Share***************/
+/********************** Start Share And Day Table **************/
+.Share{
+        margin-top: 0px; /*20*/
+    margin-bottom: 30px;
+}
+.Share .box{
+        width: 80%;
+    margin: auto;
+    border: 2px solid #f00;
+    min-height: 100px;
+    
+}
+.Share .box p{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
+.Share .box p span{
+    color: #f15b2a;
+}
+.Share .box .share-icon{
+        padding: 30px;
+    text-align: center;
+}
+.Share .box .share-icon h3{
+        color: #f15b2a;
+    margin-bottom: 30px;
+}
+.Share .box .share-icon i{
+        display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background: #f15b2a;
+    line-height: 50px;
+    font-size: 20px;
+    border: 2px solid #f15b2a;
+    border-radius: 50%;
+    color: #fff;
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.Share .box .share-icon i:hover{
+    background: #fff;
+border: 2px solid #f15b2a;
+color: #f15b2a;
+    transform: scale(1.2) rotate(360deg);
+    
+}
+/****************** End Share And Day Table **************************/
+
+/*--------------- Start skills --*/
+.skills-w3left {
+text-align: center;
+}
+.skills h4 {
+    font-size: 2.5em;
+    color: #f15b2a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0.8em;
+}  
+.skills .lead{
+    font-size: 18px;
+}
+.skills .nav-tabs {
+    border: none;
+    margin-bottom: 0;
+}
+.skills .nav-tabs li {
+    margin: 0; 
+    width: 33.33%;
+    text-align: center;
+}
+.skills .nav-tabs > li > a {
+    margin: 0;
+    font-size: 1em;
+    color: #f15b2a;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 18px;
+} 
+.skills .nav-tabs > li > a:hover{
+    background: #a7a5a5;
+}
+
+.skills .nav-tabs li:nth-child(2) a{
+    border-left: 0;
+    border-right: 0;
+    font-size: 18px;
+}
+.skills .nav-tabs > li.active > a,
+.skills .nav-tabs > li.active > a:hover,
+.skills .nav-tabs > li.active > a:focus {
+    color: #fff;
+    border-top-width: 3px;
+    border-top-color: #f15b2a;
+    border-bottom-color: transparent;
+    background: #f15b2a;
+    margin-top: -1px;
+    font-size: 18px;
+}
+.skills .nav-tabs > li.active > a::hover{
+    background: #fff;
+}
+.tabcontent-grids {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tabcontent-grids .stars{
+    float: none;
+    width: 200px;
+    margin: auto;
+    /* margin-left: 42%; */
+    font-family: 'Ionicons';
+    font-size: 40px;
+    display: -webkit-box;
+    cursor: pointer;
+    
+} 
+.tabcontent-grids .stars > .star::after{
+    content: "\f3ae";
+        color: #a7a5a5;
+        cursor: pointer;
+}
+.tabcontent-grids .stars input{
+    display: none;
+}
+.tabcontent-grids .stars label {
+    display: inline-block;
+    margin-bottom: 5px;
+        font-weight: 100;
+    
+}
+.tabcontent-grids .line{
+    border-bottom: 2px solid #f15b2a;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.tabcontent-grids ul li {
+    display: block;
+    font-size: 1em;
+    color: #999;
+    line-height: 2em;
+}
+.tabcontent-grids ul li span.glyphicon {
+    margin-right: 0.5em;
+}
+
+@media (max-width: 768px){
+.skills-w3left {
+    padding: 0 0 0 0;
+}
+}
+
+.tabcontent-grids  .write-comment{
+    
+}
+.tabcontent-grids  .write-comment .wite{
+    font-size: 25px;
+    background: #f15b2a;
+    border-radius: 25px;
+    border: 2px solid #f15b2a;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+@media (max-width: 768px){
+    .tabcontent-grids  .write-comment .wite{
+        font-size: 25px;
+    }
+}
+.tabcontent-grids  .write-comment .input-file{
+width: 90%;
+    margin: auto;
+    padding: 10px;
+    resize: none;
+    border: 2px solid #f15b2a;
+    outline: 0;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 50px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.tabcontent-grids  .write-comment .btn{
+        margin-top: 10px;
+    background: #f15b2a;
+    border-radius: 25px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 2px solid #f15b2a;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.tabcontent-grids  .write-comment .btn:hover{
+    background: #fff;
+border: 2px solid #f15b2a;
+    color: #f15b2a;
+}
+
+.tabcontent-grids .comments{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+.tabcontent-grids .comments .user-coment{
+    border-top: 2px solid #f15b2a;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.tabcontent-grids .comments .name-user{
+    
+}
+
+.tabcontent-grids .comments .name-user h3{
+    
+}
+.tabcontent-grids .comments .name-user span{
+    color: #f15b2a;
+}
+
+.tabcontent-grids .comments .rate{
+    font-family: 'Ionicons';
+    font-size: 30px;
+    display: -webkit-box;
+    cursor: pointer;
+    margin-left: 20px;
+        margin-top: 0px;
+}
+.tabcontent-grids .comments .rate > .star::after{
+    content: "\f3ae";
+        color: #a7a5a5;
+    
+}
+.tabcontent-grids .comments .rate > .full::after{
+    content: "\f2fc";
+        color: #f15b2a;
+    
+}
+.tabcontent-grids .comments .rate > .half::after{
+    content: "\f3ad";
+        color: #f15b2a;
+    
+}
+.tabcontent-grids .comments .percent{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.tabcontent-grids .comments .ppp{
+        font-size: 20px;
+    margin-left: 20px;
+}
+.tabcontent-grids .comments .replay{
+        margin-top: 10px;
+    margin-left: 40px;
+}
+.tabcontent-grids .comments .replay .sadad{
+        font-size: 17px;
+    color: #f15b2a;
+    cursor: pointer;
+}
+.tabcontent-grids .comments .replay .replayes{
+    display: none;
+}
+.tabcontent-grids .comments .replay .replayes .input-file{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    resize: none;
+    border: 2px solid #f15b2a;
+    outline: 0;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    height: 49px;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 5%;
+
+    
+
+    
+} 
+.tabcontent-grids .comments .replay .replayes .all-replayes{
+    margin-left: 30px;
+}
+.tabcontent-grids .comments .replay .replayes .all-replayes .one-replay{
+        border-bottom: 2px solid #f15b2a;
+    padding: 5px 0;
+}
+.tabcontent-grids .comments .replay .replayes .all-replayes .one-replay .rows-replay{
+    margin-left: 0px;
+}
+.tabcontent-grids .comments .replay .replayes .all-replayes .load-more{
+        text-align: center;
+    margin-top: 10px;
+}
+.tabcontent-grids .comments .replay .replayes .all-replayes .load-more .more{
+    background: #f15b2a;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 2px solid #f15b2a;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+.tabcontent-grids .comments .replay .replayes .all-replayes .load-more .more:hover{
+    background: #fff;
+    color: #f15b2a;
+    border: 2px solid #f15b2a;
+}
+.tabcontent-grids .comments .more-comment{
+    text-align: center;
+        margin-top: 20px;
+    
+}
+
+
+.tabcontent-grids .comments .more-comment span{
+        background: #f15b2a;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #f15b2a;
+    border-radius: 25px;
+    cursor: pointer;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+@media (max-width: 768px){
+    .tabcontent-grids .comments .more-comment span{
+        font-size: 22px;
+    }
+}
+.tabcontent-grids .comments .more-comment span:hover{
+    background: #fff;
+    color: #f15b2a;
+    border: 2px solid #f15b2a;
+
+}
+/*************************************** End Comment Bottom**************/
+
+
+/*************************************** Start Details Bottom**************/
+.tabcontent-grids .Bottom-Dtails{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.tabcontent-grids .Bottom-Dtails h1{
+        margin-top: 30px;
+}
+.tabcontent-grids .Bottom-Dtails .line-3{
+        border-bottom: 2px solid #f15b2a;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tabcontent-grids .Bottom-Dtails p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.tabcontent-grids .Bottom-Dtails .p-advantage{
+        margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tabcontent-grids .Bottom-Dtails p span{
+        color: #f15b2a;
+    margin-right: 5px;
+}
+
+.tabcontent-grids .Bottom-Dtails .price-number{
+    float: left;
+    margin-left: 20px;
+    
+}
+.tabcontent-grids .Bottom-Dtails .price-number .sale{
+        color: #000;
+    font-size: 25px;
+}
+.tabcontent-grids .Bottom-Dtails.price-number .descount{
+    
+}
+.tabcontent-grids .Bottom-Dtails .price-number .descount .descount-price{
+        text-decoration: line-through;
+    color: #a7a5a5;
+}
+.tabcontent-grids .Bottom-Dtails .price-number .descount .descount-percent{
+        margin-left: 10px;
+    border: 2px solid #f15b2a;
+    padding: 3px;
+}
+/*************************************** End Details Bottom**************/
+
+
+
+ /********************************* Start product**********/
+
+.tabcontent-grids .more-product{
+    
+}
+.tabcontent-grids .more-product .product-body{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    cursor: pointer;
+}
+.tabcontent-grids .more-product .product-body .up{
+        width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+.tabcontent-grids .more-product .product-body .up .imagees{
+        display: block;
+    width: 100%;
+    height: 170px;
+    -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+@media(max-width:768px){
+    .tabcontent-grids .more-product .product-body .up{
+        width: 250px;;
+    }
+    .tabcontent-grids .more-product .product-body .up .imagees{
+    width: 250px;
+    }
+}
+
+
+.tabcontent-grids .more-product .product-body .under{
+        width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #f15b2a;
+        border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tabcontent-grids .more-product .product-body:hover .imagees{
+        transform: scale(1.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tabcontent-grids .more-product .product-body .up .imagees:hover{
+           transform: scale(1.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
+
+@media(max-width:768px){
+    .tabcontent-grids .more-product .product-body .under{
+        width: 250px;
+    }
+}
+.tabcontent-grids .more-product .product-body .under .p-name{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.tabcontent-grids .more-product .product-body .under .line-4{
+    width: 80%;
+    border-bottom: 2px solid #f15b2a;
+    margin-left: 20px;
+}
+.tabcontent-grids .more-product .product-body .under p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.tabcontent-grids .more-product .product-body .under p span{
+        color: #f15b2a;
+    margin-right: 5px;
+}
+.tabcontent-grids .more-product .product-body .under .price-pro{
+    float: left;
+    margin-top: 0px;
+}
+.tabcontent-grids .more-product .product-body .under .price-pro .sale-pro{
+     color: #000;
+    font-size: 20px;
+    font-size: 18px;
+} 
+.tabcontent-grids .more-product .product-body .under .price-pro .descount-pro{
+    font-size: 13px;
+}
+
+.tabcontent-grids .more-product .product-body .under .price-pro .descount-pro .descount-price{
+    text-decoration: line-through;
+    color: #a7a5a5;
+
+}
+.tabcontent-grids .more-product .product-body .under .price-pro .descount-pro .descount-percent{
+    border: 2px solid #f15b2a;
+    padding: 3px;
+
+}
+.tabcontent-grids .more-product .product-body .under a{
+        display: block;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    border: 2px solid #f15b2a;
+    background: #f15b2a;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 5px;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+.tabcontent-grids .more-product .product-body .under a:hover{
+    background: #fff;
+color: #f15b2a;
+
+}
+
+
+.tabcontent-grids .more-product .product-body .under .rate{
+       font-family: 'Ionicons';
+    font-size: 25px;
+    display: -webkit-box;
+    cursor: pointer;
+    margin-left: 20px;
+        margin-top: 0px; 
+}
+.tabcontent-grids .more-product .product-body .under .rate > .star::after{
+    content: "\f3ae";
+        color: #a7a5a5;
+    
+}
+.tabcontent-grids .more-product .product-body .under .rate > .full::after{
+    content: "\f2fc";
+        color: #f15b2a;
+    
+}
+.tabcontent-grids .more-product .product-body .under .rate > .half::after{
+    content: "\f3ad";
+        color: #f15b2a;
+    
+}
+.tabcontent-grids .more-product .product-body .under .rate .percent{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.tabcontent-grids .more-product .moree{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.tabcontent-grids .more-product .moree a{
+background: #f15b2a;
+    width: 346px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #f15b2a;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+            -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+.tabcontent-grids .more-product .moree a:hover{
+    background: #fff;
+color: #f15b2a;
+}
+ /********************************* End product**********/
+/*------------- End skills --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
