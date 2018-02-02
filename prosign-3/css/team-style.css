@@ -1,0 +1,326 @@
+   /*** Start Team**************/
+.team{
+       height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.team h1{
+     text-align: center;
+}
+
+.team .line{
+    border-bottom: 2px solid #f15b2a;
+    width: 150px;
+    margin: auto;
+    margin-top: 15px;
+}
+.team  .carousel{
+    border: none;
+    margin-top: 40px;
+}
+.team  .carousel ol{
+        margin-bottom: 0;
+}
+.team  .carousel .carousel-inner{
+    
+} 
+.team  .carousel .carousel-inner .item{
+    
+} 
+.team  .carousel .carousel-inner .item .gfgdfgf{
+    
+}
+.team  .carousel .carousel-inner .item .gfgdfgf .aafjgh{
+      width: 270px;
+height: 190px;
+position: relative;
+overflow: hidden;  
+}
+.team  .carousel .carousel-inner .item .gfgdfgf .aafjgh a{
+    width: 270px;
+height: 190px;
+position: relative;
+overflow: hidden;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf a{
+    text-decoration: none;
+    color: #000;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf a .fdsfs{
+    margin-right: 15px;
+    margin-left: 0px;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf a .fa{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    opacity: .7;
+    /* margin-right: -76px; */
+    background: #f15b2a;
+    border: 2px solid #f15b2a;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    border-radius: 25px;
+    line-height: 26px;
+    /* padding-left: 13px; */
+    color: #fff;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf a .fa:hover{
+        transform: rotate(360deg) scale(1.2);
+    opacity: 1;
+        background: #fff;
+    border: 2px solid #f15b2a;
+    color: #f15b2a;
+    padding-bottom: 3px;
+}
+
+
+@media (max-width:1199px){
+      .team  .carousel .carousel-inner .item .gfgdfgf .aafjgh{
+        width: 225px;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+           margin: auto;
+    }   
+}
+@media (max-width:991px){
+    .team{
+       height: auto;
+    display: block;
+    margin-bottom: 70px;
+}
+       .team  .carousel .carousel-inner .item .gfgdfgf .aafjgh{
+        width: 180px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+           margin: auto;
+    }   
+}
+@media (max-width:768px){
+    .team{
+       height: auto;
+    display: block;
+        margin-bottom: -30px;
+}
+       .team  .carousel .carousel-inner .item .gfgdfgf .aafjgh{
+        width: 270px;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+           margin: auto;
+    }
+        .team  .carousel .carousel-inner .item .gfgdfgf h3 {
+       /* font-weight: 700;
+        font-family: Roboto,sans-serif;*/
+        display: block;
+       /* font-size: 19px;*/
+        color: #222;
+        padding-left: 10px;
+        margin-top: 25px;
+            text-align: center;
+    }
+        .team  .carousel .carousel-inner .item .gfgdfgf .title2 {
+        font-size: 14px;
+        color: #939393;
+        padding-left: 10px;
+            text-align: center;
+    }
+
+    .team  .carousel .carousel-inner .item .gfgdfgf p {
+        font-size: 14px;
+        color: #545454;
+        margin-bottom: 23px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .team  .carousel .carousel-inner .item .gfgdfgf a .fdsfs{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 220px;
+        margin: auto;
+    }
+
+    
+   
+}
+@media (max-width: 415px){
+    .team{
+       height: auto;
+    display: block;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 320px){
+    .team{
+       height: auto;
+    display: block;
+        margin-bottom: 70px;
+    }
+}
+
+.team .carousel .carousel-inner .item .gfgdfgf .imasds {
+    width: 100%;
+    display: block;
+    height: 100%;
+   /* border: 2px solid #000;
+    border-radius: 10px;*/
+    overflow: hidden;
+    margin-bottom: 25px;
+    opacity: .5;
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf h3 {
+   /* font-weight: 700;
+    font-family: Roboto,sans-serif;*/
+    display: block;
+   /* font-size: 19px;*/
+    color: #222;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf .title2 {
+    font-size: 14px;
+    color: #939393;
+    padding-left: 10px;
+}
+.team  .carousel .carousel-inner .item .gfgdfgf .tiny {
+    height: 2px;
+    width: 50px;
+    background-color: #f15b2a;
+    margin: 15px 0;
+    display: block;
+    /* padding-left: 12px; */
+    margin-left: 10px;
+}
+@media (max-width:768px){
+    .team  .carousel .carousel-inner .item .gfgdfgf .tiny {
+    /* height: 2px; */
+    width: 80px;
+    background-color: #f15b2a;
+    margin: 15px 0;
+    display: block;
+    /* padding-left: 12px; */
+    margin-left: 10px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }   
+}
+.team  .carousel .carousel-inner .item .gfgdfgf p {
+    font-size: 14px;
+    color: #545454;
+    margin-bottom: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+.team .carousel .carousel-inner .item .gfgdfgf .imasds:hover {
+transform: scale(1.1);
+    opacity: 1;
+}
+.team .carousel-indicators {
+    bottom: -20px;
+    left: 120px;
+}
+@media (max-width: 768px){
+    .team .carousel-indicators {
+    bottom: 0px;
+    left: 180px;
+    }
+    
+}
+
+
+
+
+.team .glyphicon-arrow-left {
+    position: relative;
+    top: -30px;
+    left: 500%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f15b2a;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+}
+@media (max-width:768px){
+  .team .glyphicon-arrow-left {
+    position: relative;
+    top: -30px;
+    left: 440%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f15b2a;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+}  
+}
+.team .glyphicon-arrow-right {
+    position: relative;
+    top: -30px;
+    right: 0%;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0;
+    color: #f15b2a;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.team .carousel-control.left {
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .5) 0%), color-stop(rgba(0, 0, 0, .0001) 100%));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+    cursor: default;
+    /* z-index: -1; */
+    height: 0px;
+}
+.team .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, .0001) 0%), color-stop(rgba(0, 0, 0, .5) 100%));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    cursor: default;
+    height: 0px;
+}
+    /*** End Team**************/
