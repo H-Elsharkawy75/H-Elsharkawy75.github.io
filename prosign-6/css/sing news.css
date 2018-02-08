@@ -1,0 +1,17 @@
+.prosign-news .last-news{
+   /* position: fixed;
+    top: 140px;*/
+
+    margin-top: -50px !important;
+    border-left: 2px solid #f15b2a ! important;
+}
+@media (max-width:768px){
+    .prosign-news .last-news{
+        position: relative;
+    top: 0px;
+            margin-top: 0;
+        border-left:none;
+ 
+}
+}
+
