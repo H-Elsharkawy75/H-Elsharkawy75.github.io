@@ -1,0 +1,79 @@
+.introduction{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.introduction .lkos{
+    color: #233361;
+    text-align: center;
+}
+.introduction .lkos .papao{
+    color: #19b4ff;
+}
+
+ .introduction p{
+    text-align: center;
+     margin-top: 15px;
+     padding: 10px;
+         font-size: 21px;
+}
+ .introduction p a{
+color: #19b4ff;
+list-style: none;
+}
+.introduction input{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    color: #19b4ff;
+    outline: 0;
+    font-size: 25px;
+    border: 2px solid #19b4ff;
+    border-radius: 25px;
+}
+.introduction .sadad{
+        margin: auto;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.introduction .sadad ul{
+     padding-left: 0;
+}
+.introduction .sadad ul li{
+       list-style: none;
+}
+
+.introduction .sadad ul li a{
+        text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #19b4ff;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid #19b4ff;
+    border-radius: 25px;
+    color: #fff;
+        font-size: 20px;
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.introduction .sadad ul li a:hover{
+        text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 40px;
+        font-size: 20px;
+    line-height: 40px;
+    background: #fff;
+    border: 2px solid #19b4ff;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    color: #19b4ff;
+}
