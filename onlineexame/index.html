@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Exame</title>
+        <link rel="icon" href="images/logo.png">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="css/hover.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/ionicons.css" rel="stylesheet">
+                <!----- Start owl carosel --->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- End owl carosel --->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        
+        
+        	<!-- google fonts -->
+<!--
+	<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+-->
+    </head>
+    <body>
+                <!------------------------------------------------starte navebare------- navbar-fixed-top -------------------------------------------------->
+        
+              <div class="nav-top animated fadeInDown">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="formee-group">
+                                  <div class="search">
+                                    <input type="text" placeholder="Search">
+                                  </div>
+                                  <button type="submit"><i class="fa fa-search"></i> </button>
+                              </div>
+                              
+
+                          </div>
+
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                              <div class="log">
+                                  <ul>
+                                      <li><a href="login-page.html"><i class="glyphicon glyphicon-log-out" aria-hidden="true"></i> Log In</a></li>
+                                      <li class="dropdown">
+                                              <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+                                              <ul class="dropdown-menu">
+                                                    <li><a href="#" class="">Arabic</a></li>
+                                                    <li><a href="#" class="">Englesh</a></li>
+                                              </ul>
+                                        </li>
+                                  </ul>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+        
+        
+        
+        
+        
+         <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="41" >
+
+                      <div class="container">
+<!--                  </div>-->
+
+               <!--------------------------------------starte header-------->       
+                 <div class="navbar-header animated fadeInleft">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#open-threeline" aria-expanded="false">
+                          <!----- الخاصين ببتوع التلت شرط اللى لما بصغر الشاشه بيظهرو فوق بعض واللى يفتح الاقسام فى الموبايل -------> 
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand animated fadeInLeft" href="index.html"><img src="images/logo.png" ></a>
+                  </div>
+             <!-------------------------------------end header-------->
+
+                <div class=" collapse navbar-collapse animated fadeInRight" id="open-threeline">
+                    
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li class="Bounce To Left"><a href="# ">About</a></li>
+                    
+                      
+                      <li class="dropdown"><!---------اول dropdowen--->
+                          <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"                       aria-expanded="false">Department <span class="caret"></span></a>
+                          <ul class="dropdown-menu animated fadeInUp">
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Wed Design</a></li>
+                                <li><a href="#">PhotoShoop</a></li>
+                                <li><a href="#">Illustarato</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="department.html">Department</a></li>
+                    <li class="dropdown"><!---------تانى dropdowen--->
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                             aria-expanded="false">Sevices <span class="caret"></span></a>
+                          <ul class="dropdown-menu animated fadeInUp">
+                                <li><a href="#">Proggraming</a></li>
+                                <li><a href="#">Wed Develop</a></li>
+                                <li><a href="#">Desktop</a></li>
+                                <li><a href="#">Web Hosting</a></li>
+                          </ul>
+                    </li>
+                      <li>
+                          <a href="contactus.html">CONTACT </a>
+                      </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid بكتبها فوق لو عايز الغى الكونتانر فى النافبار-->
+        </nav>
+<!---------------------------------------------------end navebare--------------------------------------------------------->
+        
+        
+        
+     <!-----------------------------------------------starte carasoul------------------------------------->
+
+
+                        <div id="myslid" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators hidden-xs">
+                <li data-target="#myslid" data-slide-to="0" class="active"></li>
+                <li data-target="#myslid" data-slide-to="1"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                
+                  <div class="item active">
+					   <img src="images/slide-02.jpg"alt="photo" title="photo">
+                        <div class="carousel-caption">
+
+
+                                    <h4 class="animated bounceInLeft">Welcome</h4>
+                                    <h3 class="animated fadeInDown">To Our <span>University</span></h3>
+                                    <p class="animated bounceInRight">We belive nothing is more important than education. The best learning institution</p>
+                                    <a href="#" title="Learn More" class="animated zoomInUp hvr-bouncetoright">Learn More</a>
+
+
+                        </div>
+				    </div>
+                
+                <div class="item">
+					<img src="images/photoslider1.jpg" alt="photo" title="photo">
+					<div class="carousel-caption">
+						
+								<h4 class="animated bounceInLeft">Welcome</h4>
+								<h3 class="animated fadeInDown">To Our <span>University</span></h3>
+								<p class="animated bounceInRight">We belive nothing is more important than education. The best learning institution</p>
+								<a href="#" title="Learn More" class="animated zoomInUp">Learn More</a>
+
+						
+					</div>
+				</div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myslid" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myslid" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right " aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+                <!-----------------------------------------------end carasoul----------------------------------->
+        
+        
+        
+        
+        
+        
+        
+        
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="feature-box text-center bg-silver-light p-30 pb-20">
+              <div class="feature-icon">
+                <img src="images/11.png" alt="">
+              </div>
+              <div class="feature-title">
+                <h3>Online Course Facilities</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia quos a beatae ratione possimus, accusantium!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="feature-box text-center bg-silver-light p-30 pb-20">
+              <div class="feature-icon">
+                <img src="images/2.png" alt="">
+              </div>
+              <div class="feature-title">
+                <h3>Modern Book Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia quos a beatae ratione possimus, accusantium!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="feature-box text-center bg-silver-light p-30 pb-20">
+              <div class="feature-icon">
+                <img src="images/3.png" alt="">
+              </div>
+              <div class="feature-title">
+                <h3>Be Industrial Leader</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quia quos a beatae ratione possimus, accusantium!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+        <!---------------- Start Choose --------------->
+<!--
+        <div class="choose">
+            <h2 class="text-white text-center">Choose Your Course </h2>
+            <div class="container">
+                <div class="row">
+                    <form method="post">
+
+                    <div class="col-lg-3">
+                        <div class="form-group mb-15">
+                          <input name="reservation_email" class="form-control required email error" type="email" placeholder="Enter Email" aria-required="true" aria-invalid="true" required="">
+                             <label id="reservation_email-error" class="error" for="reservation_email">This field is required.    </label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="form-group mb-15">
+                          <div class="styled-select">
+                            <select id="car_select" name="car_select" class="form-control valid" required="" aria-required="true" aria-invalid="false">
+                              <option value="">- Select Courses -</option>
+                              <option value="Accounting Technologies">Database Learning</option>
+                              <option value="Computer Science">Graphics Design</option>
+                              <option value="Graphic Desing">Machanical Engineering</option>
+                              <option value="Economic Analysis">Civil Engineering</option>
+                              <option value="Modern Languages">Computer Engineering</option>
+                              <option value="Chemical Engineering">Web Development</option>
+                              <option value="Software Engineering">Spoken English</option>
+                              <option value="Electrical &amp; Electronic">Data Analysis</option>
+                              <option value="Banking Honours">Stable Management Lesson</option>
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="form-group mb-15">
+                          <input placeholder="Phone" type="text" id="reservation_phone" name="reservation_phone" class="form-control valid" required="" aria-required="true" aria-invalid="false"><label id="reservation_phone-error" class="error" for="reservation_phone" style="display: none;"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <div class="form-group mb-15">
+                          <input name="reservation_date" class="form-control required date-picker valid" type="date" placeholder="Date Of Birth" aria-required="true" aria-invalid="false">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <button class="btn btn-info" type="submit"> Submit </button>
+                    </div>                    
+                    </form>
+                </div>
+                
+                
+            </div>
+        </div>
+-->
+        
+        <!----------------End Choose --------------->   
+        
+        
+        
+        
+        <!-------------------------------- Start Department --------------------------------->
+        <div class="department">
+            <div class="container">
+                <h2 class="wow bounceIn"><span> Our</span> Departments </h2>
+                <div class="line"></div>    
+                <div class="row">
+                    
+                    
+                <div class="owl-carousel wow fadeInUp">
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/computer-sciencenew.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Computer Science</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/1.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Physics</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                               <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/4.png" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Chemistry</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/5.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Mathematics</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/micro.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Microbiology</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/geology.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Geology</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                </div>
+                      
+                      
+                </div>
+            </div>
+            
+          
+        </div>
+    <!-------------------------------- End Department --------------------------------->
+
+    
+    <!------------------------------- Start our Lecetures -------------------------->
+    <div class="lecetures animated fadeInUp">
+        <div class="container">
+            <h2 class="animated bounceIn"><span>Our </span>Lectures</h2>
+            <div class="line"></div> 
+            
+            <div class="row">
+                <div class="owl-carousel animated fadeInUp">
+                    <div class="col-xs-12">
+                        <div class="lecture">
+                            <div class="images">
+                                <img src="images/ahmed%20saqr.jpg">
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2 class="h2"><span>Dr</span>: Ahmed Sakr</h2>
+                                <h3 class="h3">Computer Science</h3>
+                                <p class="lead">We belive nothing is more important than We belive nothing is more important We belive nothing is more important than We belive nothing is more important than</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="lecture">
+                            <div class="images">
+                                <img src="images/ahmed%20saqr.jpg">
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2 class="h2"><span>Dr</span>: Ahmed Sakr</h2>
+                                <h3 class="h3">Computer Science</h3>
+                                <p class="lead">We belive nothing is more important than We belive nothing is more important We belive nothing is more important than We belive nothing is more important than</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="lecture">
+                            <div class="images">
+                                <img src="images/ahmed%20saqr.jpg">
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2 class="h2"><span>Dr</span>: Ahmed Sakr</h2>
+                                <h3 class="h3">Computer Science</h3>
+                                <p class="lead">We belive nothing is more important than We belive nothing is more important We belive nothing is more important than We belive nothing is more important than</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="lecture">
+                            <div class="images">
+                                <img src="images/ahmed%20saqr.jpg">
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2 class="h2"><span>Dr</span>: Ahmed Sakr</h2>
+                                <h3 class="h3">Computer Science</h3>
+                                <p class="lead">We belive nothing is more important than We belive nothing is more important We belive nothing is more important than We belive nothing is more important than</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div class="col-xs-12">
+                        <div class="lecture">
+                            <div class="images">
+                                <img src="images/ahmed%20saqr.jpg">
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li data-toggle="tooltip" data-placement="top" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info">
+                                <h2 class="h2"><span>Dr</span>: Ahmed Sakr</h2>
+                                <h3 class="h3">Computer Science</h3>
+                                <p class="lead">We belive nothing is more important than</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   
+                
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    
+    <!------------------------------- End our Lecetures -------------------------->
+        <!-------------------------------- Start Department --------------------------------->
+        <div class="department">
+            <div class="container">
+                <h2 class="wow bounceIn"><span>Our </span>Departments</h2>
+                <div class="line"></div>    
+                <div class="row">
+                    
+                    
+                <div class="owl-carousel wow fadeInUp">
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/geology.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Geology</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/3.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Physics</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/4.png" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Chemistry</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/5.jpg" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Mathematics</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                    <div class="col-xs-12">
+                        <div class="dep-content">
+                            <div class="image">
+                                <img src="images/1.png" alt="photos">
+                            </div>
+                            <div class="content">
+                                <h2>Computer Science</h2>
+                                <p class="lead">We belive nothing is more important than</p>
+                                <div class="more">
+                                    <a href="department-two.html"><span>Read More</span></a>
+                                </div>
+                            </div>    
+                        </div>    
+                            
+                    </div>
+                    
+                </div>
+                      
+                      
+                </div>
+            </div>
+            
+          
+        </div>
+    <!-------------------------------- End Department --------------------------------->
+    
+    
+    
+    
+    
+        	<!-- stats -->
+	<div class="stats jarallax wow fadeInUp">
+        <div class="teampo">
+            <h2 class="center">Our Stats</h2>
+            <div class="line"></div>
+		<div class="container">
+			<div class="col-md-3 col-sm-6 col-xs-12 he7_counter_grid">
+				<div class="he7_agileits_counter_grid">
+					
+                   
+                    <i class="fas fa-user" aria-hidden="true"></i>
+				</div>
+				<p class="counter">5486</p>
+				<h3>students</h3>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 he7_counter_grid">
+				<div class="he7_agileits_counter_grid">
+					
+                    <i class="far fa-thumbs-up" aria-hidden="true"></i>
+				</div>
+				<p class="counter">2451</p>
+				<h3>reviews</h3>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 he7_counter_grid">
+				<div class="he7_agileits_counter_grid">
+					
+                    <i class="far fa-address-book" aria-hidden="true"></i>
+				</div>
+				<p class="counter">200</p>
+				<h3>teachers</h3>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 he7_counter_grid">
+				<div class="he7_agileits_counter_grid">
+					
+                    <i class="far fa-bookmark" aria-hidden="true"></i>
+				</div>
+				<p class="counter">2589</p>
+				<h3>records</h3>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+            </div>
+	</div>
+	<!-- //stats -->
+        
+            <!--------- Start Footer ------------>
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="folwo">
+                            <span class="fol"> Follow Us :-</span>
+                            <span class="link">
+                                <ul>
+                                    <li class="facebook" data-toggle="tooltip" data-placement="top" title="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="twitter" data-toggle="tooltip" data-placement="top" title="twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="linkedin" data-toggle="tooltip" data-placement="top" title="linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li class="google" data-toggle="tooltip" data-placement="top" title="google-plus"><a href="#">
+
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="detail">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="aboyt">
+                                <h2>Online Exame</h2>
+                                
+                                <p>We belive nothing is more important than education. The best learning institution</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="Site">
+                                <h2>Site Map</h2>
+                                <div class="line"></div>
+                                <ul>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="Services">
+                                <h2>Services</h2>
+                                <div class="line"></div>
+                                <ul>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                            <div class="contact">
+                                <h2>Contact Us</h2>
+                                <div class="line"></div>
+                                <div class="loca">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <div class="icon">
+                                                <span><i class="fas fa-location-arrow"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                            <div class="dett">
+                                                <p>We belive nothing is more important than</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="loca">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <div class="icon">
+                                                <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                            <div class="dett">
+                                                <p> <span>Email:</span><a href="#"> example@email.com</a> </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="loca">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                            <div class="icon">
+                                                <span><i class="fas fa-mobile-alt"></i> </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                            <div class="dett">
+                                                <p>0102004551</p>
+                                                <p>0100245785</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer-botom">
+            <div class="container">
+                <p>&copy; 2018 onlineExame. All Right Reseved</p>
+            </div>
+        </div>
+    <!--------- End Footer ------------>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/jquery.nicescroll.min.js"></script> 
+        <script src="js/SmoothScroll.min.js"></script>
+        <!----- Start owl carosel --->
+<!--        <script src="js/jquery.min.js"></script>-->
+        <script src="js/owl.carousel.min.js"></script>
+        <!----- Ebd owl carosel --->
+    
+    
+        	<!--------------------------- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+	<!-- ----------------------------------------------//stats -->
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+<!--
+        <script type="text/javascript">
+            $(window).on("scroll", function(){
+                if($(window).scrollTop()){
+                    $(".navbar-collapse").addClass("shrink");
+                }
+                else{
+                    $(".navbar-collapse").removeClass("shrink");
+                }
+            });
+        </script>
+-->
+    </body>
+</html>
