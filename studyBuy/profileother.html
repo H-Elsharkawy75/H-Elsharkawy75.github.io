@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<!--<![endif]-->
+<!-- Mirrored from www.tattek.sk/minovate-noAngular/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Oct 2017 17:05:24 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>StudyBay</title>
+    <link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ============================================
+    ================= Stylesheets ===================
+    ============================================= -->
+    <!-- vendor css files -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/js/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" href="assets/js/vendor/datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="assets/js/vendor/chosen/chosen.css">
+    <!-- project main css files -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--/ stylesheets -->
+    <!-- ==========================================
+    ================= Modernizr ===================
+    =========================================== -->
+    <script src="assets/js/vendor/modernizr/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!--/ modernizr -->
+    <script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootbox.min.js"></script>
+
+
+
+</head>
+
+
+<body id="minovate" class="appWrapper  rightbar-show">
+
+
+
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- ====================================================
+    ================= Application Content ===================
+    ===================================================== -->
+    <div id="wrap" class="animsition ">
+
+
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="41">
+
+            <div class="container-fluid">
+                <!--                  </div>-->
+                <!--------------------------------------starte header-------->
+                <div class="navbar-header animated fadeInleft">
+                    <ul>
+                        <li>
+                            <div class="branding scheme-default">
+                                <a class="brand" href="index.html">
+                                    <span><strong>STUDY</strong>BUY</span>
+                                </a>
+
+                            </div>
+                        </li>
+                        <li class="toggle-right-sidebar visible-xs">
+                            <a role="button" tabindex="0">
+                                <i class="fa fa-comments"></i>
+                            </a>
+                        </li>
+
+
+                        <li class="visible-xs">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#open-threeline" aria-expanded="false">
+                                <!----- الخاصين ببتوع التلت شرط اللى لما بصغر الشاشه بيظهرو فوق بعض واللى يفتح الاقسام فى الموبايل ------->
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </li>
+
+                    </ul>
+
+
+
+
+                </div>
+                <!-------------------------------------end header-------->
+
+                <div class=" collapse navbar-collapse animated fadeInRight" id="open-threeline">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+
+
+
+
+                      <li><a href="Home.html"><i class="fa "></i>Home</a></li>
+                        <li><a href="Managepost.html"><i class="fa "></i> Manage-Post</a></li>
+                        <li><a href="Manageuser.html"><i class="fa "></i> Manage-Uses</a></li>
+                        <li><a href="mypost.html"><i class="fa "></i> My-Post</a></li>
+                        <li><a href="mymassage.html"><i class="fa "></i>My-Message</a></li>
+                        <li><a href="posts.html"><i class="fa fa"></i>Posts</a></li>
+
+                        <li><a href="filter.html"><i class="fa "></i>Filteer</a></li>
+
+
+
+
+
+
+
+                        <li id="ulManage" class="dropdown nav-profile open">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="    padding: 10px;">
+                                <img src="assets/images/ici-avatar.jpg" alt="" class="img-circle size-30x30">
+                                <span>Hussein Elsharkawy<i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu animated littleFadeInRight" role="menu">
+                                <li>
+                                    <a href="index.html">
+
+                                        <i class="fa fa-user"></i>Profile
+                                    </a>
+                                </li>
+
+
+
+                                <li>
+                                    <a href="login.html">
+                                        <i class="fa fa-sign-out"></i>Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="toggle-right-sidebar hidden-xs">
+                            <a role="button" tabindex="0">
+                                <i class="fa fa-comments"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid بكتبها فوق لو عايز الغى الكونتانر فى النافبار-->
+        </nav>
+
+
+
+
+        <!-- ===============================================
+        ================= HEADER Content ===================
+        ================================================ -->
+        <!--/ HEADER Content  -->
+        <!-- =================================================
+        ================= CONTROLS Content ===================
+        ================================================== -->
+        <div id="controls">
+
+
+            <!-- ================================================
+            ================= SIDEBAR Content ===================
+            ================================================= -->
+            <!--/ SIDEBAR Content -->
+            <!-- =================================================
+            ================= RIGHTBAR Content ===================
+            ================================================== -->
+
+
+            <aside id="rightbar">
+
+                <div role="tabpanel">
+
+
+
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="users">
+                            <h6><strong>Online</strong> Users</h6>
+
+                            <ul>
+
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/ici-avatar.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">Ing. Imrich <strong>Kamarel</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Ulaanbaatar, Mongolia</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="online">
+                                    <div class="media">
+
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/arnold-avatar.jpg" alt>
+                                        </a>
+                                        <span class="badge bg-lightred unread">3</span>
+
+                                        <div class="media-body">
+                                            <span class="media-heading">Arnold <strong>Karlsberg</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Bratislava, Slovakia</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/peter-avatar.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">Peter <strong>Kay</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Kosice, Slovakia</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="online">
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/george-avatar.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">George <strong>McCain</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Prague, Czech Republic</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+
+
+                            </ul>
+
+                            <h6><strong>Offline</strong> Users</h6>
+
+                            <ul>
+
+
+
+                                <li class="offline">
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/random-avatar6.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">Nico <strong>Vulture</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Kyjev, Ukraine</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="offline">
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/random-avatar7.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">Bobby <strong>Socks</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Moscow, Russia</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="offline">
+
+                                    <div class="media">
+                                        <a href="profileother.html" class="pull-left thumb thumb-sm" role="button" tabindex="0">
+                                            <img class="media-object img-circle" src="assets/images/random-avatar8.jpg" alt>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="media-heading">Anna <strong>Opichia</strong></span>
+                                            <small><i class="fa fa-map-marker"></i> Budapest, Hungary</small>
+                                            <span class="badge badge-outline status"></span>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+
+            <!--/ RIGHTBAR Content -->
+
+
+        </div>
+        <!--/ CONTROLS Content -->
+        <!-- ====================================================
+        ================= CONTENT ===============================
+        ===================================================== -->
+        <section id="content">
+            <div class="page page-profile">
+                <div class="pageheader">
+                    <h2>Profile - Page<span></span></h2>
+                    <div class="page-bar">
+                        <ul class="page-breadcrumb">
+                            <li>
+                                <a href="/Account/login"><i class="fa fa-home"></i> STYDYBAY</a>
+                            </li>
+                            <li>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#">index</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- page content -->
+                <div class="pagecontent">
+
+                    <!-- row -->
+<div class="row">
+
+
+
+
+                        
+
+
+<!-- col -->
+<div class="col-md-4">
+    <!-- tile -->
+    <section id="profleBox" class="tile tile-simple">
+        <!-- tile widget -->
+        <div class="tile-widget p-30 text-center">
+            <div class="thumb thumb-xl">
+                <img class="img-circle" src="assets/images/profile-photo.jpg" alt="">
+            </div>
+            <h4 class="mb-0"><strong></strong> Writer1</h4>
+            <div class="mt-10">
+
+                    <a href="payment.html"> <button class="btn btn-orange btn-ef btn-ef-3 btn-ef-3c mb-10 btn-rounded-20">Payment<i class="fa fa-dollar"></i></button> </a>
+            <style>
+                #profleBox {
+                    width: 400px;
+                    margin: auto;
+                    /* right: 50%; */
+                    left: 75%;
+                }
+            </style>
+
+            </div>
+            </div>
+            <!-- /tile widget -->
+            <!-- tile body -->
+            <div class="tile-body text-center bg-blue p-0">
+                <ul class="list-inline tbox m-0">
+                    <li class="tcol p-10">
+                        <h2 class="m-0">1</h2>
+                        <span class="text-transparent-white">All-Posts</span>
+                    </li>
+                    <li class="tcol bg-blue dker p-10">
+                        <h2 class="m-0">11</h2>
+                        <span class="text-transparent-white">Comments</span>
+                    </li>
+                    <li class="tcol p-10">
+                        <h2 class="m-0">369</h2>
+                        <span class="text-transparent-white">Reviews</span>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        <div style="    max-width: 100%;
+    overflow: auto" class="tile-body text-center bg-blue p-0">
+            <ul class="list-inline tbox m-0">
+                <li class="tcol p-12">
+                   
+                    
+                </li>
+
+            </ul>
+        </div>
+        <div class="portifolio">
+            <span class="text-transparent-white text-primary">Portfolio</span>
+            <p> I'm C# Developer  I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# Developer I'm C# </p>
+        </div>
+        
+           
+                <div class="butonpost">
+                    <a href="/Profile/Test"><button class="btn btn-primary btn-border btn-rounded-20 btn-ef btn-ef-4 btn-ef-4b mb-10 butpost"> Write New Post Now <i class="fa fa-arrow-right"></i></button></a>
+                </div>
+            
+
+          
+            
+
+            <div class="butonpost">
+                
+            </div>
+            <!-- /tile body -->
+</section>
+    <!-- /tile -->
+    <!-- /tile -->
+    <!-- tile -->
+    <!-- /tile -->
+
+</div>
+<!-- /col -->
+<!-- col -->
+<div class="col-md-8">
+    <!-- tile -->
+    <!-- /tile -->
+</div>
+<!-- /col -->
+
+
+
+
+
+
+
+
+<div id="body">
+    <div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div><span style="    font-size: 30px;"><i class="fa fa-comments-o" style="font-family: 'fontawesome';position: absolute;left: 10px;font-size: 29px;top: 17px;"></i>  Live Chat </span> 
+    </div>
+    <div class="chat-box">
+        <div class="chat-box-header"> User 1<span class="chat-box-toggle"><i class="fa fa-times" style="font-family:'fontawesome';font-size:20px;"></i></span> </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay"> </div>
+            <div class="chat-logs">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="logo-image">
+
+                            <img src="assets/images/ici-avatar.jpg">
+                        </div>
+                        <div class="message-content">
+                            <p class="content">Hi do you need some help?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="message-content-me">
+                            <p class="content-me">thank you</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="logo-image">
+
+                            <img src="assets/images/ici-avatar.jpg">
+                        </div>
+                        <div class="message-content">
+                            <p class="content">Hi do you need some help?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="message-content-me">
+                            <p class="content-me">thank you</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="logo-image">
+
+                            <img src="assets/images/ici-avatar.jpg">
+                        </div>
+                        <div class="message-content">
+                            <p class="content">Hi do you need some help?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="message-content-me">
+                            <p class="content-me">thank you</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="logo-image">
+
+                            <img src="assets/images/ici-avatar.jpg">
+                        </div>
+                        <div class="message-content">
+                            <p class="content">Hi do you need some help?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 logo-content ">
+                        <div class="message-content-me">
+                            <p class="content-me">thank you</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+            <!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <textarea id="chat-input" placeholder="Send a message..."> </textarea>
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="fa-paper-plane" style="font-family:'fontawesome';font-size:20px;"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(function () {
+        var msg = '',
+            btn_sendMessage;
+        if (msg != null && msg.length > 0) {
+            bootbox.alert(msg);
+            '=""';
+
+        }
+        let txtPassword = $("#txt_password"),
+            txtConfirmPassword = $("#txt_Confirmpassword");
+        $("#changePassword").submit(function (e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            if (txtPassword.val() != txtConfirmPassword.val()) {
+                bootbox.alert("Password Not Match With Confirm Password");
+                return false;
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "/api/User/UpdatePassword",
+                    data: JSON.stringify({
+                        Id: '1',
+                        Password: txtPassword.val()
+                    }),
+                    contentType: "application/json",
+                    success: function (response) {
+                        bootbox.alert(response);
+                        txtConfirmPassword.val('');
+                        txtPassword.val('');
+
+                    }
+                })
+            }
+        });
+
+        let subject = $("#txt_subject"),
+            tilte = $("#txt_title"),
+            deadLine = $("#txt_deadLine"),
+            instructions = $("#txt_instructions");
+
+        function clear() {
+            subject.val('');
+            tilte.val('');
+            deadLine.val('');
+            instructions.val('');
+
+        }
+        function fullData() {
+            return {
+                Subject: subject.val(),
+                Title: tilte.val(),
+                DeadLine: deadLine.val(),
+                Instructions: instructions.val(),
+                UserId: '1'
+            };
+        }
+        $("#formPost").submit(function (e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            $.ajax({
+                type: "POST",
+                url:"/api/Post/OrderNow",
+                contentType: "application/json",
+                data: JSON.stringify(fullData()),
+                success: function (response) {
+                    if (response.Code == "200") {
+                        clear();
+                    }
+                    bootbox.alert(response.Response);
+                }, error: function () {
+                    bootbox.alert('Client-Error,Path Not Found');
+                }
+            })
+
+        })
+        $("#btn_sendNow").click(function () {
+
+            let self = $(this),
+                to = self.attr("data-To"),
+                from = self.attr("data-From"),
+                title = $("#txtmessage_title"),
+                subject = $("#txt_messagesubject");
+
+            if (title.val().length > 0 && subject.val().length > 0) {
+                title.css("border", " 1px solid green");
+                subject.css("border", " 1px solid green");
+
+                $.ajax({
+                    type: "POST",
+                    url: "/api/Message/Send",
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        To: to,
+                        From: from,
+                        Subject: subject.val(),
+                        Title: title.val()
+                    }),
+                        success: function (res) {
+                            location.reload();
+
+                        },
+                        error: function () {
+                            //alert.alert('Error');
+
+                        }
+                })
+
+            } else {
+
+                title.css("border"," 1px solid red");
+                subject.css("border"," 1px solid red");
+            }
+        })
+    });
+</script>
+
+
+
+
+
+<script>
+    $(function () {
+        var INDEX = 0;
+        $("#chat-submit").click(function (e) {
+            e.preventDefault();
+            var msg = $("#chat-input").val();
+            if (msg.trim() == '') {
+                return false;
+            }
+            generate_message(msg, 'self');
+            var buttons = [
+                {
+                    name: 'Existing User',
+                    value: 'existing'
+                },
+                {
+                    name: 'New User',
+                    value: 'new'
+                }
+            ];
+            setTimeout(function () {
+                generate_message(msg, 'user');
+            }, 1000)
+
+        })
+
+
+
+
+
+        $(document).delegate(".chat-btn", "click", function () {
+            var value = $(this).attr("chat-value");
+            var name = $(this).html();
+            $("#chat-input").attr("disabled", false);
+            generate_message(name, 'self');
+        })
+
+        $("#chat-circle").click(function () {
+            $("#chat-circle").toggle('scale');
+            $(".chat-box").toggle('scale');
+        })
+
+        $(".chat-box-toggle").click(function () {
+            $("#chat-circle").toggle('scale');
+            $(".chat-box").toggle('scale');
+        })
+
+    })
+</script>
+
+                        <!--/ CONTENT -->
+
+                        <div class="foooter">
+                            <p>© 2018 StudyBuy. All rights reserved | Design by <a href="#">Eagles-Solutions</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+
+    <!--/ Application Content -->
+    <!-- ============================================
+    ============== Vendor JavaScripts ===============
+    ============================================= -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script src="assets/js/vendor/jRespond/jRespond.min.js"></script>
+    <script src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+    <script src="assets/js/vendor/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/vendor/animsition/js/jquery.animsition.min.js"></script>
+    <script src="assets/js/vendor/screenfull/screenfull.min.js"></script>
+    <script src="assets/js/vendor/chosen/chosen.jquery.min.js"></script>
+    <script src="assets/js/vendor/filestyle/bootstrap-filestyle.min.js"></script>
+    <!--/ vendor javascripts -->
+    <!-- ============================================
+    ============== Custom JavaScripts ===============
+    ============================================= -->
+    <script src="assets/js/main.js"></script>
+
+
+
+    <script src="assets/js/SmoothScroll.min.js"></script>
+
+    <script src="assets/js/nicsfile.js"></script>
+    <!--/ custom javascripts -->
+    <!-- ===============================================
+    ============== Page Specific Scripts ===============
+    ================================================ -->
+    <script>
+        $(window).load(function () {
+            $("#ulManage").removeClass("open");
+
+        });
+    </script>
+    <!--/ Page Specific Scripts -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+            e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+            e.src = 'http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
+    </script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        var x = 0;
+
+        $("#ulManage").click(function () {
+            if (x == 0) {
+                $(this).addClass("open");
+                x = 1;
+            }
+            else {
+                $(this).removeClass("open");
+
+                x = 0;
+            }
+        })
+    </script>
+
+
+
+</body>
+<!-- Mirrored from www.tattek.sk/minovate-noAngular/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Oct 2017 17:05:24 GMT --></sc>
+</html>
