@@ -2141,6 +2141,7 @@ padding: 50px 35px;
 }
 .log-register .nav-tabs {
     border:none;
+	padding: 0;
 }
 .log-register .nav-tabs li {
     margin: 0; 
