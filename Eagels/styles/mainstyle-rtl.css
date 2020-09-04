@@ -1,0 +1,11 @@
+body{
+    direction: rtl;
+}
+.footer {
+    direction: ltr;
+    text-align: left;
+}
+.footer .footercontent .footeritem {
+    direction: ltr;
+    text-align: left;
+}
