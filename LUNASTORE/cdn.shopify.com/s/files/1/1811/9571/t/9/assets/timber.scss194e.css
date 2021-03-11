@@ -1937,7 +1937,7 @@ label.error {
 .footer-model-5 .site-footer h4, .footer-model-5 .site-footer .h4 {
   float: left;
   width: 100%;
-  margin-bottom: 25px; }
+  margin-bottom: 5px; }
   @media screen and (max-width: 1199px) {
     .footer-model-5 .site-footer h4, .footer-model-5 .site-footer .h4 {
       margin-bottom: 15px;
@@ -2056,7 +2056,9 @@ label.error {
       padding-right: 10px; } }
 
 .footer-model-5 .site-footer .footer_right_container .grid__item:last-child {
-  padding-right: 0; }
+  padding-right: 0;
+margin-bottom: 0;
+}
 
 .footer-model-5 .footer-icons .payment-icons li a img {
   width: auto;
@@ -3590,12 +3592,20 @@ a.btn, a.btn--secondary, a.btn--tertiary {
   padding: 40px 15px 40px 15px; }
 
 .header-type-5 .header-bar__module.cart #cartCount {
-  float: left;
-  top: 0px;
-  width: auto;
-  height: autopx;
-  border-radius: 50%;
-  text-align: center; }
+float: left;
+    top: -5px;
+    left: 15px;
+    width: auto;
+    height: autopx;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    background: #c9a654;
+    position: absolute;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;}
 
 .header-type-5 .header-bar__module.cart .baskettop a.icon-cart-arrow {
   padding-right: 0;
@@ -12410,7 +12420,7 @@ li.dropdown:last-child .site-nav-dropdown ul {
 
 .menu-tool ul li.dropdown > a::before {
   position: absolute;
-  content: "\f0d7";
+  content: "\f107";
   right: 0px;
   font-family: fontawesome;
   font-size: 12px;
@@ -13507,7 +13517,7 @@ li.dropdown:last-child .site-nav-dropdown ul {
     }
 .services_new .ovrlay .support_block {
     padding: 50px;
-    background: #000000bf;
+    background: #00000080;
     height: 255px;
     display: block;
     width: 100%;
@@ -13682,8 +13692,18 @@ padding: 0 15px;
     width: max-content;
     margin-bottom: 15px;
 }
+.width_item_serv{
+    width: 50%;
+    margin: auto;
+}
+.width_item_serv_none{
+    display: none !important;
+}
 @media(max-width:768px){
-    
+    .width_item_serv{
+    width: 100%;
+    margin: auto;
+}
     .newsletter .news_content .details_news h2:after{
 
     top: 15px;
