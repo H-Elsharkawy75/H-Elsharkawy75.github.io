@@ -9653,13 +9653,4 @@ margin-bottom: 0;
     background: #f000;
 }
 }
-.mm-toggle-wrap {
-    display: inline-block;
-    position: absolute;
-    top: -31px !important;
-    background: #f000;
-}
-.mm-toggle {
-    display: block;
-    background: #f000;
-}
+
