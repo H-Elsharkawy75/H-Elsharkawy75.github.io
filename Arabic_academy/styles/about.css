@@ -1389,7 +1389,7 @@ width: 100%;
     display: block;
     width: 75% !important;
     margin: auto;
-    height: 65px;
+    height: auto;
 }
 .partners .title{
     
@@ -1990,6 +1990,13 @@ width: 100%;
 }
 .Learn_Spaexk .Learn_content .Learn_item .details{
     
+}
+.Learn_Spaexk .Learn_content .Learn_item .details h2{
+        text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #5f1a1d;
+    font-weight: 200;
 }
 .Learn_Spaexk .Learn_content .Learn_item .details p{
         font-size: 15px;
@@ -2627,4 +2634,3 @@ background-color: #1eaace;
 }
     
 }
-
