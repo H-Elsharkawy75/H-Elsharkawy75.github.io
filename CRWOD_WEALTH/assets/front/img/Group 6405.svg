@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="854.5" height="709" viewBox="0 0 854.5 709">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.603" y1="1" x2="0.603" y2="0.139" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cde7fb"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.181" cy="0.103" r="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7bddbc"/>
+      <stop offset="1" stop-color="#55be9b"/>
+    </radialGradient>
+    <filter id="Rectangle_139" x="0" y="85.5" width="310" height="222" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14.5" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6405" data-name="Group 6405" transform="translate(-995.5 -225)">
+    <g id="Group_6282" data-name="Group 6282" transform="translate(-33 47)">
+      <g id="Rectangle_127" data-name="Rectangle 127" transform="translate(1107 178)" fill="#fafbfd" stroke="#e3e3e3" stroke-width="1">
+        <rect width="743" height="521" rx="19" stroke="none"/>
+        <rect x="0.5" y="0.5" width="742" height="520" rx="18.5" fill="none"/>
+      </g>
+      <text id="CrowdWealth." transform="translate(1147 265)" fill="#d1cccc" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Crowd</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">Wealth.</tspan></text>
+      <rect id="Rectangle_135" data-name="Rectangle 135" width="93" height="14" rx="3" transform="translate(1295 252)" fill="#eaeef7"/>
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="93" height="14" rx="3" transform="translate(1147 468)" fill="#eaeef7"/>
+      <rect id="Rectangle_143" data-name="Rectangle 143" width="93" height="14" rx="3" transform="translate(1147 564)" fill="#eaeef7"/>
+      <rect id="Rectangle_144" data-name="Rectangle 144" width="46" height="14" rx="3" transform="translate(1341 611)" fill="#eaeef7"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="46" height="14" rx="3" transform="translate(1554 611)" fill="#eaeef7"/>
+      <rect id="Rectangle_149" data-name="Rectangle 149" width="46" height="14" rx="3" transform="translate(1767 611)" fill="#eaeef7"/>
+      <rect id="Rectangle_145" data-name="Rectangle 145" width="46" height="14" rx="3" transform="translate(1448 611)" fill="#eaeef7"/>
+      <rect id="Rectangle_146" data-name="Rectangle 146" width="46" height="14" rx="3" transform="translate(1661 611)" fill="#eaeef7"/>
+      <rect id="Rectangle_141" data-name="Rectangle 141" width="123" height="32" rx="3" transform="translate(1147 497)" fill="#eaeef7"/>
+      <rect id="Rectangle_142" data-name="Rectangle 142" width="123" height="32" rx="3" transform="translate(1147 593)" fill="#eaeef7"/>
+      <rect id="Rectangle_136" data-name="Rectangle 136" width="93" height="14" rx="3" transform="translate(1416 252)" fill="#eaeef7"/>
+      <rect id="Rectangle_137" data-name="Rectangle 137" width="93" height="14" rx="3" transform="translate(1537 252)" fill="#eaeef7"/>
+      <g id="Rectangle_138" data-name="Rectangle 138" transform="translate(1107 178)" fill="#fff" stroke="#e3e3e3" stroke-width="1">
+        <path d="M19,0H724a19,19,0,0,1,19,19V40a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V19A19,19,0,0,1,19,0Z" stroke="none"/>
+        <path d="M19,.5H724A18.5,18.5,0,0,1,742.5,19V39a.5.5,0,0,1-.5.5H1A.5.5,0,0,1,.5,39V19A18.5,18.5,0,0,1,19,.5Z" fill="none"/>
+      </g>
+      <circle id="Ellipse_373" data-name="Ellipse 373" cx="3.5" cy="3.5" r="3.5" transform="translate(1147 195)" fill="#cecece"/>
+      <circle id="Ellipse_374" data-name="Ellipse 374" cx="3.5" cy="3.5" r="3.5" transform="translate(1164 195)" fill="#cecece"/>
+      <circle id="Ellipse_375" data-name="Ellipse 375" cx="3.5" cy="3.5" r="3.5" transform="translate(1181 195)" fill="#cecece"/>
+      <circle id="Ellipse_376" data-name="Ellipse 376" cx="17.5" cy="17.5" r="17.5" transform="translate(1783 243)" fill="#eaeef7"/>
+      <path id="Path_2_Copy" data-name="Path 2 Copy" d="M.406,154.676l56.091-47C78.909,88.9,113.161,84.15,141.639,95.867h0c27,11.11,59.692,3.228,75.452-18.191l20.53-27.9c21.092-28.667,70.688-29.348,92.9-1.274h0C356.956,81.92,410.6,91.458,451.047,69.929l20.7-11.02v209.7H.406S-.445,190.6.406,154.676Z" transform="translate(1341.25 309.388)" opacity="0.3" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" width="20" height="20" rx="10" transform="translate(1615 327)" fill="#0d5ae5"/>
+    </g>
+    <g id="Group_6281" data-name="Group 6281" transform="translate(-35 96)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="308" height="325" rx="10" transform="translate(1577 513)" fill="url(#radial-gradient)"/>
+      <text id="All_Regitered_Units" data-name="All Regitered Units" transform="translate(1617 557)" fill="#fff" font-size="26" font-family="SegoeUI, Segoe UI" letter-spacing="0.025em"><tspan x="0" y="28">Total Revenue </tspan></text>
+      <text id="Un-Regitered_Units" data-name="Un-Regitered Units" transform="translate(1619 778)" fill="#fff" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Past 12 days:</tspan></text>
+      <text id="_6.2_K" data-name="6.2 K" transform="translate(1791 781)" fill="#fff" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-56.309" y="0">6.2 K</tspan></text>
+      <text id="_12.6_K" data-name="12.6 K" transform="translate(1615 660)" fill="#fff" font-size="56" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="60">12.6 K</tspan></text>
+    </g>
+    <g id="Group_6283" data-name="Group 6283" transform="translate(-33 47)">
+      <g transform="matrix(1, 0, 0, 1, 1028.5, 178)" filter="url(#Rectangle_139)">
+        <g id="Rectangle_139-2" data-name="Rectangle 139" transform="translate(43.5 126)" fill="#fff" stroke="#e3e3e3" stroke-width="1">
+          <rect width="223" height="135" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="222" height="134" rx="7.5" fill="none"/>
+        </g>
+      </g>
+      <text id="Total_Investment" data-name="Total Investment" transform="translate(1111 343)" font-size="14" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em" opacity="0.704"><tspan x="0" y="0">Total Investment</tspan></text>
+      <text id="_23_Increase_Today" data-name="23% Increase Today" transform="translate(1132 410)" fill="#55be9b" font-size="12" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em"><tspan x="0" y="0">23% Increase Today</tspan></text>
+      <text id="_3_560.00" data-name="$ 3,560.00" transform="translate(1111 380)" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.03em"><tspan x="0" y="0">$ 3,560.00</tspan></text>
+      <g id="arrows_2_" data-name="arrows (2)" transform="translate(1111.858 401)">
+        <g id="Group_6265" data-name="Group 6265" transform="translate(0.142)">
+          <path id="Path_6669" data-name="Path 6669" d="M11,0H2.864A1.146,1.146,0,0,0,1.735,1.341a1.186,1.186,0,0,0,1.192.951H7.4a2.292,2.292,0,0,0,.693-.109l.378-.12-7.96,7.96a1.186,1.186,0,0,0-.166,1.519,1.146,1.146,0,0,0,1.719.149L10.079,3.7l-.092.252a2.292,2.292,0,0,0-.138.779V9.214a1.186,1.186,0,0,0,.951,1.192A1.146,1.146,0,0,0,12.142,9.26V1.146A1.146,1.146,0,0,0,11,0Z" transform="translate(-0.142)" fill="#55be9b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

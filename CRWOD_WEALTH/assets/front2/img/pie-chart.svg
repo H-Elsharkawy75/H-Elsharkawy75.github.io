@@ -1,0 +1,17 @@
+<svg id="pie-chart" xmlns="http://www.w3.org/2000/svg" width="37.206" height="37.206" viewBox="0 0 37.206 37.206">
+  <g id="Group_6301" data-name="Group 6301" transform="translate(19.766)">
+    <g id="Group_6300" data-name="Group 6300">
+      <path id="Path_6765" data-name="Path 6765" d="M273.09,0A1.089,1.089,0,0,0,272,1.09V16.423a1.089,1.089,0,0,0,1.09,1.09h15.26a1.089,1.089,0,0,0,1.09-1.09A16.431,16.431,0,0,0,273.09,0Z" transform="translate(-272)" fill="#21bf79"/>
+    </g>
+  </g>
+  <g id="Group_6303" data-name="Group 6303" transform="translate(0 4.433)">
+    <g id="Group_6302" data-name="Group 6302">
+      <path id="Path_6766" data-name="Path 6766" d="M22.875,91.329,17.586,77.152V62.09A1.089,1.089,0,0,0,16.5,61a16.387,16.387,0,1,0,0,32.773,16.271,16.271,0,0,0,5.742-1.04A1.092,1.092,0,0,0,22.875,91.329Z" transform="translate(0 -61)" fill="#21bf79"/>
+    </g>
+  </g>
+  <g id="Group_6305" data-name="Group 6305" transform="translate(19.766 19.693)">
+    <g id="Group_6304" data-name="Group 6304">
+      <path id="Path_6767" data-name="Path 6767" d="M288.348,271h-15.26a1.09,1.09,0,0,0-1.021,1.473l5.359,14.362a1.092,1.092,0,0,0,1.405.637,16.538,16.538,0,0,0,10.608-15.382A1.089,1.089,0,0,0,288.348,271Z" transform="translate(-271.997 -271)" fill="#21bf79"/>
+    </g>
+  </g>
+</svg>

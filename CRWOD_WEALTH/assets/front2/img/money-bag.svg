@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.125" height="30" viewBox="0 0 28.125 30">
+  <g id="money-bag" transform="translate(-16)">
+    <g id="Group_6256" data-name="Group 6256" transform="translate(22.563 5.625)">
+      <g id="Group_6255" data-name="Group 6255">
+        <path id="Path_6664" data-name="Path 6664" d="M136.438,96h-7.5a.938.938,0,0,0,0,1.875h7.5a.938.938,0,0,0,0-1.875Z" transform="translate(-128 -96)" fill="#fab371"/>
+      </g>
+    </g>
+    <g id="Group_6258" data-name="Group 6258" transform="translate(29.125 26.25)">
+      <g id="Group_6257" data-name="Group 6257">
+        <path id="Path_6665" data-name="Path 6665" d="M254.063,448H240.938a.938.938,0,0,0-.937.938v1.875a.938.938,0,0,0,.938.938h13.125a.938.938,0,0,0,.938-.937v-1.875A.938.938,0,0,0,254.063,448Z" transform="translate(-240 -448)" fill="#fab371"/>
+      </g>
+    </g>
+    <g id="Group_6260" data-name="Group 6260" transform="translate(27.25 20.625)">
+      <g id="Group_6259" data-name="Group 6259">
+        <path id="Path_6666" data-name="Path 6666" d="M222.063,352H208.938a.938.938,0,0,0-.937.938v1.875a.938.938,0,0,0,.938.938h13.125a.938.938,0,0,0,.938-.937v-1.875A.938.938,0,0,0,222.063,352Z" transform="translate(-208 -352)" fill="#fab371"/>
+      </g>
+    </g>
+    <g id="Group_6262" data-name="Group 6262" transform="translate(16 9.375)">
+      <g id="Group_6261" data-name="Group 6261">
+        <path id="Path_6667" data-name="Path 6667" d="M28.188,169.375h8.867L31.782,160H22.718l-5.677,10.1A8.1,8.1,0,0,0,16,174.063a6.57,6.57,0,0,0,6.563,6.563h4.86a2.781,2.781,0,0,1-.173-.937v-1.875a2.783,2.783,0,0,1,.206-1.046,2.81,2.81,0,0,1-2.081-2.7v-1.875A2.816,2.816,0,0,1,28.188,169.375Z" transform="translate(-16 -160)" fill="#fab371"/>
+      </g>
+    </g>
+    <g id="Group_6264" data-name="Group 6264" transform="translate(20.688)">
+      <g id="Group_6263" data-name="Group 6263">
+        <path id="Path_6668" data-name="Path 6668" d="M109.013.5a.934.934,0,0,0-.825-.5H96.938a.937.937,0,0,0-.78,1.457L97.686,3.75h9.754l1.528-2.293A.929.929,0,0,0,109.013.5Z" transform="translate(-96.001)" fill="#fab371"/>
+      </g>
+    </g>
+  </g>
+</svg>
