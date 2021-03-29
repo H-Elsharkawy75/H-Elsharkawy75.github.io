@@ -950,7 +950,7 @@ color: #f7f6f6;
   }
 
   .nav-section .mobile-menu {
-    width: 227px;
+    width: 100%px;
   }
 
   .section-title .title {
@@ -1937,11 +1937,12 @@ height: 550px;
     height: 100px;
     background: #f00;
     position: relative;
-    top: 50px;
+    top: 70px;
     background: url('../img/Banner-Flyfundme%20(1).jpg') center center fixed no-repeat;
     background-size: contain;
-    background-position-y: 50px;
+    background-position-y: 70px;
     width: 100%;
+    margin-bottom: 15px;
 }
     .section-title .title:after {
     content: '****';
@@ -1974,6 +1975,7 @@ height: 550px;
     width: 80%;
     margin: auto;
 }
+
     
     
 }
@@ -1986,4 +1988,109 @@ height: 550px;
     width: 6px;
     border-radius: 0;
     background: #55be9b;
+}
+
+
+
+.logo-box .logo-link{
+        font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #2d415a;
+}
+.logo-box .logo-link span{
+    color: #ffffff;
+    webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #55be9b;
+    white-space: nowrap;
+}
+
+.footer_logolink span{
+        color: #f7f6f6 !important;
+}
+
+
+.SCR_SECION{
+    
+}
+.SCR_SECION .images{
+    width: 80%;
+    margin: auto;
+    border: 5px solid #55be9b;
+    margin-bottom: 20px;
+}
+.SCR_SECION .images img{
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.SCR_SECION .dtails{
+    
+}
+.SCR_SECION .dtails h2{
+color: #55be9b;
+    font-size: 45px;
+    font-weight: 700;
+}
+.SCR_SECION .dtails p{
+        color: #5f5e5e;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+
+
+.delay_05{
+    animation-delay: .5s;
+}
+.delay_1{
+    animation-delay: 1s
+}
+.delay_15{
+    animation-delay: 1.5s
+}
+.delay_2{
+    animation-delay: 2s
+}
+.delay_25{
+    animation-delay: 2.5s
+}
+.delay_3{
+    animation-delay: 3s
+}
+.delay_35{
+    animation-delay: 3.5s
+}
+
+
+
+@media(max-width:768px){
+        .SCR_SECION .dtails h2{
+        font-size: 35px;
+    }
+    .delay_05{
+    animation-delay: .5s;
+}
+.delay_1{
+    animation-delay: .5s
+}
+.delay_15{
+    animation-delay: .5s
+}
+.delay_2{
+    animation-delay: .5s
+}
+.delay_25{
+    animation-delay: .5s
+}
+.delay_3{
+    animation-delay: .5s
+}
+.delay_35{
+    animation-delay: .5s
+}
 }
