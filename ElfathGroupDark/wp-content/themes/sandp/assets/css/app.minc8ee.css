@@ -1382,7 +1382,7 @@ table tbody tr:hover th {
     width: 2em;
     text-align: center;
     line-height: 2em;
-    color: #00042c;
+    color: #100f0f;
     background: #f2bd25;
     cursor: pointer;
     border-radius: 100%;
@@ -2125,9 +2125,9 @@ background-color: #5a5965;
 
 .scrolling-up .site-header,
 .scrolling-down .site-header {
-background: #00042c;
+background: #100f0f;
     -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    box-shadow: 0 0px 10px rgb(0 0 0 / 56%);
+box-shadow: 0 0px 10px rgb(49 49 49 / 62%);
 }
 
 .scrolling-up .site-header nav a,
@@ -2318,7 +2318,7 @@ background: #00042c;
 
 .site-footer {
     position: relative;
-    background-color: #00042c;
+    background-color: #100f0f;
     padding: 3em 0 2em;
     color: #fff;
     text-align: center
@@ -3214,7 +3214,7 @@ background: #00042c;
 .card.no-bgimg .card__link {
     padding: 4em 0;
     color: #eee;
-    background-color: #00042c;
+    background-color: #100f0f;
     -webkit-transition: background-color 0.8s ease;
     transition: background-color 0.8s ease
 }
@@ -3322,7 +3322,7 @@ header.post-header+.content {
     display: block;
     padding: 2em;
     color: #fff;
-background-color: rgb(19 17 39);
+background-color: rgb(30 30 31);
     -webkit-transition: background-color 0.75s cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 0.75s cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -3356,7 +3356,7 @@ background-color: rgb(19 17 39);
     background-color: #f8f6f7
 }
 .cta__link:hover .btn--white{
-        color: #00042c;
+        color: #100f0f;
 }
 .entries {
     padding-bottom: 5em
@@ -3841,7 +3841,7 @@ section {
 
 .blocks {
     display: block;
-    background-color: #0c0e35;
+    background-color: #1e1e1f;
     color: #6e6d78;
 }
 
@@ -4283,7 +4283,7 @@ section {
 .intro {
     margin: 0 auto;
     padding: 5em 0;
-        background: #00042c;
+        background: #100f0f;
 }
 
 @media (min-width: 91em) {
@@ -4347,7 +4347,7 @@ section {
 .intro.intro--left {
     text-align: left;
     background-color: transparent;
-        background-color: #00042c;
+        background-color: #100f0f;
 }
 
 .intro.intro--left .intro__header,
@@ -4990,7 +4990,7 @@ section {
 
 .text-slider {
     text-align: center;
-    background: #00042c;
+    background: #100f0f;
     color: #a5a5a5;
 }
 
@@ -5846,7 +5846,7 @@ section {
 .hq-map {
     position: relative;
     min-height: 30em;
-    background-color: #00042c;;
+    background-color: #100f0f;;
     width: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden
@@ -5913,8 +5913,8 @@ section {
 
 @media (min-width: 54em) {
     .hq-map__wrap:before {
-        background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(#00042c;));
-        background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #00042c; 100%)
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0)), to(#100f0f;));
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #100f0f; 100%)
     }
 }
 
@@ -5963,7 +5963,7 @@ section {
 .info-cards .info-card__link {
     padding: 7em 0;
     text-align: center;
-    background-color: #00042c;;
+    background-color: #100f0f;;
     border-bottom: 1px solid #fff;
     -webkit-transition: all 1s ease;
     transition: all 1s ease
@@ -8823,7 +8823,7 @@ a:hover .js-letters span:nth-child(60) {
 }
 
 .bg-softgrey {
-    background-color: #00042c;
+    background-color: #100f0f;
 }
 
 .bg-alpha {
@@ -8984,7 +8984,7 @@ a:hover .js-letters span:nth-child(60) {
 }
 
 [data-theme="grey"] {
-    background: #00042c;;
+    background: #100f0f;;
     color: #111
 }
 
@@ -9048,7 +9048,7 @@ a:hover .js-letters span:nth-child(60) {
 
 
 .Content_Vediosss{
-        background: #00042c;
+        background: #100f0f;
         padding: 1px 0;
 }
 
@@ -9069,11 +9069,11 @@ a:hover .js-letters span:nth-child(60) {
     background: rgb(222 173 35);
 }
 .design_thinking_Dark p{
-     color: #0c0e35;
+     color: #1e1e1f;
 }
 
 .homeowner_centre_dark{
-        background: #0c0e35;
+        background: #1e1e1f;
 }
 .homeowner_centre_dark p{
        color: #eaeaea;
@@ -9082,7 +9082,7 @@ a:hover .js-letters span:nth-child(60) {
        color: #eaeaea;
 }
 .Working_network{
-        background: #0c0e35;
+        background: #1e1e1f;
 }
 .Working_network p{
        color: #eee;
@@ -9092,7 +9092,7 @@ a:hover .js-letters span:nth-child(60) {
 }
 
 .sticky-nav--filters{
-    background: #0c0e35;
+    background: #1e1e1f;
 }
 .filter__text {
     color: #c5c6c7;
@@ -9102,7 +9102,7 @@ a:hover .js-letters span:nth-child(60) {
 
 }
 .posts{
-    background: #0c0e35;
+    background: #1e1e1f;
 }
 .post__header .post__title{
         color: #adacac;
@@ -9110,12 +9110,12 @@ a:hover .js-letters span:nth-child(60) {
 
 
 article{
-       background: #0c0e35;
+       background: #1e1e1f;
         color: #eee;
 }
 .entries {
     padding-bottom: 5em;
-    background: #0c0e35;
+    background: #1e1e1f;
 }
 .post-shares__title {
     margin: 0 0 1em;
@@ -9141,7 +9141,7 @@ article{
 .locations-toc {
     padding: 5em 0;
     text-align: center;
-    background: #131127;
+    background: #1e1e1f;
     color: #fff;
 }
 .locations-toc a {
@@ -9152,7 +9152,7 @@ article{
 }
 .heading__header_asdasd{
     margin: 0 !important;
-        background: #131127;
+        background: #1e1e1f;
     width: 100%;
     max-width: 100%;
 }
@@ -9161,7 +9161,7 @@ article{
 }
 
 .post_header_Dark{
-        background: #00042c;
+        background: #100f0f;
 }
 .post_header_Dark h1{
     color: #aaa
