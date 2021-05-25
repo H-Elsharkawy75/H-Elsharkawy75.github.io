@@ -767,7 +767,13 @@ text-align: right;
 }
 
 .footer .footerContent .SiteMap ul li a {
-
     font-family: 'Cairo';
 }
-
+@media(max-width:768px){
+    .coursedisc .discItem .Filesaapdf {
+        margin: 30px 0;
+    }
+    .coursedisc .discItem .Filesaapdf ul li p {
+        font-size: 13px;
+    }
+}
