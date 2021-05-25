@@ -1,0 +1,770 @@
+body{
+    direction: rtl;
+        font-family: 'Cairo', sans-serif !important;
+}
+
+p{
+    font-family: 'Cairo', sans-serif !important;
+}
+h1, h2, h3, h4, h5, h6{
+     font-family: 'Cairo', sans-serif !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headertooop{
+        padding: 5px 0;
+    border-bottom: 1px solid #eee;
+        background: #fff;
+}
+.headertooop .logotitle{
+      text-align: right;  
+}
+.headertooop .logotitle .LinkesAPge{
+        font-size: 25px;
+    font-weight: 600;
+    color: #212121;
+}
+.headertooop .logotitle .LinkesAPge img{
+        display: inline-block;
+    width: 60px;
+    margin: 0 5px;
+}
+.headertooop .ratshrsave{
+    
+}
+.headertooop .ratshrsave ul{
+        width: max-content;
+    margin: auto;
+}
+.headertooop .ratshrsave ul li{
+        float: right;
+    margin: 5px 7px;
+}
+.headertooop .ratshrsave ul li a{
+        height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-shadow: 0 0 2px #cccccc;
+}
+.headertooop .ratshrsave ul li a span{
+    margin: 0px 10px;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+.headertooop .ratshrsave ul li a .Rate{
+color: #fdae01;
+}
+.headertooop .ratshrsave ul li a .Share{
+    color: #212121
+}
+.headertooop .ratshrsave ul li a .Save{
+    color: #00d76c;
+}
+
+
+.headertooop .rangourse{
+    
+}
+.headertooop .rangourse .RtangeDone{
+    margin: 5px 0;
+}
+.headertooop .rangourse .RtangeDone h2{
+        text-align: right;
+
+        font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    color: #00d76c;
+}
+.headertooop .rangourse .RtangeDone h2 span{
+display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #FDFBFA;
+    text-align: center;
+    border-radius: 50%;
+    font-family: system-ui;
+    /* border-right: 2px solid #00d76c; */
+    border: 2px solid #eee;
+    border-right: 2px solid #01D66C;
+    border-bottom: 2px solid #01D66C;
+    margin: 0px 15px;
+    font-size: 15px;
+    color: #aaa;
+    line-height: 35px;
+
+}
+.headertooop .rangourse  .CoursePageName{
+    
+}
+.headertooop .rangourse  .CoursePageName a{
+    height: 45px;
+    line-height: 60px;
+    margin: 5px;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #212121;
+    text-shadow: 0 0 2px #cccccc;
+}
+
+.headertooop .rangourse  .CoursePageName a span{
+       position: relative;
+    top: 3px;
+    margin: 0 5px;
+    font-size: 20px;
+    color: #99c7b1; 
+}
+
+@media(max-width:1199px){
+    .headertooop .ratshrsave ul li {
+    float: right;
+    margin: 5px 0px;
+}
+
+}
+    
+    @media(max-width:991px){
+        .headertooop .logotitle .LinkesAPge {
+    font-size: 15px;
+}
+        .headertooop .logotitle .LinkesAPge img {
+    width: 50px;
+
+}
+        .headertooop .ratshrsave ul li a {
+    font-size: 14px;
+
+}
+.headertooop .ratshrsave ul li a span {
+    margin: 0px 5px;
+}
+        .headertooop .rangourse .RtangeDone h2 span {
+
+
+
+}
+    .headertooop .rangourse .RtangeDone h2 span {
+    width: 30px;
+    height: 30px;
+
+    font-size: 14px;
+
+    line-height: 25px;
+            margin: 0px 5px;
+            margin-right: 0;
+}    
+     .headertooop .rangourse .RtangeDone h2 {
+    text-align: right;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #00d76c;
+}   
+        .headertooop .rangourse .ohtercool{
+               padding-left: 0px;
+         padding-right: 0px;
+        }  
+        .headertooop .rangourse .CoursePageName a {
+    height: 45px;
+    line-height: 50px;
+    font-size: 13px;
+
+    margin-right: 0;
+}
+        .headertooop .rangourse .CoursePageName a span {
+    font-size: 18px;
+
+}
+    
+        
+    }
+@media(max-width:768px){
+     .headertooop .rangourse .ohtercool{
+            padding-left: 15px;
+         padding-right: 15px;
+        }  
+    .header {
+    position: absolute;
+    top: 0;
+        }
+    .headertooop .rangourse .CoursePageName {
+    text-align: center;
+}
+    .headertooop .rangourse .RtangeDone h2 {
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    color: #00d76c;
+}
+    .headertooop .ratshrsave ul li {
+    float: right;
+    margin: 5px 10px;
+}
+    .headertooop .rangourse .RtangeDone h2 span {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 35px;
+    margin: 0px 5px;
+    margin-right: 0;
+}
+    .headertooop .rangourse .CoursePageName a {
+    height: 45px;
+    line-height: 55px;
+    font-size: 15px;
+    margin-right: 0;
+}
+}
+
+@media(max-width:575px){
+    .headertooop .logotitle {
+    text-align: center;
+}
+    .headertooop .ratshrsave ul li {
+    margin: 5px 14px;
+}
+    .headertooop .rangourse .ohtercool {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+    .header {
+    position: absolute;
+    top: 0;
+        }
+}
+
+
+
+/************************ *********************/
+.VediosTaps{
+    margin-top: 90px;
+}
+.VediosTaps .sidebar_section{
+    text-align: right;
+}
+
+.VediosTaps .sidebar_section .panel-group{
+    
+}
+.VediosTaps .sidebar_section .panel-group .panel{
+    
+}
+.VediosTaps .sidebar_section .panel-group .panel .side-tab{
+    
+}
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading{
+    background: #F9F9F9;
+    padding: 14px 15px;
+    border: 1px solid #F4F4F4;
+    cursor: pointer;
+
+}
+/*
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .collapsed{
+    background: #f00;
+}
+*/
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title{
+        color: #42453F;
+    font-size: 18px;
+}
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title span{
+    float: left;
+    color: #B7B7B7;
+    font-size: 15px;
+    font-weight: 400;
+}
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title i{
+    float: left;
+    margin: 0 20px;
+    margin-left: 10px;
+    transition: all .4s ease-in-out;
+    color: #42453F;
+}
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .collapsed .panel-title i{
+    float: left;
+    margin: 0 20px;
+    margin-left: 10px;
+    transform: rotate(-90deg)
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse {
+    
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body {
+        background: #CDF7E3;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul{
+    
+}
+
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li{
+    
+}
+
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+        border-bottom: 1px solid #01d66c12;
+        border-top: 1px solid #01d66c12;
+}
+
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a span{
+    transition: all .4s ease-in-out;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .icon{
+        color: #46d88f;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .number{
+    
+    margin: 0 5px;
+    color: #42453f;
+    font-size: 17px;
+
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .name{
+   color: #8c8c8c;
+    font-size: 17px; 
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .duration{
+    float: left;
+    margin: 0 15px;
+    color: #afafaf;
+    font-size: 15px;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li .active{
+    background: #01D66C;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li .active span{
+    color: #fff;
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a:hover{
+background: #01D66C;
+        border-bottom: 1px solid #01d66c12;
+     border-top: 1px solid #01d66c12;
+
+}
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a:hover span{
+color: #fff;
+
+}
+@media(max-width:768px){
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .name {
+
+    font-size: 15px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .duration {
+
+    margin: 0 5px;
+
+    font-size: 14px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title i {
+    margin: 0 10px;
+    margin-left: 0px;
+
+}
+    .VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title {
+    font-size: 15px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title span {
+
+    font-size: 13px;
+}
+}
+
+
+.VediosTaps .vedio{
+        border-radius: 5px;
+    overflow: hidden;
+}
+.VediosTaps .vedio video{
+      border-radius: 5px;
+    overflow: hidden;
+}
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+@media (max-width: 991px){
+.VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title {
+    color: #42453F;
+    font-size: 13px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title span {
+
+    font-size: 13px;
+
+}
+    .VediosTaps .sidebar_section .panel-group .panel .side-tab .panel-heading .panel-title i {
+    margin: 0 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    top: 3px;
+    position: relative;
+    }
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .name {
+
+    font-size: 12px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .number {
+    margin: 0 4px;
+    color: #42453f;
+    font-size: 14px;
+}
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a {
+
+    padding: 0 10px;
+    }
+    .VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li a .duration {
+    float: left;
+    margin: 0 5px;
+    color: #afafaf;
+    font-size: 12px;
+}
+}
+
+
+
+
+.aboutCrouNextPerv{
+        background: #f9f9f9;
+        margin-top: 5px;
+}
+
+.aboutCrouNextPerv .AdContent{
+    
+}
+.aboutCrouNextPerv .AdContent .COurseLinks{
+        margin-right: 100px;
+}
+.aboutCrouNextPerv .AdContent .COurseLinks ul{
+    
+}
+.aboutCrouNextPerv .AdContent .COurseLinks ul li{
+        float: right;
+    margin: 15px;
+}
+.aboutCrouNextPerv .AdContent .COurseLinks ul li a{
+    border-bottom: 2px solid #f9f9f9;
+    padding-bottom: 14px;
+      color: #42453f;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+.aboutCrouNextPerv .AdContent .COurseLinks ul li .active{
+    border-bottom: 2px solid #3C4B7C;
+    padding-bottom: 14px;
+    color: #3C4B7C;
+    font-weight: 600;
+}
+.aboutCrouNextPerv .AdContent .COurseLinks ul li a:hover{
+    border-bottom: 2px solid #3C4B7C;
+    padding-bottom: 14px;
+    color: #3C4B7C;
+}
+
+
+.aboutCrouNextPerv .AdContent .next_prev{
+    
+}
+.aboutCrouNextPerv .AdContent .next_prev .pev{
+    border-left: 1px solid #ccc;
+}
+.aboutCrouNextPerv .AdContent .next_prev .pev .Icon{
+float: right;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+    color: #42453f;
+}
+.aboutCrouNextPerv .AdContent .next_prev .pev .PrevTit{
+        text-align: right;
+    display: inline-block;
+    width: calc(100% - 40px);
+    cursor: pointer
+}
+.aboutCrouNextPerv .AdContent .next_prev .pev .PrevTit p{
+    
+}
+
+.aboutCrouNextPerv .AdContent .next_prev .pev .PrevTit h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #42453f;
+}
+
+
+.aboutCrouNextPerv .AdContent .next_prev .next{
+      border-left: 1px solid #f9f9f9;
+}
+.aboutCrouNextPerv .AdContent .next_prev .next .Icon{
+float: left;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+    color: #42453f;
+}
+.aboutCrouNextPerv .AdContent .next_prev .next .nextTit{
+text-align: right;
+    display: inline-block;
+    width: calc(100% - 40px);
+        padding-right: 60px;
+    cursor: pointer;
+}
+.aboutCrouNextPerv .AdContent .next_prev .next .nextTit p{
+    
+}
+
+.aboutCrouNextPerv .AdContent .next_prev .next .nextTit h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #42453f;
+}
+
+@media(max-width:1199px){
+    .aboutCrouNextPerv .AdContent .next_prev .next .nextTit {
+
+    padding-right: 20px;
+}
+    .aboutCrouNextPerv .AdContent .next_prev .pev .PrevTit h2 {
+    font-size: 14px;
+}
+    .aboutCrouNextPerv .AdContent .next_prev .next .nextTit h2 {
+    font-size: 14px;
+}
+        .aboutCrouNextPerv .AdContent .COurseLinks {
+    margin-right: 50px;
+}
+}
+
+
+@media(max-width:991px){
+    .aboutCrouNextPerv .AdContent .COurseLinks {
+    margin-right: 0;
+}
+    .aboutCrouNextPerv .AdContent .next_prev .next .nextTit {
+    padding-right: 0;
+}
+}
+
+.visble_xs{
+    display: none;
+}
+@media(max-width:768px){
+    .hidden_xs{
+        display: none;
+    }
+    .aboutCrouNextPerv .AdContent .COurseLinks ul li .active {
+    padding-bottom: 11px;
+
+}
+    .aboutCrouNextPerv .AdContent .COurseLinks ul li a {
+    padding-bottom: 11px;
+
+}
+        .aboutCrouNextPerv .AdContent .COurseLinks ul li a:hover {
+    padding-bottom: 11px;
+
+}
+    .visble_xs{
+    display: block;
+}
+    .otherrcoll{
+        width: 50%;
+    }
+    .VediosTaps {
+    margin-top: 150px;
+}
+}
+@media(max-width:575px){
+        .VediosTaps {
+    margin-top: 200px;
+}
+}
+
+
+
+.coursedisc{
+    text-align: right;
+    margin-top: 25px;
+}
+
+.coursedisc .discItem{
+        margin-bottom: 30px;
+}
+.coursedisc .discItem .title{
+    
+}
+.coursedisc .discItem .title h2{
+        font-size: 22px;
+    color: #212121;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.coursedisc .discItem .PublishDate {
+    
+}
+.coursedisc .discItem .PublishDate span{
+    margin: 0 5px
+}
+.coursedisc .discItem .PublishDate .Dtanashr{
+        font-size: 16px;
+    color: #c0c0c0;
+}
+.coursedisc .discItem .PublishDate .Dtanashr .nasssher{
+    color: #00150c;
+    text-shadow: 0 0 2px #aaa;
+}
+.coursedisc .discItem .PublishDate .DateUpdate{
+    font-size: 16px;
+    color: #c0c0c0;
+}
+.coursedisc .discItem .PublishDate .DateUpdate .Updatee{
+    color: #00150c;
+    text-shadow: 0 0 2px #aaa;
+}
+.coursedisc .discItem .Pagragraphs{
+    
+}
+.coursedisc .discItem .Pagragraphs p{
+        font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-shadow: 0 0 2px #cccccc;
+    margin-bottom: 5px;
+}
+.coursedisc .discItem .AllLec{
+        padding: 5px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.coursedisc .discItem .AllLec h2{
+    display: inline-block;
+    float: revert;
+    font-size: 15px;
+    color: #b1aeae;
+    font-weight: 500;
+}
+.coursedisc .discItem .AllLec h2 span{
+    color: #212121;
+    margin: 0 15px;
+    font-size: 15px;
+}
+.coursedisc .discItem .AllLec select{
+    float: left;
+    display: inline-block;
+    border: none;
+    text-align: right;
+    outline: 0;
+    position: relative;
+    top: -6px;
+    font-size: 13px;
+    color: #00150c;
+}
+.coursedisc .discItem .Filesaapdf{
+        margin: 30px;
+}
+.coursedisc .discItem .Filesaapdf ul{
+    
+}
+.coursedisc .discItem .Filesaapdf ul li{
+        margin-bottom: 5px;
+}
+.coursedisc .discItem .Filesaapdf ul li p{
+        font-size: 15px;
+    text-transform: capitalize;
+    color: #42453f;
+    font-weight: 500;
+}
+.coursedisc .discItem .Filesaapdf ul li p span{
+    font-size: 18px;
+    margin: 0 5px;
+    text-align: center;
+    width: 30px;
+    display: inline-block;
+}
+.coursedisc .discItem .Filesaapdf ul li p .pdf{
+        color: #3c4b7c;
+}
+.coursedisc .discItem .Filesaapdf ul li p .img{
+     color: #212121;
+}
+.coursedisc .discItem .Filesaapdf ul li p a{
+    padding: 0;
+    border: none;
+    text-decoration: underline;
+    color: #00d76c;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer .footerContent {
+    text-align: right;
+}
+.footer .footerContent .Scoials .solinks ul li {
+    float: right;
+    margin: 5px;
+}
+.footer .footerContent .SiteMap {
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+.footer .footerContent .AboutAcdemy p {
+
+    font-size: 17px;
+
+}
+
+@media(max-width:1199px){
+    .footer .footerContent .SiteMap {
+    margin-right: 0;
+    margin-top: 40px;
+    margin-left: 0;
+}
+}
+
+
+
