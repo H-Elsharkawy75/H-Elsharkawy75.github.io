@@ -766,5 +766,8 @@ text-align: right;
 }
 }
 
+.footer .footerContent .SiteMap ul li a {
 
+    font-family: 'Cairo';
+}
 
