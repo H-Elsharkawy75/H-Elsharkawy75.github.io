@@ -777,3 +777,6 @@ text-align: right;
         font-size: 13px;
     }
 }
+.VediosTaps .sidebar_section .panel-group .panel .panel-collapse .panel-body ul li .active span {
+    color: #fff;
+}
