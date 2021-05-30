@@ -2914,7 +2914,9 @@ ol {
 }
 
 .location-tab-nav .nav-item .nav-link img {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    height: 160px;
+    width: 100%;
 }
 
 .location-tab-nav .nav-item .nav-link h5 {
@@ -4136,5 +4138,26 @@ ol {
     padding-top: 30px;
     padding-bottom: 30px;
     background: #f2f3f4;
+}
+}
+
+.TabImg{
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+}
+
+.BAyamoutImg {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+@media(max-width:768px){
+    .TabImg {
+    height: auto;
+}
+    .TabImg {
+    height: auto;
 }
 }
