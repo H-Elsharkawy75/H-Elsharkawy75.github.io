@@ -1030,7 +1030,7 @@ nav {
 	margin: 0px auto 0
 }
 #nav li:hover a {
-	color: #fff;
+	
 	border-bottom: none;
 	background: inherit;
 }
@@ -9677,11 +9677,6 @@ margin-bottom: 0;
     line-height: 50px;
     margin: 5px 0;
 }
-#nav li:hover a {
-    color: #f89b1c;
-    border-bottom: none;
-    background: inherit;
-}
 
 
 
@@ -9727,7 +9722,11 @@ margin-bottom: 0;
     transition: all .4s ease-in-out;
 }
 .MeallDelivery:hover{
-        background: #98ad9d !important;
+     background: #d50a1e !important;
+    color: #fff !important;
+}
+.MeallDelivery:hover span{
+      color: #fff !important;
 }
 #nav li {
     list-style: none;
@@ -10368,7 +10367,33 @@ display: block;
     .forcefullwidth_wrapper_tp_banner, .fullwidthbanner-container {
     margin-bottom: 0px !important;
 }
+    .MeallDelivery {
+    background: #8a0512;
+    border-radius: 0;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px !important;
+    margin-top: 5px;
+    font-weight: 600 !important;
+    color: #fff !important;
+    transition: all .4s ease-in-out;
+}
 }
 
 
 
+#nav li a {
+color: #687d6b;
+    font-weight: 400;
+}
+#nav li a.active {
+    color: rgba(104,125,107,.4);
+}
+#nav li a :hover{
+    color: rgba(104,125,107,.4);
+}
+#nav li a span {
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #f0f0f0;
+}
