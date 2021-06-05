@@ -10411,8 +10411,8 @@ display: block;
 
 .copyright{
 text-align: center;
-    padding: 0;
-    height: 55px;
+    padding: 25px 15px;
+    
     background: #d50a1e;
     color: #f0f0f0;
     font-size: 17px;
