@@ -10397,3 +10397,37 @@ display: block;
     padding: 0 15px;
     border-right: 1px solid #f0f0f0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright{
+text-align: center;
+    padding: 0;
+    height: 55px;
+    background: #d50a1e;
+    color: #f0f0f0;
+    font-size: 17px;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+.copyright .copycontent{
+    
+}
+.copyright .copycontent .cr_text{
+    
+}
+.copyright .copycontent .cr_text a{
+    color: #383838;
+}
+.copyright .copycontent .cr_text a:hover{
+    text-decoration: underline;
+}
