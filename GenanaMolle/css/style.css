@@ -11289,6 +11289,89 @@ display: none;
 }
 
 
+@media(max-width:768px){
+    
 
+}
+
+
+@media(max-width:768px){
+    .giftpage .giftbaneer {
+    height: auto;
+
+}
+    .giftpage .giftbaneer .baneercontent h2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+    .giftpage .giftbaneer .baneercontent .classbuttons .btnoon {
+
+    margin: 5px 15px;
+
+    padding: 7px 30px;
+
+    font-size: 15px;
+
+}
+    .giftpage .discription {
+
+    padding: 0px 0;
+}
+    .giftpage .whattodo {
+    padding: 10px 0;
+}
+    .giftpage .whattodo .whatcontent .title h2 {
+    font-size: 30px;
+}
+    .giftpage .whattodo .whatcontent .stepsss {
+    margin-top: 40px;
+}
+    .giftpage .whattodo .whatcontent .stepsss .stepone::after {
+
+    right: 30px;
+    transform: rotate(90deg);
+}
+    .giftpage .whattodo .whatcontent .stepsss .stepitem .details {
+    padding: 15px;
+    text-align: center;
+}
+        .giftpage .whattodo .whatcontent .stepsss .steptwo::after {
+
+    right: 30px;
+    transform: rotate(90deg);
+}
+        .giftpage .whattodo .whatcontent .stepsss .stepthree::after {
+
+    right: 30px;
+    transform: rotate(90deg);
+}
+    .giftpage .whattodo .check {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+    
+    
+    .giftpage .havques {
+    padding: 20px 0;
+
+}
+    .giftpage .havques .havecontent .questioncontent {
+    margin-top: 25px;
+}
+    .giftpage .havques .havecontent .title h2 {
+    font-size: 25px;
+
+}
+    .giftpage .havques .havecontent .questioncontent .quseionitem .buttons button {
+    white-space: pre-wrap;
+
+    text-align: center;
+
+}
+}
 
 
