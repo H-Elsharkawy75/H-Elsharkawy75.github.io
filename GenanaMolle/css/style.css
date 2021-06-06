@@ -11372,6 +11372,10 @@ display: none;
     text-align: center;
 
 }
+	    .howmuch .howmuchcontent .howmuchItem {
+
+    margin-bottom: 30px;
+}
 }
 
 
