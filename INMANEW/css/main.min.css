@@ -11911,3 +11911,13 @@ body {
 .team__diversity__title {
     color: #000;
 }
+
+@media(max-width:768px){
+    .nav--filled {
+    background-color: #000000a1;
+}
+    .nav {
+    background-color: #000000a1;
+
+}
+}
