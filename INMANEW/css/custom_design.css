@@ -1,0 +1,27 @@
+.booking-back-button{
+	display: none !important;
+}
+.photography__contact__form_booking {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.body--main-success .success_heading {
+color:#0fad00;
+}
+.body--main-success .nav__logo_success img{
+	width: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media(max-width: 520px){
+	.g-recaptcha {
+		transform:scale(0.6);
+		transform-origin:0;
+		-webkit-transform:scale(0.6);
+		transform:scale(0.6);
+		-webkit-transform-origin:0 0;
+		transform-origin:0 0;
+	}
+}
