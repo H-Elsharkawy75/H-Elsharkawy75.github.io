@@ -11921,3 +11921,9 @@ body {
 
 }
 }
+
+.intro--loaded .intro__title {
+   
+    position: relative;
+    top: -55px;
+}
