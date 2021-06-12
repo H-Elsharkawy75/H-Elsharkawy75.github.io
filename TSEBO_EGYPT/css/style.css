@@ -8956,13 +8956,15 @@ nav {
 
 
 .image_logo {
-height: 40px;
+    height: 40px;
     margin: 5px 0;
     display: flex;
     width: 200px;
-    float: right;
+    float: left;
     align-items: center;
     justify-content: center;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 .image_logo img {
     margin: auto;
@@ -9001,6 +9003,7 @@ height: 40px;
         background: #0000008f;
     padding: 80px 0;
         padding-bottom: 20px;
+    padding-top: 150px;
 
 }
 .TesepoPage .banner .bannercontemt{
@@ -9582,7 +9585,7 @@ background: #d50a1e00;
 }
     .mm-toggle-wrap {
     display: inline-block;
-    top: -30px !important;
+    top: 5px !important;
     position: absolute;
     left: 10px;
     color: #d50a1e;
@@ -9972,15 +9975,105 @@ background-position: 50% 50%;
     transform: translateY(5px)
 }
 .loginLiMenu .LogSign{
-        display: block;
+    display: block;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    background: #d50a1e;
+    border-radius: 3px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    padding: 0 15px !important;
+    /* border-radius: 25px;*/
+
+}
+.loginLiMenu  .register{
+    background: #ffffff;
+    color: #000000 !important;
+}
+
+
+ header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 0 5px #eee;
+}
+.mm-toggle-wrap {
+
+    top: 10px;
+
+}
+.mm-toggle {
+
+    font-size: 35px;
+}
+#jtv-mobile-menu{
+  
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+}
+
+.visivle-xs{
+    display: none !important;
+}
+@media(max-width:768px){
+.loginLiMenu .LogSign {
+    display: block;
     width: 80%;
     margin: auto;
     text-align: center;
     background: #d50a1e;
     border-radius: 3px;
-
+    color: #fff !important;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
 }
-.loginLiMenu  .register{
-    background: #444242;
-    color: #ffffff;
+    .visivle-xs{
+        display: block !important;
+    }
+    .loginLiMenu .register {
+background: #afafaf;
+    color: #000000 !important;
+}
+    .jtv-sticky-header {
+
+    position: fixed !important;
+}
+}
+
+.modalquestions {
+    background: none repeat scroll 0 0 #3d425285 !important;
+}
+.modalquestions .modal-content {
+    border-radius: 0;
+}
+.modalquestions .modal-header {
+    box-shadow: 0 8px 16px rgb(172 179 193 / 25%);
+}
+.modalquestions .modal-header .close {
+    margin-top: -25px;
+    font-size: 23px;
+    color: #3d4252;
+    opacity: 1;
+}
+.modalquestions .modal-header .modal-title {
+    padding: 3px;
+    font-size: 17px;
+    color: #2d3345;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.modalquestions .pagrag{
+    
+}
+.modalquestions .pagrag p{
+        font-size: 16px;
+    /* width: 80%; */
+    line-height: 30px;
 }
