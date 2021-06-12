@@ -9672,3 +9672,315 @@ background: #d50a1e00;
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactUS{
+    
+}
+
+.contactUS .images{
+        background-position: 50% 50%;
+    background-size: cover;
+    min-height: 450px;
+}
+.contactUS .images img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.contactUS .DetailsContact{
+    text-align: center;
+}
+.contactUS .DetailsContact .OurCont{
+    font-size: 35px;
+    margin: 75px 0 0;
+    font-weight: 600;
+        font-family: 'Playfair Display', serif !important;
+}
+.contactUS .DetailsContact .InfoMAils{
+        margin: 15px 0;
+    font-size: 20px;
+    color: #999999;
+    font-style: italic;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+}
+.contactUS .DetailsContact .InfoMAils a{
+        color: #999999;
+}
+.contactUS .DetailsContact .InfoMAils a:hover{
+    text-decoration: underline;
+}
+.contactUS .DetailsContact .Openingtime{
+    
+}
+.contactUS .DetailsContact .Openingtime ul{
+    padding: 0
+}
+.contactUS .DetailsContact .Openingtime ul li{
+        list-style: none;
+    margin: 2px 0;
+}
+.contactUS .DetailsContact .Openingtime ul li p{
+    font-size: 19px;
+    font-family: 'Playfair Display';
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+        margin-bottom: 5px;
+}
+.contactUS .DetailsContact .line{
+    width: 147px;
+
+    border-top: 2px dotted #999999;
+    margin: 36px auto 0;
+}
+.contactUS .DetailsContact .ContactButton{
+    
+}
+.contactUS .DetailsContact .ContactButton .Conlink{
+    color: #111111 !important;
+    background-color: #dfcbab !important;
+    margin: 39px auto 75px;
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    font-size: 19px;
+}
+
+
+
+
+
+.loginpage{
+    
+}
+.loginpage .loginContent{
+    
+    display: block;
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 0 79px 0 rgb(0 0 0 / 8%);
+    background: #fff;
+    margin: 40px auto;
+
+}
+
+.loginpage .loginContent .Images{
+background-position: 50% 50%;
+    background-size: cover;
+    min-height: 515px;
+}
+.loginpage .loginContent .Images img{
+    
+}
+.loginpage .loginContent .LoginContent{
+    padding: 50px 30px 70px 0;
+}
+.loginpage .loginContent .LoginContent .LogoImg{
+    display: block;
+
+    width: 175px;
+
+    margin: auto;
+}
+.loginpage .loginContent .LoginContent .LogoImg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.loginpage .loginContent .LoginContent .SocialLogin{
+        margin-top: 25px;
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul{
+    padding: 0;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li{
+    list-style: none;
+    float: left;
+    margin: 5px
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li a{
+        display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 0 5px #e2e2e2;
+    border-radius: 2px;
+    transition: all .4s ease-in-out;
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li a:hover{
+    transform: translateY(5px);
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li .facebook{
+     background-color: #4867aa;
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li .twitter{
+        background-color: #33ccff;
+}
+.loginpage .loginContent .LoginContent .SocialLogin ul li .google{
+        background-color: #db4437;
+}
+
+.loginpage .loginContent .LoginContent .ore{
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.loginpage .loginContent .LoginContent .ore h2{
+        text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #a4a4a4;
+    display: inline-block;
+    position: relative;
+    padding: 0 25px;
+    z-index: 1;
+}
+.loginpage .loginContent .LoginContent .ore h2::before{
+        display: inline-block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    left: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 1;
+}
+.loginpage .loginContent .LoginContent .ore h2::after{
+        display: inline-block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    right: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 1;
+}
+
+.loginpage .loginContent .LoginContent .inputs{
+    
+}
+
+.loginpage .loginContent .LoginContent .inputs form{
+    
+}
+.loginpage .loginContent .LoginContent .inputs .form-group{
+    
+}
+
+.loginpage .loginContent .LoginContent .inputs .form-group .form-control{
+        display: block;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 2px;
+    height: 40px;
+    line-height: 40px;
+    color: #111;
+}
+.loginpage .loginContent .LoginContent .inputs .ButtonSub{
+    
+}
+.loginpage .loginContent .LoginContent .inputs .ButtonSub .bt_Sub{
+        display: block;
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    font-size: 18px;
+    background: #d60e22;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all .4s ease-in-out;
+}
+.loginpage .loginContent .LoginContent .inputs .ButtonSub .bt_Sub:hover{
+        transform: translateY(5px);
+}
+
+
+
+.loginpage .loginContent .LoginContent .donthave{
+    margin-top: 20px;
+    text-align: center;
+}
+.loginpage .loginContent .LoginContent .donthave p{
+    margin: 0 0 20px 0;
+    color: #646464;
+    font-size: 15px;
+}
+.loginpage .loginContent .LoginContent .donthave p a{
+        color: #63bbff;
+    margin: 0 3px;
+}
+
+
+@media(max-width:768px){
+    .loginpage .loginContent .Images {
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: auto;
+}
+    .loginpage .loginContent {
+
+    width: 100%;
+
+}
+    .loginpage .loginContent .LoginContent {
+    padding: 50px 20px;
+}
+}
+
+
+.loginLiMenu{
+    margin: 3px 0;
+}
+.loginLiMenu a{
+    transition: all .4s ease-in-out;
+}
+.loginLiMenu a:hover{
+    transform: translateY(5px)
+}
+.loginLiMenu .LogSign{
+        display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: #d50a1e;
+    border-radius: 3px;
+
+}
+.loginLiMenu  .register{
+    background: #444242;
+    color: #ffffff;
+}
