@@ -1,0 +1,99 @@
+@media(max-width:991px){
+    
+}
+
+@media(max-width:768px){
+    .ratessss .Exchange .rateTables {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+    .ratessss .Government {
+    height: auto;
+}
+    .ratessss .offerTreasury {
+
+    height: auto;
+}
+    .ratessss .Exchange {
+
+    height: auto;
+}
+    
+    .image_logo img{
+        
+    }
+    
+    .banererBank .banerer_Content .banererForms .banererFormsCOntent {
+    background-color: rgba(255,255,255,.8);
+    width: 100%;
+    }
+    .banererBank {
+
+    height: auto;
+}
+    .Hitss {
+
+    height: auto;
+}
+    .Hitss .overlay .HitssContant {
+    width: 100%;
+        margin-top: 0;
+
+}
+    .Hitss .overlay .HitssContant h1 {
+
+    font-size: 23px;
+
+}
+    .lageImg {
+
+    height: auto;
+}
+    .lageImg .lageImgContent h2 {
+    width: 100%;
+
+}
+    .naveTop .ulNavTop {
+
+    display: none;
+}
+    .mm-toggle-wrap {
+
+    top: 40px !important;
+
+}
+    .image_logo {
+    height: auto;
+    margin: 5px 0;
+    display: inline-block;
+    width: 200px;
+    margin-top: 0;
+    float: right;
+}
+    .nav-inner {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+    .jtv-mobile-menu #search1 button {
+    background: none repeat scroll 0 0 #839753;
+
+}
+    .jtv-mobile-menu .expand {
+
+    color: #839753;
+
+}
+}
+
+
+@media(max-width:441px){
+    .nav-inner {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+}
