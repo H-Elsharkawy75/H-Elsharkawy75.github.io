@@ -11134,8 +11134,6 @@ height: 100%;
     font-family: 'RomainRegular';
 }
 
-
-
 #nav li {
     float: left;
 }
@@ -11143,6 +11141,215 @@ height: 100%;
 .BecomeaMemberLI {
     float: inherit !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Services{
+    padding: 50px 15px ;;
+}
+.Services .Title{
+    
+}
+.Services .Title img{
+        display: block;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.Services .Title h2{
+text-align: center;
+    margin-bottom: 40px;
+    font-size: 33px;
+    color: #093916;
+    position: relative;
+    display: block;
+        margin-top: 0;
+}
+.Services .Title h2::before{
+    content: '';
+    height: 2px;
+    width: 75px;
+    background: #fbb034;
+    display: block;
+    position: relative;
+    top: 45px;
+    margin: auto;
+}
+.Services .Title h2::after{
+    content: '';
+    height: 2px;
+    width: 50px;
+    background: #fbb034;
+    display: block;
+    position: relative;
+    top: 13px;
+    margin: auto;
+}
+.Services .ServicesContent{
+    
+}
+.Services .ServicesContent .ServicesSide{
+    position: relative;
+    height: 630px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.Services .ServicesContent .ServicesSide .imagges{
+        display: block;
+    width: 100%;
+    height: 100%;
+}
+.Services .ServicesContent .ServicesSide .imagges img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease-in-out;
+}
+
+
+.Services .ServicesContent .ServicesSide .Descr{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 15px;
+    width: 100%;
+        background: #09391600;
+    transition: all .4s ease-in-out;
+}
+.Services .ServicesContent .ServicesSide .Descr h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.Services .ServicesContent .ServicesSide .Descr p{
+        font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.Services .ServicesContent .ServicesSide .Descr a{
+        background: #fbb034;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 15px;
+    height: 40px;
+    display: block;
+    width: max-content;
+    line-height: 40px;
+    border-radius: 2px;
+    transition: all .4s ease-in-out;
+}
+.Services .ServicesContent .ServicesSide .Descr a i{
+    margin: 0 2px;
+}
+.Services .ServicesContent .ServicesSide .Descr a:hover{
+    transform: translateY(5px);
+}
+.Services .ServicesContent .ServicesSide:hover .imagges img{
+    transform: scale(1.1);
+}
+.Services .ServicesContent .ServicesSide:hover .Descr{
+       background: #09391680;
+    cursor: pointer;
+}
+
+
+
+.Services .ServicesContent .serviceCenter{
+    
+}
+
+.Services .ServicesContent .serviceCenter .serviceCenterItem{
+    height: 300px;
+        position: relative;
+    margin-bottom: 30px;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.Services .ServicesContent .serviceCenter .serviceCenterItem .imagges{
+        display: block;
+    width: 100%;
+    height: 100%;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .imagges img{
+        display: block;
+    width: 100%;
+    height: 100%;
+        transition: all .4s ease-in-out;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 15px;
+    width: 100%;
+        background: #09391600;
+    transition: all .4s ease-in-out;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr p{
+        font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr a{
+        background: #fbb034;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 15px;
+    height: 40px;
+    display: block;
+    width: max-content;
+    line-height: 40px;
+    border-radius: 2px;
+    transition: all .4s ease-in-out;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr a i{
+    margin: 0 2px;
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem .Descr a:hover{
+    transform: translateY(5px);
+}
+
+.Services .ServicesContent .serviceCenter .serviceCenterItem:hover .imagges img{
+    transform: scale(1.1);
+}
+.Services .ServicesContent .serviceCenter .serviceCenterItem:hover .Descr{
+       background: #09391680;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
