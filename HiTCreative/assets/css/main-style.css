@@ -8557,7 +8557,12 @@ height: 270px;
     margin: 15px auto;
     width: max-content;
 }
-
+@media(max-width:768px){
+	.taemGroup .otherrcoool {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
 
 
 
