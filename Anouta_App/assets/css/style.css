@@ -1107,7 +1107,7 @@ Main Banner Area CSS
 }
 .main-banner .imagess{
     position: absolute;
-    top: 0;
+    top: 5%;
     width: 80%;
     margin: 0 auto;
     left: 10%;
