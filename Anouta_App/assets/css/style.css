@@ -1088,12 +1088,16 @@ Main Banner Area CSS
 
 .main-banner {
     height: 100vh;
-    background-image: url(../img/imgshop/slider1-min.jpg);
+    background-image: url(../img/imgshop/New%20Project.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.main-banner .overlay{
+background: #00000014;
+    height: 100%;
+    
+}
 .main-banner-content {
     margin-top: -20px;
     max-width: 600px;
@@ -6565,7 +6569,6 @@ Get Started Area CSS
 .single-blog-post .blog-post-content p {
     margin: 0;
 }
-
 
 
 
