@@ -421,7 +421,7 @@ Navbar Area CSS
 .luvion-nav .navbar .navbar-nav .nav-item a {
     font-size: 17px;
     font-weight: 500;
-    color: #e5e1e1;
+    color: #504b4b;
     text-transform: capitalize;
     padding-left: 0;
     padding-right: 0;
@@ -434,7 +434,7 @@ Navbar Area CSS
 .luvion-nav .navbar .navbar-nav .nav-item a:hover,
 .luvion-nav .navbar .navbar-nav .nav-item a:focus,
 .luvion-nav .navbar .navbar-nav .nav-item a.active {
-    color: #ffffff;
+    color: #00aa90;
 }
 
 .luvion-nav .navbar .navbar-nav .nav-item a i {
@@ -452,7 +452,7 @@ Navbar Area CSS
 
 .luvion-nav .navbar .navbar-nav .nav-item:hover a,
 .luvion-nav .navbar .navbar-nav .nav-item.active a {
-    color: #ffffff;
+    color: #00aa90;
 }
 
 .luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -1088,31 +1088,70 @@ Main Banner Area CSS
 
 .main-banner {
     height: 100vh;
-    background-image: url(../img/imgshop/New%20Project.png);
+/*
+    background-image: url(../img/imgshop/mm.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+*/
 }
 .main-banner .overlay{
-background: #00000014;
+/*background: #00000014;*/
     height: 100%;
     
 }
+.main-banner .Imagesssgroup{
+    position: relative;
+}
+.main-banner .imagess{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+    left: 10%;
+    z-index: 1;
+}
+.main-banner .imagess img{
+    display: block;
+    width: 100%;
+}
+.main-banner .spinerimg{
+
+    
+    
+        display: block;
+    width: 80%;
+    margin: 10% auto;
+    z-index: 99;
+}
+.main-banner .spinerimg img{
+        display: block;
+    width: 100%;
+    
+        -webkit-animation-name: rotateMe;
+    animation-name: rotateMe;
+    -webkit-animation-duration: 35s;
+    animation-duration: 35s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
 .main-banner-content {
-    margin-top: -20px;
+    margin-top: 20%;
     max-width: 600px;
 }
 
 .main-banner-content h1 {
     margin-bottom: 0;
-    color: #ffffff;
+    color: #015d5e;
     font-size: 52px;
     font-weight: 700;
 }
 
 .main-banner-content p {
-    color: #ffffff;
+    color: #00aa90;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     max-width: 400px;
@@ -1677,8 +1716,7 @@ Featured Boxes Area CSS
 .featured-boxes-inner {
     background-color: #ffffff;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 15px 30px rgb(153 185 185);
 }
 
 .featured-boxes-inner .col-lg-3 {
