@@ -1092,6 +1092,7 @@ Main Banner Area CSS
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .main-banner .overlay{
 background: #00000014;
