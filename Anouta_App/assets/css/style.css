@@ -420,8 +420,8 @@ Navbar Area CSS
 
 .luvion-nav .navbar .navbar-nav .nav-item a {
     font-size: 17px;
-    font-weight: 500;
-    color: #504b4b;
+    font-weight: 600;
+    color: #000000;
     text-transform: capitalize;
     padding-left: 0;
     padding-right: 0;
@@ -1088,6 +1088,7 @@ Main Banner Area CSS
 
 .main-banner {
     height: 100vh;
+    margin-top: 20px;
 /*
     background-image: url(../img/imgshop/mm.png);
     background-position: center center;
@@ -1710,7 +1711,7 @@ Featured Boxes Area CSS
 .featured-boxes-area {
     position: relative;
     z-index: 1;
-    margin-top: -100px;
+    margin-top: -85px;
 }
 
 .featured-boxes-inner {
