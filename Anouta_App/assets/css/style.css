@@ -192,7 +192,7 @@ p:last-child {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #00aa90;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -1103,7 +1103,7 @@ Main Banner Area CSS
     
 }
 .main-banner .Imagesssgroup{
-    position: relative;
+position: relative;
 }
 .main-banner .imagess{
     position: absolute;
@@ -1954,7 +1954,7 @@ Services Area CSS
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #00aa90;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -2333,7 +2333,7 @@ Features Area CSS
 
 .single-features-box .icon.bg-cdf1d8 {
     background-color: #cdf1d8;
-    color: #44ce6f;
+    color: #00aa90;
 }
 
 .single-features-box .icon.bg-c679e3 {
@@ -2457,7 +2457,7 @@ Features Area CSS
 
 .features-box .icon.bg-cdf1d8 {
     background-color: #cdf1d8;
-    color: #44ce6f;
+    color: #00aa90;
 }
 
 .features-box .icon.bg-c679e3 {
@@ -2648,7 +2648,7 @@ Team Area CSS
     height: 30px;
     line-height: 30px;
     border-radius: 50%;
-    background-color: #44ce6f;
+    background-color: #00aa90;
     color: #ffffff;
     font-size: 13px;
     -webkit-transition: 0.5s;
@@ -2664,7 +2664,7 @@ Team Area CSS
 }
 
 .single-team-member .member-image .social li a i:hover {
-    background-color: #44ce6f;
+    background-color: #00aa90;
     color: #ffffff;
 }
 
@@ -2738,7 +2738,7 @@ Invoicing Area CSS
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #00aa90;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -3269,7 +3269,7 @@ Feedback Area CSS
 
 .feedback-slides .client-feedback .single-feedback .client-img img {
     border-radius: 50%;
-    border: 2px solid #44ce6f;
+    border: 2px solid #00aa90;
     padding: 4px;
 }
 
@@ -3320,7 +3320,7 @@ Feedback Area CSS
     transition: 0.5s;
     display: inline-block;
     position: relative;
-    border: 2px solid #44ce6f;
+    border: 2px solid #00aa90;
     border-radius: 50%;
     padding: 3px;
     width: 85px;
@@ -3568,7 +3568,7 @@ App Download Area CSS
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #00aa90;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -4395,7 +4395,7 @@ blockquote::before,
 .comments-area .comment-respond .form-submit input:hover,
 .comments-area .comment-respond .form-submit input:focus {
     color: #ffffff;
-    background-color: #44ce6f;
+    background-color: #00aa90;
 }
 
 /*================================================
@@ -4524,7 +4524,7 @@ Page Title Area CSS
 }
 
 .page-title-text ul li a:hover {
-    color: #44ce6f;
+    color: #00aa90;
 }
 
 .page-title-text ul li::before {
@@ -5047,7 +5047,7 @@ FAQ Area CSS
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #44ce6f;
+    background: #00aa90;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-timing-function: linear;
@@ -5642,7 +5642,7 @@ Contact Area CSS
 }
 
 .contact-info ul li:hover .icon {
-    border-color: #44ce6f;
+    border-color: #00aa90;
 }
 
 .contact-info ul li:hover .icon::before {
