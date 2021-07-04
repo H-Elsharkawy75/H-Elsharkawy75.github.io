@@ -1087,8 +1087,8 @@ Main Banner Area CSS
 =================================================*/
 
 .main-banner {
-    height: 100vh;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 75px;
 /*
     background-image: url(../img/imgshop/mm.png);
     background-position: center center;
@@ -1711,7 +1711,7 @@ Featured Boxes Area CSS
 .featured-boxes-area {
     position: relative;
     z-index: 1;
-    margin-top: -85px;
+    margin-top: 0px;
 }
 
 .featured-boxes-inner {
@@ -1948,7 +1948,7 @@ Services Area CSS
 
 .overview-box .overview-content .content .bar::before {
     content: '';
-    position: absolute;
+position: absolute;
     left: 0;
     top: -2.7px;
     height: 10px;
