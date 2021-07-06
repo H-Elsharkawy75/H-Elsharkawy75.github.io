@@ -6704,13 +6704,14 @@ Get Started Area CSS
 
 
 .baneers{
-    background-image: url(../img/schoolimg/Bluebells-1_edit-1522x1125.jpg);
+    background-image: url(../img/newschoolimg/banner_01.jpg);
     height: 600px;
     background-attachment: fixed;
     background-size: cover;
         background-position: 50% 50%;
-        background-position-y: -65px;
+        background-position-y: 60px;
     position: relative;
+    background-repeat: no-repeat;
 }
 .baneers .overlay{
     
@@ -6897,7 +6898,7 @@ font-size: 16px;
 
 
 .Applay{
-    background-image: url(../img/schoolimg/hero-hernandez-teacher.jpg);
+    background-image: url(../img/newschoolimg/bc3.png);
     height: 500px;
     background-attachment: fixed;
     background-size: cover;
@@ -7042,13 +7043,17 @@ font-size: 16px;
 
 
 .BaneerFooter{
-    background-image: url(../img/schoolimg/footer-CeVMS-students-27rjzl9.jpg);
+    background-image: url(../img/newschoolimg/bc6.jpg);
     height: 600px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     background-position-y: 0px;
     position: relative;
+}
+.BaneerFooter .overlay{
+    background: #00000094;
+    height: 100%;
 }
 .BaneerFooter .BaneerFooterContent{
             position: absolute;
@@ -7064,7 +7069,7 @@ font-size: 16px;
 
 .BaneerFooter .BaneerFooterContent .BaneerFooterBootom .logoimg{
     display: block;
-    width: 80%;
+    width: 150px;
     margin: 20px auto;
 }
 .BaneerFooter .BaneerFooterContent .BaneerFooterBootom .logoimg img{
@@ -7151,7 +7156,7 @@ background-color: #00aced!important;
 }
 
 .imagesspopup{
-        background-image: url(../img/schoolimg/water.jpg);
+        background-image: url(../img/newschoolimg/bc9.jpg);
     height: auto;
 
     background-size: cover;
@@ -7382,17 +7387,17 @@ background-color: #00aced!important;
 }
 
 .Highlights{
-    background-image: url(../img/schoolimg/social_media_screen.jpg);
-height: auto;
+    background-image: url(../img/newschoolimg/bc9.jpg);
+    height: auto;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-position-y: 0px;
 }
 .Highlights .overlay{
     padding: 50px 0;
     height: 100%;
-    background: #ffffffc9;
+    background: #d2d2d238;
 }
 .Highlights .title{
     
