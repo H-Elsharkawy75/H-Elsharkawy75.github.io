@@ -1,0 +1,210 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    direction: rtl;
+        font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav {
+    font-family: "Raleway", sans-serif;
+    margin-right: auto;
+    margin-left: 0;
+}
+* {
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav .nav-item a {
+
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .others-options .login-btn {
+
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+
+    text-align: right;
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+    left: auto;;
+
+}
+.luvion-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    right: 250px;
+    left: auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif;
+}
+.main-banner-content h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.overview-box .overview-content .content .services-list li {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.invoicing-content {
+    margin-right: auto;
+    max-width: 625px;
+    margin-left: 0;
+}
+.single-footer-widget .list {
+
+    padding: 0;
+}
+.single-footer-widget .footer-contact-info {
+    padding: 0;
+}
+
+.single-blog-post ul.entry-meta li i {
+    padding-left: 6px;
+    padding-right: 0;
+}
+.single-blog-post .blog-post-content p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.comparisons-table table thead th:nth-child(1) {
+    text-align: right;
+    padding-left: 50px;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: currentColor;
+    font-family: 'Cairo';
+}
+.comparisons-table table tbody td:nth-child(1) {
+    text-align: right;
+    padding-left: 50px;
+    font-family: 'Cairo';
+}
+.feedback-slides {
+
+    direction: ltr;
+}
+
+.feedback-slides .client-feedback .single-feedback {
+    direction: rtl;
+        background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    position: relative;
+    padding-right: 170px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.feedback-slides .client-feedback .single-feedback .client-img {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    left: auto;
+}
+
+
+@media(max-width:768px){
+    .luvion-responsive-nav .logo {
+    position: relative;
+    width: 50%;
+    z-index: 999;
+    left: 0;
+    margin-left: 0;
+    float: left;
+}
+    .luvion-responsive-nav .others-options .login-btn {
+    color: #0d6566;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Cairo';
+    position: relative;
+    top: -50px;
+}
+    .main-banner-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+    body{
+        overflow-x: hidden;
+    }
+    .main-banner {
+    padding-bottom: 0;
+}
+    .overview-box .overview-content .content .services-list {
+    text-align: right;
+    padding: 0;
+}
+    .overview-box .overview-image{
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    .feedback-slides .client-feedback .single-feedback {
+    direction: rtl;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+    .feedback-slides .client-feedback .single-feedback .client-img {
+    position: revert;
+    right: auto;
+    top: auto;
+    left: auto;
+}
+    .app-image {
+    padding: 50px 0;
+}
+    .mean-container .mean-nav ul li {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+    .mean-container .mean-nav ul li a {
+    display: block;
+    float: right;
+    width: 90%;
+    padding: 1em 5%;
+    margin: 0;
+    text-align: right;
+    color: #677294;
+    border-top: 1px solid #DBEEFD;
+    text-decoration: none;
+}
+    .mean-container .mean-nav ul li a.mean-expand {
+    margin-top: 1px;
+    width: 100%;
+    height: 24px;
+    padding: 12px !important;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: auto;
+    z-index: 2;
+    font-weight: 700;
+    background: transparent;
+    border: none !important;
+}
+    .main-banner .spinerimg {
+    display: block;
+    width: 80%;
+    margin: 10% auto;
+    z-index: 99;
+    overflow: hidden;
+    /* margin-bottom: 50px; */
+    padding: 15px 0;
+}
+}
