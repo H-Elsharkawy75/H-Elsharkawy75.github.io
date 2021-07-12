@@ -2306,6 +2306,7 @@ Features Area CSS
     z-index: 1;
     padding: 30px;
     text-align: center;
+    height: 250px;
 }
 
 .single-features-box .icon {
