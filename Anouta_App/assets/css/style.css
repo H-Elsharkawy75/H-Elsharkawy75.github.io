@@ -1140,14 +1140,14 @@ position: relative;
     animation-timing-function: linear;
 }
 .main-banner-content {
-    margin-top: 20%;
+    margin-top: 15%;
     max-width: 600px;
 }
 
 .main-banner-content h1 {
     margin-bottom: 0;
     color: #015d5e;
-    font-size: 52px;
+    font-size: 35px;
     font-weight: 700;
 }
 
@@ -1155,7 +1155,7 @@ position: relative;
     color: #00aa90;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    max-width: 400px;
+    max-width: 100%;
     margin-top: 20px;
     margin-bottom: 0;
 }
@@ -1933,7 +1933,7 @@ Services Area CSS
 
 .overview-box .overview-content .content h2 {
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -1983,10 +1983,10 @@ position: absolute;
 }
 
 .overview-box .overview-content .content .services-list li {
-    -ms-flex: 0 0 50%;
+    -ms-flex: 0 0 100%;
     -webkit-box-flex: 0;
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -2306,7 +2306,8 @@ Features Area CSS
     z-index: 1;
     padding: 30px;
     text-align: center;
-    height: 250px;
+    height: 345px;
+    overflow-y: auto;
 }
 
 .single-features-box .icon {
@@ -2353,6 +2354,7 @@ Features Area CSS
     transition: 0.5s;
     font-size: 22px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .single-features-box h3 a {
@@ -5707,7 +5709,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .list {
-    padding-left: 0;
+    padding-left: 15px;
     margin-bottom: 0;
     list-style-type: none;
 }
@@ -5734,7 +5736,7 @@ Footer Area CSS
 
 .single-footer-widget .footer-contact-info {
     margin-bottom: 0;
-    padding-left: 0;
+    padding-left: 15px;
     list-style-type: none;
 }
 
@@ -5766,7 +5768,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .social-links {
-    padding-left: 0;
+    padding-left: 15px;
     list-style-type: none;
     margin-top: 13px;
     margin-bottom: 0;
@@ -6621,7 +6623,34 @@ Get Started Area CSS
 }
 
 
+@media(max-width:768px){
+    .main-banner-content h1 {
+    font-size: 25px;
+}
+    .main-banner {
+    padding-top: 30px;
+        
+    padding-bottom: 0;
 
+
+}
+    .overview-box .overview-content .content h2 {
+    font-size: 20px;
+}
+    .overview-box .overview-image {
+    margin-top: 70px;
+            margin-bottom: 50px;
+
+}
+    .single-features-box {
+
+    height: auto;
+    overflow-y: auto;
+}
+    .app-image{
+        padding-top: 50px;
+    }
+}
 
 
 
