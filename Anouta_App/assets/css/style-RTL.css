@@ -39,7 +39,7 @@ body {
     font-family: 'Cairo', sans-serif;
 }
 .main-banner-content h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 600;
 }
 .overview-box .overview-content .content .services-list li {
@@ -57,12 +57,15 @@ body {
     max-width: 625px;
     margin-left: 0;
 }
+.single-footer-widget .social-links {
+    padding: 0 15px;
+}
 .single-footer-widget .list {
 
-    padding: 0;
+    padding: 0 15px;
 }
 .single-footer-widget .footer-contact-info {
-    padding: 0;
+    padding: 0 15px;
 }
 
 .single-blog-post ul.entry-meta li i {
@@ -111,7 +114,22 @@ body {
     left: auto;
 }
 
+.main-banner-content p {
 
+    font-family: cairo;
+
+}
+.main-banner-content {
+    margin-top: 20%;
+    max-width: 600px;
+}
+.overview-box .overview-content .content h2{
+        font-size: 35px;
+}
+
+.single-features-box {
+    height: 300;
+}
 @media(max-width:768px){
     .luvion-responsive-nav .logo {
     position: relative;
@@ -138,6 +156,7 @@ body {
     }
     .main-banner {
     padding-bottom: 0;
+        padding-top: 0;
 }
     .overview-box .overview-content .content .services-list {
     text-align: right;
@@ -207,4 +226,16 @@ body {
     /* margin-bottom: 50px; */
     padding: 15px 0;
 }
+    .overview-box .overview-content .content h2 {
+    font-size: 20px;
 }
+    .single-features-box {
+    height: auto;
+    overflow-y: auto;
+}
+    .invoicing-content h2 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+}
+
