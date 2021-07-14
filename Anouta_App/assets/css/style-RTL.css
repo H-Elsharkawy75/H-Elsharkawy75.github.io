@@ -130,6 +130,111 @@ body {
 .single-features-box {
     height: 300;
 }
+
+
+.luvion-nav .navbar .navbar-nav {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.luvion-nav .navbar .navbar-nav .nav-item a {
+font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.luvion-nav .navbar .navbar-nav .nav-item:first-child a {
+    margin-left: 10px;
+}
+.luvion-nav .navbar .navbar-nav .nav-item:last-child a {
+    margin-right: 10px;
+}
+.luvion-nav .navbar .others-options {
+margin-left: 25px;
+    float: left;
+    position: relative;
+    left: 0;
+    text-align: left;
+    display: block;
+    width: max-content;
+}
+
+.overview-box .overview-content .content .services-list li span {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+.overview-box .overview-content .content .services-list li span i {
+    right: 15px;
+    left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:768px){
     .luvion-responsive-nav .logo {
     position: relative;
