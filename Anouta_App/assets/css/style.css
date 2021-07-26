@@ -6754,6 +6754,17 @@ Get Started Area CSS
     .login-image img {
      display: none !important;
 }
+    .pt-0{
+    padding-top: 0 !important;
+}
+.ptb-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+    .account-create-area {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 }
 
 
