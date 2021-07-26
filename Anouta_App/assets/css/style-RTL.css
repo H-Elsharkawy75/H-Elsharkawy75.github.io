@@ -166,26 +166,76 @@ margin-left: 25px;
     right: 15px;
     left: auto;
 }
+.single-team-member:hover .member-image .social {
+    padding: 0;
+}
+.page-title-content p {
+    font-family: 'Cairo', sans-serif;
+}
+.contact-info ul li {
+    padding-right: 95px;
+    padding-left: 0;
 
+}
+.contact-info ul li .icon {
+    right: 0;
+    left: auto;
+}
+.contact-form form .help-block ul {
+    padding-right: 0;
+}
+.contact-info ul li span {
+    font-family: 'Cairo', sans-serif;
+}
+.contact-form form .form-control {
+    font-family: 'Cairo', sans-serif;
+}
+.about-content span {
+    font-family: 'Cairo', sans-serif;
+}
+.luvion-nav .navbar .others-options .login-btn i {
+    margin-left: 2px;
+}
+.single-information-box {
+    padding-right: 55px;
+    padding-left: 0;
+}
+.single-information-box .icon {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    left: auto;
+    top: 0;
+    right: 0;
+}
+.information-area .col-lg-3:last-child .single-information-box {
+    padding-left: 0;
+    padding-right: 0;
+}
+.information-area {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.hero-content p {
+    font-family: 'Cairo', sans-serif;
+}
+.hero-image .video-btn{
+        font-family: 'Cairo', sans-serif;
+}
+.features-box-list {
+    margin-right: auto;
+    margin-left: 0;
+}
+.faq-accordion .accordion .accordion-title {
+        font-family: 'Cairo', sans-serif;
+}
+.faq-accordion .accordion .accordion-content {
+    font-size: 16.5px;
+}
+.faq-contact-form form .form-control {
+        font-family: 'Cairo', sans-serif;
+}
+.hero-image .video-btn i {
+    margin-left: 2px;
+}
 
 
 
