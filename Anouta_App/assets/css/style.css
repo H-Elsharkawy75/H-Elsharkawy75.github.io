@@ -6254,6 +6254,7 @@ Global Area CSS
 
 .global-area {
     background-color: #051947;
+    background-color: #015d5e;
 }
 
 .global-area .section-title h2 {
@@ -6625,6 +6626,86 @@ Get Started Area CSS
     margin-top: 5px;
     /* border-radius: 3px; */
 }
+.page-title-area.item-bg1 {
+    background-image: url(../img/page-title-bg1.jpg);
+        background-position-y: 0;
+}
+.navbar-area {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.page-title-area {
+    margin-top: 80px;
+}
+.modelvediooos{
+    
+}
+.modelvediooos .close{
+        background: #0000;
+    box-shadow: none;
+    border: none;
+    font-size: 33px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.modelvediooos .modal-content{
+    
+}
+.modelvediooos .modal-content .modal-body{
+        padding: 0;
+    height: 480px;
+}
+.modelvediooos .modal-content .modal-body iframe{
+        display: block;
+    width: 100%;
+    height: 100%;
+}
+.team-area {
+    padding-bottom: 70px;
+}
+.imgtop{
+    margin-bottom: 50px;
+}
+.imgtop img{
+    display: block;
+    width: 100%;
+}
+.imgootom{
+    margin-top: 50px;
+}
+.imgootom img{
+    
+}
+.features-box{
+        background-color: #f7fafd;
+        padding-left: 25px;
+    padding-right: 110px;
+}
+.features-box .icon {
+    right: 25px;
+    left: auto;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pt-0{
+    padding-top: 0 !important;
+}
+.ptb-0{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width:768px){
@@ -6654,6 +6735,25 @@ Get Started Area CSS
     .app-image{
         padding-top: 50px;
     }
+    .modelvediooos .modal-content .modal-body{
+        padding: 0;
+    height: auto;
+}
+    .faq-accordion .accordion {
+    padding: 0;
+}
+    .contact-info {
+    padding-right: 0;
+}
+    .contact-info ul {
+    padding: 0;
+}
+    .signup-image img {
+    display: none !important;
+}
+    .login-image img {
+     display: none !important;
+}
 }
 
 
