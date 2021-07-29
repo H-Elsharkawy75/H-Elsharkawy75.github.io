@@ -1,0 +1,454 @@
+body{
+    direction: rtl;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Almarai', sans-serif;
+}
+
+#nav {
+    margin-left: 0;
+    margin-right: auto;
+}
+.welcome-msg span {
+    text-align: right;
+    float: right;
+}
+.jtv-top-links .links {
+    text-align: left;
+}
+
+.aboutUs .aboutUsContent .details {
+    width: 115%;
+    right: -15%;
+    padding-right: 15%;
+    padding-left: 15px;
+}
+.aboutUs .aboutUsContent .details .abouttop {
+    right: -15%;
+    padding-right: 15%;
+}
+.prodIndSlider {
+    direction: ltr;
+}
+.prodIndSlider .products-grid .item .item-inner .item-info .info-inner .item-title {
+    text-align: right;
+}
+.singelfooter .scoials ul li {
+    float: left;
+}
+.singelfooter .copyright p {
+    text-align: right;
+}
+
+.mm-toggle-wrap {
+
+    left: 15px;
+}
+
+.jtv-mobile-menu {
+    float: right;
+    padding-right: 0;
+}
+.prodIndSlider .products-grid .item .item-inner .item-info {
+    right: 5%;
+        left: auto;
+}
+.OURBLOG .OURBLOGContent .BlogItem .blogtop .Date {
+
+    right: 30px;
+    left: auto;
+}
+
+
+
+#nav li.drop-menu ul li a span, #nav ul.level1 a span {
+    text-align: right;
+    font-family: 'Almarai', sans-serif;
+        font-family: 'Almarai', sans-serif;
+}
+#nav li a span {
+    font-family: 'Cairo', sans-serif;
+        font-family: 'Almarai', sans-serif;
+}
+
+.NEWPROJECTS .NEWPROJECTSContent .Titel h1 {
+        font-family: 'Almarai', sans-serif;
+}
+.pageHeader .pageHeaderLinks ul li {
+    float: right;
+}
+
+.News .NewsContent .tapsss .tapItem .titleTap h2 {
+    border-right: 3px solid #00615c;
+    border-left: none;
+}
+.AgintPage .NewsContent .AgintPage .Aginproduc .Details .skilss ul li {
+    float: right;
+}
+.AgintPage .NewsContent .AgintPage .Aginproduc .Details .DesignBy .imglogo {
+    float: right;
+}
+
+.tstimonials .tstimonialsContent .tstimonialsitem .testDetails {
+    padding-right: 90px;
+    padding-left: 0;
+}
+.tstimonials .tstimonialsContent .tstimonialsitem .icons {
+    right: 40px;
+    left: auto;
+}
+.Getintouch .GetintouchContent .ContactRight .tapItem .titleTap h2 {
+    border-right: 3px solid #00615c;
+    border-left: none;
+}
+
+.Getintouch .GetintouchContent .GETE .title h2 {
+    border-right: 3px solid #00615c;
+    border-left: none;
+}
+.Getintouch .GetintouchContent .ContactRight .tapItem .tapContent .Contantusss ul li p span {
+    margin-right: 0;
+    margin-left: 5px;
+    float: right;
+}
+.chiller_cb label {
+    padding-right: 3rem;
+    padding-left: 0;
+}
+.chiller_cb span {
+    right: 0;
+    left: auto;
+
+}
+.Getintouch .GetintouchContent .GETE {
+    margin: 30px 0;
+}
+.Getintouch .GetintouchContent .GETE .GETECont .form-group input {
+
+    margin: 0;
+}
+.Getintouch .GetintouchContent .GETE .GETECont .form-group textarea {
+
+    margin: 0;
+}
+.AgintPage .NewsContent .AgintPage .AzurAgin .Details .paralin p span {
+    float: right;
+    margin-left: 5px;
+}
+.News .NewsContent .tapsss .tapItem .tapContent .Comments ul li p {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.News .NewsContent .tapsss .tapItem .tapContent .Comments ul li span {
+    float: right;
+
+}
+.News .NewsContent .tapsss .tapItem .tapContent .search .form-group input {
+
+    margin: 0;
+    padding-left: 110px;
+        padding-right: 40px;
+}
+.News .NewsContent .tapsss .tapItem .tapContent .search .form-group span {
+    right: 10px;
+    left: auto;
+}
+.News .NewsContent .tapsss .tapItem .tapContent .search .form-group .btn-search {
+    left: 10px;
+    right: auto;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Giftssss .liss ul li {
+    float: right;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Giftssss {
+    padding: 0 15px;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .NewsArticle .Mosaic .MosaicPox {
+    border-right: 2px solid #00615c;
+    border-left: none;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Sharelinks {
+    padding: 0 15px;
+}
+.News .NewsContent .RightSide .RightSideItem .title h3 {
+    border-right: 3px solid #00615c;
+    border-left: none;
+
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Comments .childComent {
+    margin-left: 0;
+    margin-right: auto;
+    float: left;
+}
+/*
+.checkOption{
+    padding: 0 15px;
+}
+*/
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Giftssss .liss ul li p span {
+    float: right;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .Giftssss .liss ul li p a {
+    float: left;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .ReplayForm .formonp .fomr-group input {
+
+    margin: 0;
+}
+.News .NewsContent .RightSide .RightSideItem .RightSideCondetnt .ReplayForm .formonp .fomr-group textarea {
+
+    margin: 0;
+}
+.ourPartners .ourPartnersContent .PartnersTap {
+    border-radius: 10px 2px 2px 2px;
+    border-right: 2px solid #00615c;
+    border-left: none;
+
+}
+
+.GallaryProd .heasders .RightSide ul li {
+    float: left;
+}
+.GallaryProd .heasders .leftside ul li {
+    float: right;
+}
+.GallaryProd .heasders .leftside ul li p i {
+    margin: 2px 5px;
+    float: right;
+}
+
+.GallaryProd .heasders .RightSide ul li a i {
+    margin: 2px 5px;
+    float: right;
+}
+
+.GallaryProd .heasders .RightSide ul li .dropdown .dropdown-toggle i{
+    float: right;
+      margin: 2px 5px;
+}
+.nav-tabs li a i{
+    float: right;
+    margin: 5px 5px;
+}
+
+.carousel-indicators {
+    margin-right: -36%;
+    margin-left: 0;
+}
+
+.DetailsProj {
+
+    text-align: right;
+}
+.DetailsProj .discriptionsContent .LeftSide .LeftSideItem .Title h3 {
+
+    border-right: 3px solid #00615c;
+    border-left: 0;
+
+}
+.DetailsProj .discriptionsContent .RightSide .RightSideItem .Title h3 {
+
+    border-right: 3px solid #00615c;
+    border-left: 0;
+}
+.DetailsProj .discriptionsContent .LeftSide .LeftSideItem .Contetleft .Descrip .DescripProp .DescripPropCont p .key {
+    float: right;
+    margin: 0 5px;
+}
+.catigores .card .card-header .parent .leftss p {
+    text-align: right;
+}
+.catigores .card .card-header .parent .Right ul li {
+    float: left;
+}
+.catigores .card .card-header .collapsed:before {
+    float: left;
+
+}
+.catigores .card .card-header .parent:before {
+    float: left;
+
+    line-height: 15px;
+}
+.catigores .card .card-body {
+    text-align: right;
+}
+.DetailsProj .discriptionsContent .RightSide .RightSideItem .ContentRight .Popular .carousel .carousel-item {
+    margin: 0;
+}
+.DetailsProj .discriptionsContent .RightSide .RightSideItem .ContentRight {
+    padding: 0 0px !important;
+    margin-top: 30px;
+}
+.DetailsProj .discriptionsContent .RightSide .RightSideItem .ContentRight .Popular .carousel .carousel-indicators {
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: initial;
+
+}
+.DetailsProj .discriptionsContent .RightSide .RightSideItem .ContentRight .Posts {
+    padding: 0 30px;
+}
+.DetailsProj .discriptionsContent .RightSide .Mortgage .ContentRight .Calculator {
+    padding: 0 30px;
+}
+
+.DetailsProj .discriptionsContent .RightSide .Mortgage .ContentRight .Calculator .mortgage_form .form-group input {
+
+    margin: 0;
+}
+.DetailsProj .discriptionsContent .RightSide .Mortgage .ContentRight .Calculator .mortgage_form .form-group select {
+
+    margin: 0;
+}
+.tapssss .nav-tabs {
+
+    padding: 0;
+}
+.TrainingCourses .TrainingCoursesContent .form-group input {
+
+    margin: 0;
+}
+.TrainingCourses .TrainingCoursesContent .form-group textarea {
+
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    
+    .aboutUs .aboutUsContent .details {
+    width: 100%;
+    right: 0;
+    padding-right: 0px;
+    padding-left: 0;
+}
+    .aboutUs .aboutUsContent .details .abouttop {
+    right: 0;
+    padding-right: 15px;
+}
+    .singelfooter .copyright p {
+    text-align: center;
+}
+    .AgintPage .NewsContent .AgintPage .AzurAgin .images {
+    height: auto;
+
+}
+    .AgintPage .NewsContent .AgintPage .AzurAgin {
+    padding: 15px 10px;
+}
+    .tstimonials .tstimonialsContent .tstimonialsitem .testDetails {
+    padding-left: 0;
+}
+    .Getintouch .GetintouchContent .GETE .GETECont {
+    padding: 30px 15px;
+}
+    .catigores .card .card-header .parent .leftss p {
+    text-align: center;
+}
+}
+
+
