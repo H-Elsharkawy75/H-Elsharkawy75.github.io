@@ -13763,16 +13763,55 @@ transform: translateY(5px);
 
 
 
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+border: solid #eee 1px;
+    outline: 0;
+    height: 45px;
+    border-radius: 0;
+    box-shadow: 0 0 5px #eee;
+}
 
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #eee;
+    border: 1px solid #eeeeee;
+    border-radius: 0;
+    cursor: default;
+    float: left;
+    margin: 5px;
+    margin-top: 7px;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    color: #1c5cb3;
+}
+.addProduct .producaddgrop input:focus {
+    border: 1px solid #b9b9b900;
+    box-shadow: 0 0 5px #eee0;
+}
 
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #333;
+}
 
+.select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 0;
+    cursor: text;
+    height: 45px;
+    line-height: 40px;
+    font-size: 15px !important;
+    height: 45px !important;
+}
 
-
-
-
-
-
-
+.addProduct .producaddgrop span {
+    display: block;
+    font-size: 16px;
+    color: #2362b7;
+    font-weight: 400;
+    margin-bottom: 5px;
+    height: auto;
+}
 
 
 
