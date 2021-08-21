@@ -9591,7 +9591,7 @@ text-align: center;
 .centerside .centersidecont .bs-example .nav-tabs li{
     display: block;
     width: max-content;
-    margin-right: 10px;
+    margin-right: 0px;
 }
 .centerside .centersidecont .bs-example .nav-tabs li a{
     padding: 10px;
