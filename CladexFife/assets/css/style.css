@@ -13385,7 +13385,7 @@ display: flex;
     height: 400px !important;
     margin-left: -2px;
 }
-.Slidercompany .forcefullwidth_wrapper_tp_banner, .fullwidthbanner-container {
+.Slidercompany .forcefullwidth_wrapper_tp_banner, .Slidercompany .fullwidthbanner-container {
 
     height: 400px !important;
     margin-left: -2px;
