@@ -13749,7 +13749,9 @@ transform: translateY(5px);
     transform: translateY(5px);
 }
 
-
+.nice-select.open .list {
+    z-index: 999;
+}
 
 
 
