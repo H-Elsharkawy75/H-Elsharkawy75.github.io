@@ -13814,6 +13814,317 @@ border: solid #eee 1px;
 }
 
 
+.inputVendorr{
+    
+}
+.inputVendorr .formItemVendor{
+        margin-bottom: 10px;
+        position: relative;
+}
+
+.inputVendorr .formItemVendor span{
+        display: block;
+    font-size: 16px;
+    color: #2362b7;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.inputVendorr .formItemVendor .inputvendor{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    transition: all .4s ease-in-out;
+    outline: 0 !important;
+}
+.form-control{
+        display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    transition: all .4s ease-in-out;
+    outline: 0 !important;
+}
+.inputVendorr .formItemVendor .bg_Brawen_iconinput {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 0;
+    background: #1c5cb3;
+    border-radius: 0;
+    border: 1px solid #1c5cb3;
+}
+.datepicker td, .datepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 300;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+
+.inputVendorr .formItemVendor .addMore{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    height: 30px;
+    display: inline-block;
+    width: 30px;
+    background: #fff;
+    border: 2px solid #bfbfbf;
+    border-radius: 50%;
+    color: #1b5bb2;
+    transition: all .4s ease-in-out;
+}
+.inputVendorr .formItemVendor .addMore:hover{
+        background: #1b5bb1;
+    border: 2px solid #1b5bb1;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.inputVendorr .formItemVendor .addMore i{
+    
+}
+.inputVendorr .formItemVendor .textarea {
+    display: block;
+    width: 100%;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    transition: all .4s ease-in-out;
+    outline: 0 !important;
+    min-height: 150px;
+    resize: vertical;
+    padding: 10px;
+}
+.inputVendorr .formItemVendor .TextInputt{
+        display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    transition: all .4s ease-in-out;
+    outline: 0 !important;
+    min-height: 40px;
+}
+
+
+
+
+
+.inputVendorr .formItemVendor .nice-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: solid 1px #dddddd;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+}
+.inputVendorr .formItemVendor .nice-select span {
+    color: #333;
+    text-transform: capitalize;
+}
+.inputVendorr .formItemVendor .image-preview-filename {
+    height: 40px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.inputVendorr .formItemVendor span {
+    display: block;
+    font-size: 16px;
+    color: #2362b7;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.inputVendorr .formItemVendor .image-preview-input {
+    height: 40px;
+    background: #1c5cb3;
+    border-radius: 0;
+    padding: 0 15px;
+    line-height: 40px;
+}
+.inputVendorr .formItemVendor .image-preview-input span {
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    display: contents;
+}
+.ModelMap{
+    background: #00000070;
+}
+.ModelMap .modal-content{
+    
+}
+
+.ModelMap .modal-content .modal-header{
+        display: block;
+}
+.ModelMap .modal-content .modal-header .close{
+    float: right;
+    position: relative;
+    right: 0;
+    text-align: center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    background: #fff;
+    border: 1px solid #fff;
+    outline: 0 !important;
+    font-size: 30px;
+    line-height: 30px;
+}
+.ModelMap .modal-content .modal-body{
+    
+}
+.ModelMap .modal-content .modal-body .ModelMapbody{
+    
+}
+.ModelMap .modal-content .modal-body .ModelMapbody .maps{
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+.ModelMap .modal-content .modal-body .ModelMapbody .maps iframe{
+        display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.inputVendorr .formItemVendor .btn-success{
+        height: 40px;
+    padding: 0 15px;
+    border-radius: 0;
+    background: #26b271;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 2px;
+    outline: 0 !important;
+}
+.inputVendorr .formItemVendor .btn-danger{
+        height: 40px;
+    padding: 0 15px;
+    border-radius: 0;
+    background: #ec4e5d;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 2px;
+        outline: 0 !important;
+        line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
