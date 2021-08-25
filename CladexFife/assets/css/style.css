@@ -14151,11 +14151,11 @@ border: 5px solid #ffffff;
 
 
 .darkwidth{
-        width: 250px;
+    width: 250px !IMPORTANT;
 }
 
 .wightwidt{
-    width: calc (100% - 250px)
+    width: calc(100% - 250px) !IMPORTANT;
 }
 
 
