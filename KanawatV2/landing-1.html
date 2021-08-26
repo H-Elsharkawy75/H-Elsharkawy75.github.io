@@ -29,8 +29,10 @@
 	<!-- meanmenu CSS -->
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />	
 	<!-- Main Style CSS -->
+<!--
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
+-->
 	<link rel="stylesheet"  href="style.css" type="text/css" media="all" />
 	<!-- transitions CSS -->
 	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
@@ -54,7 +56,7 @@
 		<div id="sticky-header" class="techno_nav_manu transparent_menu  d-md-none d-lg-block d-sm-none d-none animated fadeInDown">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="logo mt-2">
 							<a class="logo_img" href="index.html" title="techno">
 								<img  class="imglogo" src="assets/images/KanawatLogo2.png" alt="" />
@@ -64,17 +66,45 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-9">
+					<div class="col-md-10">
 						<nav class="techno_menu">
 							<ul class="nav_scroll">
 								<li><a href="#home">Home</a></li>
-								<li><a href="#about">about</a></li>
-								<li><a href="#service">Service</a></li>
+                                <li><a href="#about">about</a>
+									<ul class="sub-menu">
+										<li><a href="index.html">About Us</a></li>
+										
+										<li><a href="#id">Chairman's Speech</a></li>
+										<li><a href="#id">Management Team  </a></li>
+										<li><a href="#id">Why Us  </a></li>
+										<li><a href="#id">Our Mission  </a></li>
+										<li><a href="#id">Our Vision</a></li>
+										<li><a href="#id">Our Core Values</a></li>
+
+									</ul>
+								</li>
+                                <li><a href="#id"> Shareholders</a></li>
+                                <li><a href="#id"> Partners</a></li>
+                                <li><a href="#id">Locations</a>
+									<ul class="sub-menu">
+										<li><a href="">Kanawat Dist. Offices</a></li>
+										
+										<li><a href="#id">Kmobile Branches</a></li>
+
+									</ul>
+								</li>
+                                
+                                <li><a href="#id"> Events</a></li>
+                                <li><a href="#id"> News</a></li>
+                                <li><a href="#contact">Contact</a></li>
+<!--								<li><a href="#service">Service</a></li>-->
+<!--
 								<li><a href="#works">Works</a></li>
 								<li><a href="#price">Price</a></li>
 								<li><a href="#blog">Blog </a>
 								</li>
-								<li><a href="#contact">Contact</a></li>
+-->
+								
 							</ul>
 							<div class="donate-btn-header">
 								<a class="dtbtn" href="#">Get A Quote</a>	
@@ -91,13 +121,33 @@
 					<nav class="techno_menu">
 						<ul>
 							<li><a href="#home">Home</a></li>
-							<li><a href="#about">about</a></li>
-							<li><a href="#service">Service</a></li>
-							<li><a href="#works">Works</a></li>
-							<li><a href="#price">Price</a></li>
-							<li><a href="#blog">Blog </a>
-							</li>
-							<li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">about</a>
+									<ul class="sub-menu">
+										<li><a href="index.html">About Us</a></li>
+										
+										<li><a href="#id">Chairman's Speech</a></li>
+										<li><a href="#id">Management Team  </a></li>
+										<li><a href="#id">Why Us  </a></li>
+										<li><a href="#id">Our Mission  </a></li>
+										<li><a href="#id">Our Vision</a></li>
+										<li><a href="#id">Our Core Values</a></li>
+
+									</ul>
+								</li>
+                                <li><a href="#id"> Shareholders</a></li>
+                                <li><a href="#id"> Partners</a></li>
+                                <li><a href="#id">Locations</a>
+									<ul class="sub-menu">
+										<li><a href="">Kanawat Dist. Offices</a></li>
+										
+										<li><a href="#id">Kmobile Branches</a></li>
+
+									</ul>
+								</li>
+                                
+                                <li><a href="#id"> Events</a></li>
+                                <li><a href="#id"> News</a></li>
+                                <li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 			</div>
@@ -124,37 +174,39 @@
     
     	<div class="slider_list owl-carousel animated fadeInUp">
 		<div class="slider_area d-flex align-items-center slider1" id="home">
-			<div class="container">
-				<div class="row">
-					<!--Start Single Portfolio -->
-					<div class="col-lg-12">
-						<div class="single_slider">
-							<div class="slider_content">
-								<div class="slider_text">
-									<div class="slider_text_inner">
-										<h5>Total IT Solution Here</h5>
-										<h1>Best IT solution agency</h1>
-										<h1>for your Business </h1>
-									</div>
-									<div class="slider_button pt-5 d-flex">
-										<div class="button">
-											<a href="#">How IT Work <i class="fa fa-long-arrow-right"></i></a>
-											<a class="active" href="#">IT Services <i class="fa fa-long-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="slider-video">
-										<div class="video-icon">
-											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="fa fa-play"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <!--Start Single Portfolio -->
+                        <div class="col-lg-12">
+                            <div class="single_slider">
+                                <div class="slider_content">
+                                    <div class="slider_text">
+                                        <div class="slider_text_inner">
+
+                                            <h1>Retail</h1>
+                                        </div>
+                                        <div class="slider_button pt-5 d-flex">
+                                            <div class="button">
+                                                <a href="#">How IT Work <i class="fa fa-long-arrow-right"></i></a>
+                                                <a class="active" href="#">IT Services <i class="fa fa-long-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="slider-video">
+                                            <div class="video-icon">
+                                                <a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#"><i class="fa fa-play"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 		<div class="slider_area d-flex align-items-center slider2" id="home">
+            <div class="overlay">
 			<div class="container">
 				<div class="row">
 					<!--Start Single Portfolio -->
@@ -163,9 +215,9 @@
 							<div class="slider_content">
 								<div class="slider_text">
 									<div class="slider_text_inner">
-										<h5>Total IT Solution Here</h5>
-										<h1>Best IT solution agency</h1>
-										<h1>for your Business </h1>
+										
+									
+                                        <h1>Telecommunications</h1>
 									</div>
 									<div class="slider_button pt-5 d-flex">
 										<div class="button">
@@ -175,7 +227,7 @@
 									</div>
 									<div class="slider-video">
 										<div class="video-icon">
-											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/BS4TUd7FJSg"><i class="fa fa-play"></i></a>
+											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#"><i class="fa fa-play"></i></a>
 										</div>
 									</div>
 								</div>
@@ -184,6 +236,75 @@
 					</div>
 				</div>
 			</div>
+            </div>
+		</div>
+            
+            <div class="slider_area d-flex align-items-center slider3" id="home">
+                <div class="overlay">
+			<div class="container">
+				<div class="row">
+					<!--Start Single Portfolio -->
+					<div class="col-lg-12">
+						<div class="single_slider">
+							<div class="slider_content">
+								<div class="slider_text">
+									<div class="slider_text_inner">
+										
+									
+                                        <h1>Business to Business</h1>
+									</div>
+									<div class="slider_button pt-5 d-flex">
+										<div class="button">
+											<a href="#">How IT Work <i class="fa fa-long-arrow-right"></i></a>
+											<a class="active" href="#">IT Services <i class="fa fa-long-arrow-right"></i></a>
+										</div>
+									</div>
+									<div class="slider-video">
+										<div class="video-icon">
+											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#"><i class="fa fa-play"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+                </div>
+		</div>
+            
+            <div class="slider_area d-flex align-items-center slider4" id="home">
+                <div class="overlay">
+			<div class="container">
+				<div class="row">
+					<!--Start Single Portfolio -->
+					<div class="col-lg-12">
+						<div class="single_slider">
+							<div class="slider_content">
+								<div class="slider_text">
+									<div class="slider_text_inner">
+									
+									
+                                        <h1>Trading</h1>
+									</div>
+									<div class="slider_button pt-5 d-flex">
+										<div class="button">
+											<a href="#">How IT Work <i class="fa fa-long-arrow-right"></i></a>
+											<a class="active" href="#">IT Services <i class="fa fa-long-arrow-right"></i></a>
+										</div>
+									</div>
+									<div class="slider-video">
+										<div class="video-icon">
+											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="#"><i class="fa fa-play"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+                </div>
 		</div>
 		
 	</div>
@@ -215,18 +336,21 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6 wow fadeInLeft">
 					<div class="section_title text_left mb-40 mt-3">
+<!--
 						<div class="section_sub_title uppercase mb-3">
-							<h6>ABOUT US</h6>
+							<h6></h6>
 						</div>
+-->
 						<div class="section_main_title">
-							<h1>Preparing For Your Success</h1>
-							<h1>Provide Best <span>IT Solutions.</span></h1>
+							<h1>ABOUT  <span>US</span></h1>
+							
 						</div>
 						<div class="em_bar">
 							<div class="em_bar_bg"></div>
 						</div>
 						<div class="section_content_text bold pt-5">
 							<p>We are Egypt’s Fastest-growing distribution company, with a completely automated sales channel and expertise in all aspects of the supply chain, including customs clearance, inventory management, safe warehousing, direct distribution and delivery.  </p>
+                            
 						</div>
 					</div>
 					<div class="singel_about_left mb-30">
@@ -234,8 +358,7 @@
 							<div class="singel-about-content boder pl-4">
 								<p>We cover all business channels, including direct distribution, wholesaling, organized retail, operators, online and business-to-business. 
 </p>
-								<p>We cover the entire country of Egypt.
-</p>
+
 							</div>
 						</div>
 						<div class="singel_about_left_inner pl-4">
@@ -258,6 +381,341 @@
 	<!--==================================================-->
 	<!----- End Techno About Area ----->
 	<!--==================================================-->
+    	<!--==================================================-->
+	<!----- Start Techno Flipbox Top Feature Area ----->
+	<!--==================================================-->
+	<div class="flipbox_area top_feature pb-70 two">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+							<div class="techno_flipbox_inner">
+								<div class="techno_flipbox_icon">
+									<div class="icon">
+										<i class="flaticon-developer"></i>
+									</div>
+								</div>			
+								<div class="flipbox_title">
+									<h3>Employees</h3>
+								</div>
+							</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Responsive Design</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>500</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+							<div class="techno_flipbox_inner">
+								<div class="techno_flipbox_icon">
+									<div class="icon">
+										<i class="flaticon-developer"></i>
+									</div>
+								</div>			
+								<div class="flipbox_title">
+									<h3>Retail Stores</h3>
+								</div>
+							</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Retail Stores</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>15</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-developer"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Distribution Offices</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Distribution Offices</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>15</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-developer"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Massive Warehouse</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Massive Warehouse</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>1</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Flipbox Top Feature Area ----->
+	<!--==================================================-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="about_area pt-50 pb-70">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="single_about_thumb mb-3">
+						<div class="single_about_thumb_inner">
+							<img src="assets/images/NewImages/1.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-30">
+<!--
+						<div class="section_sub_title uppercase mb-3">
+							<h6>30 YEARS OF EXPERIENCE</h6>
+						</div>
+-->
+						<div class="section_main_title">
+							<h1>Why <span>Us</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text bold pt-4">
+							<p>When partnering with Kanawat you can be assured that you are getting comprehensive market coverage. We take pride in our partnerships and we will always manage your products as our own. We will provide you with the most suitable value proposition to your business and the most effective sales & distribution strategy to suit your business goals.</p>
+                            <p>
+                                A key strength at Kanawat is our understanding that each business is different and therefore we will always strive to offer each business innovative, unique ideas to deal with your distribution needs.
+
+                            </p>
+						</div>
+					</div>
+
+					<div class="singel_about_left_inner mt-4 pl-4">
+						<div class="button two">
+							<a href="#">More Details</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+    
+    
+    
+    
+    
+        <div class="about_area pt-50 pb-70">
+		<div class="container">
+			<div class="row align-items-center">
+                				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-30">
+<!--
+						<div class="section_sub_title uppercase mb-3">
+							<h6>30 YEARS OF EXPERIENCE</h6>
+						</div>
+-->
+						<div class="section_main_title">
+                             
+							<h1>Our <span>Mission</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text bold pt-4">
+							<p>To work progressively toward redefining the distribution process by bringing in technology products and solutions, fulfilling ongoing market demand and by adding value to both vendor and reseller through timely availability of the goods, product knowledge and value-adding to a profitable working relationship. To work effectively towards creating demand for products and passage to market for vendor and by the generation of beneficial opportunities for our reseller partner by the creation of effective rewards programme, efficient supply chain and knowledge by people training.
+</p>
+                            
+						</div>
+					</div>
+
+					
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="single_about_thumb mb-3">
+						<div class="single_about_thumb_inner">
+							<img src="assets/images/NewImages/6.jpg" alt="">
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>	
+	</div>
+            <div class="about_area pt-50 pb-70">
+		<div class="container">
+			<div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="single_about_thumb mb-3">
+						<div class="single_about_thumb_inner">
+							<img src="assets/images/NewImages/3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+                				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-30">
+<!--
+						<div class="section_sub_title uppercase mb-3">
+							<h6>30 YEARS OF EXPERIENCE</h6>
+						</div>
+-->
+						<div class="section_main_title">
+                             
+							<h1>Our <span>Vision</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text bold pt-4">
+							<p>Kanawat Co. endeavours to be the leading  distributor of choice in Egypt.
+
+</p>
+                            
+						</div>
+					</div>
+
+					
+				</div>
+				
+
+				
+			</div>
+		</div>	
+	</div>
+    
+                <div class="about_area pt-50 pb-70">
+		<div class="container">
+			<div class="row align-items-center">
+                
+                				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-30">
+<!--
+						<div class="section_sub_title uppercase mb-3">
+							<h6>30 YEARS OF EXPERIENCE</h6>
+						</div>
+-->
+						<div class="section_main_title">
+                             
+							<h1>Our <span>Core Values</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text bold pt-4">
+                            <div class="section_sub_title uppercase mb-3">
+                                <h6>Respect</h6>
+                            </div>
+							<p>We value our customers so much and thus accord them the best possible dignity, trust and equality.</p>
+                            
+						</div>
+                        
+                        <div class="section_content_text bold pt-4">
+                            <div class="section_sub_title uppercase mb-3">
+                                <h6>Integrity</h6>
+                            </div>
+							<p> Honesty is our virtue. We maintain the best possible standards to our partners and clients</p>
+                            
+						</div>
+                        
+                        <div class="section_content_text bold pt-4">
+                            <div class="section_sub_title uppercase mb-3">
+                                <h6>Team Work</h6>
+                            </div>
+							<p>We bring together our unique differences in abilities to form one strong team that is fueled for achieving success. Together we work towards becoming the first distributor of choice in the region.</p>
+                            
+						</div>
+                        
+                        <div class="section_content_text bold pt-4">
+
+                            <div class="section_sub_title uppercase mb-3">
+                                <h6>Accountability</h6>
+                            </div>
+							<p>We strive towards becoming reliable partners and product distributors. We therefore act as we are expected to act.</p>
+                            
+						</div>
+                        <div class="section_content_text bold pt-4">
+
+                            <div class="section_sub_title uppercase mb-3">
+                                <h6>Competence</h6>
+                            </div>
+							<p>We are professionals at our best and thus offer the best possible standards to our partners.</p>
+                            
+						</div>
+					</div>
+
+					
+				</div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="single_about_thumb mb-3">
+						<div class="single_about_thumb_inner">
+							<img src="assets/images/NewImages/9.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				
+
+				
+			</div>
+		</div>	
+	</div>
+    
+    
+    
+    
+    
+
     
     
     	<!--==================================================-->
@@ -289,10 +747,12 @@
 						<div class="section_sub_title uppercase mb-3">
 							<h6>Chairman's Message</h6>
 						</div>
+<!--
 						<div class="section_main_title">
 							
 							<h1>Top  <span>manager</span></h1>
 						</div>
+-->
 						<div class="em_bar">
 							<div class="em_bar_bg"></div>
 						</div>
@@ -368,14 +828,16 @@
 							<div class="col-lg-12">
 								<div class="single_testimonial mt-3 mb-5">
 									<div class="single_testimonial_content">
+<!--
 										<div class="single_testimonial_content_text mb-4">
 											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 										</div>
+-->
 										<div class="single_testimonial_thumb mt-2 mr-3">
 											<img src="assets/images/testi1.jpg" alt="" />
 										</div>
 										<div class="single_testimonial_content_title mt-4">
-											<h4>Hussein Elsharkawy</h4>
+											<h4>Mohamed Ouda</h4>
 											<span>CEO</span>
 										</div>
 									</div>
@@ -385,15 +847,17 @@
 							<div class="col-lg-12">
 								<div class="single_testimonial mt-3 mb-5">
 									<div class="single_testimonial_content">
+<!--
 										<div class="single_testimonial_content_text mb-4">
 											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 										</div>
+-->
 										<div class="single_testimonial_thumb mt-2 mr-3">
 											<img src="assets/images/testi2.jpg" alt="" />
 										</div>
 										<div class="single_testimonial_content_title mt-4">
-											<h4>Hussein Elsharkawy</h4>
-											<span>Developer</span>
+											<h4>Sherif El Baz</h4>
+											<span>CFO</span>
 										</div>
 									</div>
 								</div>
@@ -402,15 +866,17 @@
 							<div class="col-lg-12">
 								<div class="single_testimonial mt-3 mb-5">
 									<div class="single_testimonial_content">
+<!--
 										<div class="single_testimonial_content_text mb-4">
 											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 										</div>
+-->
 										<div class="single_testimonial_thumb mt-2 mr-3">
 											<img src="assets/images/testi3.jpg" alt="" />
 										</div>
 										<div class="single_testimonial_content_title mt-4">
-											<h4>Hussein Elsharkawy</h4>
-											<span>IT Manager</span>
+											<h4>Yousra Hassan </h4>
+											<span>Head of Sales Support & Operation Manager</span>
 										</div>
 									</div>
 								</div>
@@ -419,15 +885,126 @@
 							<div class="col-lg-12">
 								<div class="single_testimonial mt-3 mb-5">
 									<div class="single_testimonial_content">
+<!--
 										<div class="single_testimonial_content_text mb-4">
 											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
 										</div>
+-->
 										<div class="single_testimonial_thumb mt-2 mr-3">
 											<img src="assets/images/testi2.jpg" alt="" />
 										</div>
 										<div class="single_testimonial_content_title mt-4">
-											<h4>Hussein Elsharkawy</h4>
-											<span>Financial Manager</span>
+											<h4>Wael Abed</h4>
+											<span>Head Of Retail </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Rania Ali   </h4>
+											<span>Head of Marketing </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Sherine Hussein </h4>
+											<span>Head of Admin & Bank Relationship </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Ehab Mostafa </h4>
+											<span>Head of HR </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Mohamed Abdrabouh </h4>
+											<span>Head of IT </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Ahmed Shoier </h4>
+											<span>Head of Sales </span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <div class="col-lg-12">
+								<div class="single_testimonial mt-3 mb-5">
+									<div class="single_testimonial_content">
+<!--
+										<div class="single_testimonial_content_text mb-4">
+											<p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque don't is tortor.Tellus volutpat scelerisque techno tempor.</p>
+										</div>
+-->
+										<div class="single_testimonial_thumb mt-2 mr-3">
+											<img src="assets/images/testi2.jpg" alt="" />
+										</div>
+										<div class="single_testimonial_content_title mt-4">
+											<h4>Hisham Nagy </h4>
+											<span>Head of After Sales & Services </span>
 										</div>
 									</div>
 								</div>
@@ -453,12 +1030,12 @@
 	<!--==================================================-->
     <div class="kanwatsec pd-70 pt-70">
 
-        <div class="overlay">
+        <div class="">
             <div class="container">
                 <div class="canwatcont">
                     <div class="title text-center mb-50  wow fadeIn">
                         <div class="section_sub_title uppercase mb-3">
-							<h6>MORE INFO ABOUT</h6>
+							<h6>Our Shareholders</h6>
 						</div>
                         <div class="section_main_title">
 							<h1>BPE Partners and MTI have partnered to form Kanawat.</h1>
@@ -693,9 +1270,11 @@
 				<div class="col-lg-12">
 					<div class="section_title text_center mb-50 mt-3  wow fadeIn">
 						
+<!--
 						<div class="section_sub_title uppercase mb-3">
 							<h6>PORTFOLIO</h6>
 						</div>
+-->
 						<div class="section_main_title">
 							<h1>Our Partners</h1>
 <!--							<h1>Your Business</h1>-->
@@ -713,14 +1292,18 @@
 					<div class="portfolio_nav  wow fadeIn">
 						<div class="portfolio_menu">
 							<ul class="menu-filtering">
-								<li class="current_menu_item" data-filter="*">All Works</li>
-								<li data-filter=".physics" >Mobile Devices</li>
-								<li data-filter=".cemes" >Tablets</li>
-								<li data-filter=".math" >Mobile Accessories</li>
-								<li data-filter=".Conditions">Air Conditions </li>
-                                <li data-filter=".Televisions">Televisions </li>
-                                <li data-filter=".Channels">TV Channels </li>
-                                <li data-filter=".Payment">Payment Solutions </li>
+								<li class="current_menu_item" data-filter="*">All Partner</li>
+								<li class="" data-filter=".Samsung" >Samsung</li>
+								<li data-filter=".Nokia" >Nokia</li>
+								<li data-filter=".Baseus" >Baseus</li>
+								<li data-filter=".K-Mobile">K-Mobile </li>
+                                
+                                <li data-filter=".Orange">Orange </li>
+                                <li data-filter=".Bee">Bee </li>
+                                
+                                <li data-filter=".Syinix">Syinix </li>
+                                <li data-filter=".Daikin">Daikin </li>
+                                
                                 
 							</ul>
 						</div>
@@ -728,99 +1311,147 @@
 				</div>
 			</div>
 			<div class="row image_load">
-				<div class="col-lg-4 col-md-6 col-sm-12 grid-item physics english">
+                
+                
+                <div class="col-lg-4 col-md-6 col-sm-12 grid-item Orange">
 					<div class="single_portfolio">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p1.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/Orange.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
 							<div class="single_portfolio_icon">
-								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/portfolio/p1.jpg"><i class="fa fa-search-plus"></i></a>
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
 							</div>
 							<div class="single_portfolio_content_inner">
 								<span>Prototype UX Research</span>
 								<h2><a href="#">Digital Marketing</a></h2>
-                                <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
-                                  Read More
-                                </button>
+                                
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 grid-item cemes">
+                <div class="col-lg-4 col-md-6 col-sm-12 grid-item Bee">
 					<div class="single_portfolio">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p2.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/baseus.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
 							<div class="single_portfolio_icon">
-								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/portfolio/p2.jpg"><i class="fa fa-search-plus"></i></a>
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
 							</div>
 							<div class="single_portfolio_content_inner">
-								<span>UX Research</span>
-								<h2><a href="#">Awesome Creative</a></h2>
-                                <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
-                                  Read More
-                                </button>
+								<span>Beee</span>
+								<h2><a href="#">Digital Marketing</a></h2>
+                                
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 grid-item cemes">
+                
+                
+				<div class="col-lg-4 col-md-6 col-sm-12 grid-item Samsung">
 					<div class="single_portfolio">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p3.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/Samsung.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
 							<div class="single_portfolio_icon">
-								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/portfolio/p3.jpg"><i class="fa fa-search-plus"></i></a>
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
+							</div>
+							<div class="single_portfolio_content_inner">
+								<span>Prototype UX Research</span>
+								<h2><a href="#">Digital Marketing</a></h2>
+                                
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 grid-item Nokia">
+					<div class="single_portfolio">
+						<div class="single_portfolio_inner">
+							<div class="single_portfolio_thumb">
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/baseus.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="single_portfolio_content">
+							<div class="single_portfolio_icon">
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
+							</div>
+							<div class="single_portfolio_content_inner">
+								<span>Nokiaaa</span>
+								<h2><a href="#">Awesome Creative</a></h2>
+<!--
+                                <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
+                                  Read More
+                                </button>
+-->
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 grid-item Baseus">
+					<div class="single_portfolio">
+						<div class="single_portfolio_inner">
+							<div class="single_portfolio_thumb">
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/baseus.png" alt="" /></a>
+							</div>
+						</div>
+						<div class="single_portfolio_content">
+							<div class="single_portfolio_icon">
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
 							</div>
 							<div class="single_portfolio_content_inner">
 								<span>Design, Photoshop</span>
 								<h2><a href="#">Business Solution</a></h2>
+<!--
                                 <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
                                   Read More
                                 </button>
+-->
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 grid-item cemes math">
+				<div class="col-lg-4 col-md-6 col-sm-12 grid-item K-Mobile">
 					<div class="single_portfolio">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p4.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/Kmobile.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
 							<div class="single_portfolio_icon">
-								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/portfolio/p4.jpg"><i class="fa fa-search-plus"></i></a>
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
 							</div>
 							<div class="single_portfolio_content_inner">
 								<span>Software Engineer</span>
 								<h2><a href="#">Company Project</a></h2>
+<!--
                                 <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
                                   Read More
                                 </button>
+-->
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12 col-sm-12 grid-item physics english">
+				<div class="col-lg-4 col-md-12 col-sm-12 grid-item Syinix english">
 					<div class="single_portfolio admin">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p5.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/Syinix.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
@@ -830,31 +1461,35 @@
 							<div class="single_portfolio_content_inner">
 								<span>Photoshop</span>
 								<h2><a href="#">Mastering Web Design</a></h2>
+<!--
                                 <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
                                   Read More
                                 </button>
+-->
 								
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12 col-sm-12 grid-item math">
+				<div class="col-lg-4 col-md-12 col-sm-12 grid-item Daikin">
 					<div class="single_portfolio admin">
 						<div class="single_portfolio_inner">
 							<div class="single_portfolio_thumb">
-								<a href="#"><img src="assets/images/portfolio/p6.jpg" alt="" /></a>
+								<a href="#"><img src="assets/images/NewImages/LogosPNG/Daikin.png" alt="" /></a>
 							</div>
 						</div>
 						<div class="single_portfolio_content">
 							<div class="single_portfolio_icon">
-								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/portfolio/p6.jpg"><i class="fa fa-search-plus"></i></a>
+								<a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="assets/images/logos/6.png"><i class="fa fa-search-plus"></i></a>
 							</div>
 							<div class="single_portfolio_content_inner">
-								<span>Design, Photoshop</span>
+								<span>Design, Photoshop ddd</span>
 								<h2><a href="#">Awesome Logo Design</a></h2>
+<!--
                                 <button type="button" class="btn btn-primary btn_openPopUp" data-toggle="modal" data-target="#exampleModalCenter">
                                   Read More
                                 </button>
+-->
 								
 							</div>
 						</div>
@@ -869,6 +1504,34 @@
     
     
     <div class="modal fade ModalPqrtners" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Our Mission</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="detailbody">
+                <div class="detaisls">
+                    <h2>Our Mission</h2>
+                    <p class="subtiti">Sub Name</p>
+                    <div class="article">
+                        <p class="artippp">MTI represent 70.5% stock holder in Kanawat.
+MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's largest distribution companies for both distribution and retail channels and is listed in the Egyptian Stock Exchange (Ticker: MTIE.CA).</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+<!--
+    
+        <div class="modal fade ModalPqrtners" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -892,15 +1555,11 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
                 </div>
             </div>
           </div>
-<!--
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
--->
+
         </div>
       </div>
     </div>
+-->
 	<!--==================================================-->
 	<!----- End Techno Portfolio Area ----->
 	<!--==================================================-->
@@ -1158,11 +1817,13 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
         <div class="container">
             <div class="title text-center mb-50 wow slideInUp">
                         <div class="section_sub_title uppercase mb-3">
-							<h6>Kmobile Branches</h6>
+							<h6>Kanawat Dist.Offices & Kmobile Branches</h6>
 						</div>
+<!--
                         <div class="section_main_title">
 							<h1>Briefing about Kmobile + List of Addresses</h1>
 						</div>
+-->
                         <div class="em_bar">
 							<div class="em_bar_bg"></div>
 						</div>
@@ -1183,8 +1844,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 				<div class="col-lg-12">
 					<div class="section_title text_center white mb-55">
 						<div class="section_main_title">
-							<h1>We Create Real Impact For Those</h1>
-							<h1>Who Partner With Us.</h1>
+							<h1>Corporate Events</h1>
 						</div>
 						<div class="em_bar">
 							<div class="em_bar_bg"></div>
@@ -1410,11 +2070,13 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 			<div class="row">
 				<div class="col-lg-12 wow slideInUp">
 					<div class="section_title text_center mb-60 mt-3">
+<!--
 						<div class="section_sub_title uppercase mb-3">
 							<h6>MORE INFO ABOUT</h6>
 						</div>
+-->
 						<div class="section_main_title">
-							<h1>See Our Latest News</h1>
+							<h1>Kanawat Latest News</h1>
 						</div>
 						<div class="em_bar">
 							<div class="em_bar_bg"></div>
@@ -1446,29 +2108,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInUp">
-					<div class="single_blog text_center mb-4">
-						<div class="single_blog_thumb">
-							<a href="blog-details.html"><img src="assets/images/blog1.jpg" alt="" /></a>
-						</div>
-						<div class="single_blog_content pl-4 pr-4">
-							<div class="techno_blog_meta shado_bg">
-								<a href="#">Techno </a>
-								<span class="meta-date pl-3">Augost 5, 2020</span>
-							</div>
-							<div class="blog_page_title pb-1 pt-3">
-								<h3><a href="blog-details.html">The five devices you need to work anytime</a></h3>
-							</div>
-							<div class="blog_description">
-								<p>Lorem ipsum dolor sit amet consectet adipisie cing elit sed eiusmod tempor incididunt on labore et dolore.  </p>
-							</div>
-							<div class="blog_page_button pb-4">
-								<a href="blog-details.html">Read More <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInRight">
+                <div class="col-lg-4 col-md-6 col-sm-12 wow slideInRight">
 					<div class="single_blog text_center mb-4">
 						<div class="single_blog_thumb">
 							<a href="blog-details.html"><img src="assets/images/blog2.jpg" alt="" /></a>
@@ -1491,6 +2131,29 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 					</div>
 				</div>
 				
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInUp">
+					<div class="single_blog text_center mb-4">
+						<div class="single_blog_thumb">
+							<a href="blog-details.html"><img src="assets/images/blog1.jpg" alt="" /></a>
+						</div>
+						<div class="single_blog_content pl-4 pr-4">
+							<div class="techno_blog_meta shado_bg">
+								<a href="#">Techno </a>
+								<span class="meta-date pl-3">Augost 5, 2020</span>
+							</div>
+							<div class="blog_page_title pb-1 pt-3">
+								<h3><a href="blog-details.html">The five devices you need to work anytime</a></h3>
+							</div>
+							<div class="blog_description">
+								<p>Lorem ipsum dolor sit amet consectet adipisie cing elit sed eiusmod tempor incididunt on labore et dolore.  </p>
+							</div>
+							<div class="blog_page_button pb-4">
+								<a href="blog-details.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -1501,7 +2164,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 	<!--==================================================-->
 	<!----- Start Techno Contact Area ----->
 	<!--==================================================-->
-	<div class="contact_area pt-85 pb-0" style="background-image:url(assets/images/bg-cnt.jpg)" id="contact">
+	<div class="contact_area pt-85 pb-0" style="background-image:url(assets/images/NewImages/5.jpg)" id="contact">
         <div class="overlaycontact">
             <div class="container">
                 <div class="contactSecDetails">
@@ -1509,12 +2172,14 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
                         
                         <div class="col-lg-12 wow slideInUp">
                             <div class="section_title white text_center mb-60 mt-3">
+<!--
                                 <div class="section_sub_title uppercase mb-3">
                                     <h6>GET QUOTE</h6>
                                 </div>
+-->
                                 <div class="section_main_title">
-                                    <h1>Make An</h1>
-                                    <h1>Free Consultant</h1>
+                                    <h1>Contact Us</h1>
+                                    
                                 </div>
                                 <div class="em_bar">
                                     <div class="em_bar_bg"></div>
@@ -1536,7 +2201,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 									</div>
 								</div>			
 								<div class="flipbox_title">
-									<h3>Pone</h3>
+									<h3>Phone</h3>
 								</div>
 							</div>
 						</div>
@@ -1656,16 +2321,18 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form_box mb-30">
-                                                <span><i class="fas fa-mobile-alt"></i> phone</span>
+                                                <span><i class="fas fa-mobile-alt"></i> Mobile</span>
                                                 <input type="text" name="phone" placeholder="Phone Number">
                                             </div>
                                         </div>
+<!--
                                         <div class="col-lg-6">
                                             <div class="form_box mb-30">
                                                 <span><i class="fas fa-link"></i> Website</span>
                                                 <input type="text" name="web" placeholder="Website link">
                                             </div>
                                         </div>
+-->
 
                                         <div class="col-lg-12">
                                             <div class="form_box mb-30">
@@ -1673,7 +2340,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
                                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Write a Message"></textarea>
                                             </div>
                                             <div class="quote_btn text_center">
-                                                <button class="btn" type="submit">Free Consultancy</button>
+                                                <button class="btn" type="submit">Submit</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1768,13 +2435,14 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 	<div class="footer-middle bg-dark2 pt-95"> 
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12 wow slideInLeft">
+				<div class="col-lg-9 col-md-6 col-sm-12 wow slideInLeft">
 					<div class="widget widgets-company-info">
 						<div class="footer-bottom-logo pb-40">
-							<img src="assets/images/logo.png" alt="" />
+							<img class="imglogogo" src="assets/images/logos/KanawatLogo2.png" alt="" />
 						</div>
 						<div class="company-info-desc">
-							<p>Condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus.
+							<p>Kanawat Co. for Trade & Distribution is one of the leading telecom distributors in Egypt. Kanawat Co. is established since 2016 & today we have 15 distribution centers along with 15 retail stores featuring our brand (K-Mobile) covering all of Egypt.
+Company Address: 54 A Emtedad Ramsis, Opposite to Olympic Group.
 							</p>
 						</div>
 						<div class="follow-company-info pt-3">
@@ -1785,11 +2453,12 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="fa fa-twitter"></i></a>
 								<a href="#"><i class="fa fa-linkedin"></i></a>
-								<a href="#"><i class="fa fa-skype"></i></a>
+<!--								<a href="#"><i class="fa fa-skype"></i></a>-->
 							</div>
 						</div>
 					</div>					
 				</div>
+<!--
 				<div class="col-lg-3 col-md-6 col-sm-12 wow slideInUp">
 					<div class="widget widget-nav-menu">
 						<h4 class="widget-title pb-4">Our Services</h4>
@@ -1805,9 +2474,10 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 						</div>
 					</div>
 				</div>	
+-->
 				<div class="col-lg-3 col-md-6 col-sm-12 wow slideInUp">
 					<div class="widget widgets-company-info">
-						<h3 class="widget-title pb-4">Company Address</h3>
+						<h3 class="widget-title pb-4">Head Office Address</h3>
 						<div class="company-info-desc">
 							<p>Porem awesome dolor sitework amet, consetur acing elit, sed do eiusmod ligal
 							</p>
@@ -1824,6 +2494,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 						
 					</div>					
 				</div>
+<!--
 				<div class="col-lg-3 col-md-6 col-sm-12 wow slideInRight">
 					<div id="em-recent-post-widget">
 						<div class="single-widget-item">
@@ -1861,6 +2532,7 @@ MTI is a listed joint Stock Company , established in 1992 and is one of Egypt's 
 					</div>	
 				</div>
 				
+-->
 			</div>
 			<div class="row footer-bottom mt-70 pt-3 pb-1  wow slideInUp">
 				<div class="col-lg-6 col-md-6">
