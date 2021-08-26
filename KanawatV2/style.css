@@ -304,46 +304,46 @@ a.dtbtn:hover {
 --<	Techno Slider Area Css -->
 ======================================================*/
 .slider1 {
-    background-image: url(assets/images/slider/slider-1.png);
+    background-image: url(assets/images/NewImages/2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 }
 .slider2 {
-    background-image: url(assets/images/slider/slider-2.png);
+    background-image: url(assets/images/NewImages/7.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 }
 .slider3 {
-    background-image: url(assets/images/slider/slider-3.png);
+    background-image: url(assets/images/NewImages/4.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 }
 .slider4 {
-    background-image: url(assets/images/slider/slider-5.jpg);
+    background-image: url(assets/images/NewImages/8.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 }
 .slider5 {
     background-image: url(assets/images/slider/slider-8.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 }
 .slider6 {
     background-image: url(assets/images/slider/slider-4.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 	position:relative;
 }
 .slider7 {
@@ -351,7 +351,7 @@ a.dtbtn:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 550px;
 	position:relative;
 }
 .slider8 {
@@ -401,6 +401,13 @@ a.dtbtn:hover {
     background-repeat: no-repeat;
     height: 800px;
 	position:relative;
+}
+.overlay{
+    background: #00000063;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .slider_text_inner {
@@ -5043,6 +5050,215 @@ to{-webkit-transform:rotate(360deg) translate(-10px) rotate(-360deg);-moz-transf
 .style_three .footer-bottom-right-text a {
     color: #232323;
 }
+
+/*******************************************/
+
+.grid-item{
+    
+}
+
+.grid-item .single_portfolio{
+    
+}
+.grid-item .single_portfolio .single_portfolio_thumb{
+    
+}
+
+.em_bar {
+    background: #fff none repeat scroll 0 0 !important;
+}
+.em_bar_bg {
+    height: 4px;
+    width: 90px;
+    background: #0c5adb !Important;
+    border-radius: 25px;
+}
+.em_bar_bg:before {
+    display: none;
+}
+
+
+.btn_Wghyus{
+background: #fff;
+    color: #6c6c6c;
+    height: 40px;
+    line-height: 0;
+    border-radius: 0;
+    outline: 0 !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+.btn_Wghyus:hover{
+background: #fff;
+    color: #0c5adb;
+    height: 40px;
+    line-height: 0;
+    border-radius: 0;
+    outline: 0 !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+.btn_Wghyus:focus{
+background: #fff;
+    color: #6c6c6c;
+    height: 40px;
+    line-height: 0;
+    border-radius: 0;
+    outline: 0 !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.singel_about_left_inner{
+    
+}
+
+
+
+.section_content_text.bold p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*====================================================
 --<	Techno Contact Address Area Css -->
 ======================================================*/
@@ -6356,8 +6572,28 @@ content: '*';
 /*=========================
    techno Cintact Us Area Css
  =========================*/
-
-
+.imglogogo{
+    display: block;
+    width: 150px;
+}
+.follow-company-icon a {
+    font-size: 23px;
+}
+.main-accordion-lt {
+    background: #0c5adb;
+}
+.panel-heading .panel-title a {
+    background: #fefeff;
+    display: block;
+    font-weight: 600;
+    padding: 10px 15px;
+    position: relative;
+    color: #0c5adb;
+    font-size: 18px;
+}
+.panel-body p {
+    color: #fefefe;
+}
 
 /*=========================
    techno Error Page Area Css
