@@ -13386,9 +13386,9 @@ display: flex;
 }
 
 .grid-do_more figure:hover .bottom-gradient-do_more {
-    background: rgba(0, 0, 0, 0) linear-gradient(
+    background: rgba(0, 0, 0, 0) linear-gradient( 
 0deg
-, rgb(181 154 118) 0%, rgb(106 110 111 / 63%) 100%) repeat scroll 0 0;
+ , rgb(223 153 38) 0%, rgb(243 146 1 / 80%) 100%) repeat scroll 0 0;
     transform: translateY(0px);
 }
 
