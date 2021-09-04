@@ -13814,7 +13814,41 @@ box-shadow: 0px 1px 3px rgb(223 153 38);
 }
 
 
+.sticky-left-nav ul li a span {
+    display: block;
+    color: #DF9926;
+    white-space: nowrap;
+}
+.sticky-left-nav ul li a::before, .side-menu .sticky-left-nav ul li.nav-active-menu a::before {
+    background-color: #DF9926;
+}
 
-
-
-
+.footer-txt li .Follow {
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    outline: 0 !important;
+    transition: all .4s ease-in-out;
+}
+.footer-txt li .Follow:hover{
+    color: #b59a76;
+}
+.select-country > a {
+    color: #ffffff;
+    outline: 0;
+}
+.select-country > a:hover, .select-country > a:focus {
+    color: #b59a76;
+    text-decoration: none;
+}
+.country-align > li > a{
+    outline: 0;
+}
+.country-align > li > a:hover {
+    background: #b59a76;
+    color: #fff;
+}
+ul.footer-txt > li > a:hover {
+    color: #b59a76;
+    font-size: 15px;
+}
