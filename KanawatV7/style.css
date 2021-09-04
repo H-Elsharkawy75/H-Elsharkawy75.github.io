@@ -7464,3 +7464,6 @@ content: '*';
 .mean-container a.meanmenu-reveal {
     color: #0b3780;
 }
+.meanmenu-reveal.meanclose:hover {
+    color: #0b3780 !important;
+}
