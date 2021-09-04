@@ -7457,3 +7457,10 @@ content: '*';
     background: #0b3780;
 }
 }
+
+.mean-container a.meanmenu-reveal:hover span {
+    background: #0b3780;
+}
+.mean-container a.meanmenu-reveal {
+    color: #0b3780;
+}
