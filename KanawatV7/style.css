@@ -7457,10 +7457,10 @@ content: '*';
     background: #0b3780;
 }
     .pt-5, .py-5 {
-    padding-top: 0;
+    padding-top: 5px !important;
 }
     .pt-4, .py-4 {
-    padding-top: 0;
+    padding-top: 4px !important;
 }
     .kanwatsec .section_main_title h1 {
     font-weight: 400;
@@ -7497,6 +7497,9 @@ content: '*';
 }
 	.pb-70 {
     padding-bottom: 15px;
+}
+	.mt-80 {
+    margin-top: 30px;
 }
 }
 
