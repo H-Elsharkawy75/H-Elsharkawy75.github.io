@@ -7501,6 +7501,20 @@ content: '*';
 	.mt-80 {
     margin-top: 30px;
 }
+    .TapHere{
+            background: #0b3780;
+    padding: 5px 15px;
+    width: max-content;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #eee;
+    margin-top: 5px;
+    color: #fff;
+    }
+    .Shareholders{
+        font-size: 25px !important;
+    font-weight: 700 !important;
+    }
 }
 
 
