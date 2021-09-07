@@ -7418,6 +7418,72 @@ content: '*';
     margin: 0 !important;
 }
 
+
+
+
+
+ .jtv-slideshow {
+    margin-top: 0;
+    height: 600px;
+    margin-left: -2px;
+
+}
+ #jtv-rev_slider_wrapper{
+    height: 600px !important;
+    margin-left: -2px;
+}
+ .forcefullwidth_wrapper_tp_banner,
+ .fullwidthbanner-container {
+
+    height: 600px !important;
+    margin-left: -2px;
+}
+ #jtv-rev_slider{
+    height: 600px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul {
+height: 600px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul li {
+    height: 600px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul li img {
+    height: 600px !important;
+    margin-left: -2px;
+}
+ .fullwidthabanner{
+     height: 600px ;
+    !important;margin-left: -2px;
+}
+ #jtv-slideshow *{
+    height: 600px !important;
+    margin-left: -2px;
+}
+.tp-simpleresponsive .slotholder *,
+.tp-simpleresponsive img {
+    height: 600px !important;
+}
+
+.imglogo {
+    width: 90px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:768px){
     .pt-70 {
     padding-top: 0;
@@ -7515,6 +7581,63 @@ content: '*';
         font-size: 25px !important;
     font-weight: 700 !important;
     }
+    
+    
+    
+    
+    
+     .jtv-slideshow {
+    margin-top: 0;
+    height: 200px;
+    margin-left: -2px;
+
+}
+ #jtv-rev_slider_wrapper{
+    height: 200px !important;
+    margin-left: -2px;
+}
+ .forcefullwidth_wrapper_tp_banner,
+ .fullwidthbanner-container {
+
+    height: 200px !important;
+    margin-left: -2px;
+}
+ #jtv-rev_slider{
+    height: 200px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul {
+height: 200px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul li {
+    height: 200px !important;
+    margin-left: -2px;
+}
+ .tp-simpleresponsive ul li img {
+    height: 200px !important;
+    margin-left: -2px;
+}
+ .fullwidthabanner{
+     height: 200px ;
+    !important;margin-left: -2px;
+}
+ #jtv-slideshow *{
+    height: 200px !important;
+    margin-left: -2px;
+}
+.tp-simpleresponsive .slotholder *,
+.tp-simpleresponsive img {
+    height: 200px !important;
+}
+    
+    .imglogo {
+    width: 70px !important;
+    margin: 7px !important;
+}
+    
+    
+    
 }
 
 
