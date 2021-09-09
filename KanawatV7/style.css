@@ -7498,7 +7498,7 @@ height: 548px !important;
     width: 100px;
     height: 100px;
     margin: auto;
-    border-radius: 50%;
+border-radius: 33% 66% 70% 30%/49% 62% 38% 51% !important;
 }
 
 
