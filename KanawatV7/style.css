@@ -7424,52 +7424,81 @@ content: '*';
 
  .jtv-slideshow {
     margin-top: 0;
-    height: 600px;
+    height: 548px;
     margin-left: -2px;
 
 }
  #jtv-rev_slider_wrapper{
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
  .forcefullwidth_wrapper_tp_banner,
  .fullwidthbanner-container {
 
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
  #jtv-rev_slider{
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
  .tp-simpleresponsive ul {
-height: 600px !important;
+height: 548px !important;
     margin-left: -2px;
 }
  .tp-simpleresponsive ul li {
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
  .tp-simpleresponsive ul li img {
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
  .fullwidthabanner{
-     height: 600px ;
+     height: 548px ;
     !important;margin-left: -2px;
 }
  #jtv-slideshow *{
-    height: 600px !important;
+    height: 548px !important;
     margin-left: -2px;
 }
 .tp-simpleresponsive .slotholder *,
 .tp-simpleresponsive img {
-    height: 600px !important;
+    height: 548px !important;
 }
 
 .imglogo {
     width: 90px;
     margin: 5px;
+}
+
+.padingtopscroll{
+    padding-top: 110px !important;
+}
+
+.marginpottomscrol{
+    margin-bottom: 110px !important;
+}
+.imgssss {
+    width: 80% !important;
+    margin: auto;
+    display: block;
+}
+.kanwatmaps nav > div a.nav-item.nav-link:hover, .kanwatmaps nav > div a.nav-item.nav-link:focus, .kanwatmaps nav > div a.nav-item.nav-link:active {
+    border: none;
+    background: #0b3780;
+    color: #fff !important;
+    border-radius: 0;
+    transition: background 0.20s linear;
+}
+
+.icomasdasfsdsdf{
+    background: #0b3780;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
 }
 
 
@@ -7568,14 +7597,19 @@ height: 600px !important;
     margin-top: 30px;
 }
     .TapHere{
-            background: #0b3780;
+    background: #f7f7f7;
     padding: 5px 15px;
     width: max-content;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 0 0 5px #eee;
     margin-top: 5px;
-    color: #fff;
+    color: #0b3780;
+        transition: all .4s ease-in-out;
+    }
+        .TapHere:hover{
+             background: #0b3780;
+             color: #fff;
     }
     .Shareholders{
         font-size: 25px !important;
@@ -7636,11 +7670,28 @@ height: 200px !important;
     margin: 7px !important;
 }
     
-    
-    
+    .mobile-menu-area {
+    background: #fff none repeat scroll 0 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999999999999;
+    box-shadow: 0 0 10px #ccc;
+}
+    .padingtopscroll{
+    padding-top: 50px !important;
+}
+.marginpottomscrol{
+    margin-bottom: 50px !important;
 }
 
+}
 
+a:focus, a:hover {
+    text-decoration: none;
+    text-decoration: none;
+    color: #0b3780 !important;
+}
 .mean-container a.meanmenu-reveal:hover span {
     background: #0b3780;
 }
