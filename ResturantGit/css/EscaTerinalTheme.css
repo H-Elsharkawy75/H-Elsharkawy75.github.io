@@ -1,0 +1,122 @@
+.nav-holder nav li a.act-link, .nav-holder nav li a.act-scrlink, .nav-holder nav li a:hover, .th_contacts li:before, .header-cart_wrap_total_item span, .box-widget-content .widget-posts li:before, .clear-cart_button, .section-title h4, .menu-item-det_price span, .sd_btn:hover, .hero-social li a:hover, .to-top, .dec-icon i, .content-back:after, .work-time h3, .big-number a:hover, .quote-box i, .dark-bg .dots-separator span:after, .hero-menu-item-price, .hero-menu-item-title h6 span, .hero-menu_header li a:hover, .team-info h4, .team-info:after, .testimonilas-text:before, .testimonilas-text:after, .testi-item:after, .swiper-slide-active .testi-item .testi-number, .star-rating, .tc-button, .column-wrap-bg-text h3, .event-carousel-item .event-date, .ec-button, .event-carousel-item:after, .footer-social li a, .footer-widget-title, .footer-contacts li a:hover, .hero-menu_header li:before, .hero-menu_header li.current a, .footer-widget-content-link, .subcribe-form .subscribe-button:hover, .pdf-link:hover, section.parallax-section.hero-section .section-title .dots-separator span:after, .hero-menu-item-img:hover:after, .menu-wrapper-title-item h5, .scroll-nav li a span, .inline-facts .num, .inline-facts h6:after, .video_section-title h4, .big_prom:hover span, .ss-slider-cont, .box-media-zoom, .error-wrap .dots-separator span:after, .gallery-filters a.gallery-filter-active, .gallery-filters a:before, .grid-item_price span, .grid-item-details h3 span, .close-reservation-modal, .share-container a:hover, .element-item:after, .header-top_contacts a span, .contact-details li i, .contact-details h4, .social-widget li a, .category-widget .cat-item li a:hover, .blog-title-opt li a:hover, .pr-tags li a:hover, .post-counter li i, .blog-title-opt:after, .post.fw-post h2 a:hover, .author-social li a, .post-date strong, .shop-header h4 span, .grid-item-details h3 a:hover, .cart-title span, .cart-totals h3, .total-table tr, .pr-remove i, .hero-menu-item-title h6 a:hover, .menu-single-preice strong, .comment-meta h6 a:hover, .leave-rating label, .comment-numder, .header-top a:hover, .contact-details:after, .contact-details li a:hover, .item-related .post-date.post-price, .item-related h3 a:hover, .cs-content-wrapper h2:after, .cs-content-wrapper h3, .cs-social li a, .cs-contacts li span, .cs-countdown-item p, .hero-slider_btn, .grid-carousel-title h4, .carousle-item-number, .grid-carousel-title h3:after, .lang-wrap a.act-lang, .menusb a.back:before, .menusb li i:before, .menusb a.act-link, .pagination a:hover, .menusb a.act-scrlink, .mapzoom-in, .mapzoom-out, .scrollContorl, .element-item.close-icon:after, .lg-actions .lg-next, .lg-actions .lg-prev{
+     color: #917c68 !important;
+}
+.scroll-sticky .header-container {
+    background: #46443eeb;
+    border: 1px solid #46443e;
+    box-shadow: 0 0 10px #383736;
+}
+.scroll-sticky .nav-holder nav li a {
+    color: #f6f4ef;
+}
+.hero-slider_btn{
+    background: #46443e;
+}
+section {
+    background: #46443e;
+}
+.btn_menu {
+    background: #b6a593;
+}
+.btn{
+        color: #46443e;
+}
+.dark-bg {
+    background: #46443e;
+}
+.hero_btn, .big-number a, .btn.border-btn, .team-photo:before, .team-photo:after, .testimonilas-carousel-wrap:before, .section-dec.sec-dec_top, .section-dec.sec-dec_bottom, .footer-widget-content-link:hover, .pdf-link, .add_cart:hover, .menu-wrapper-title:before, .menu-wrapper-title:after, .scroll-nav li a:before, .big_prom:before, .ss-slider-pagination .swiper-pagination-bullet:before, .nice-select:after, .element-item, .post:before, .author-content:before, .author-content:after, .cs-countdown-item:before, .cs-media:before {
+    border-color: #b6a593;
+}
+.bookresvation {
+    background: #46443e;
+}
+.bookresvation .reservcontent {
+    background-color: #46443e;
+}
+
+.bookButton .hero_btn {
+    background: #b6a593;
+}
+.hero_btn {
+    color: #46443e;
+}
+.dateee {
+    background: #5f5c56;
+    color: #b6a593;
+}
+.show-cart_count, .color-bg, .header-cart_wrap_footer a:hover, .ps__thumb-x, .ps__thumb-y, .show-reserv_button:before, .hero_promo-button a, .btn:hover, .content-inner .cf-inner .inner h2:after, .team-social li a:hover, .tc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .bold-separator:before, .bold-separator:after, .add_cart:hover, .scroller, .nice-select .option.focus, .nice-select .option.selected.focus, .daterangepicker td.active, .daterangepicker td.active:hover, .tags-widget .tagcloud a:hover, .category-widget .cat-item li span, .pagination a.current-page, .irs-slider, .coupon-holder button:hover, .hero-slider-wrap_pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #b6a593;
+}
+.nice-select .option.focus, .nice-select .option.selected.focus {
+    color: #46443e;
+}
+.nice-select {
+
+    background: #5f5c56;
+    border: 1px solid #5f5c56;
+    color: #b6a593;
+}
+footer.fixed-footer:before {
+    background: #4c4a44;
+
+}
+
+.footer-bottom {
+    background: #4c4a44;
+}
+
+.newfooternenus .address p {
+    color: #b6a593;
+
+}
+.newfooternenus .directionss a {
+    color: #b6a593;
+
+}
+.newfooternenus .mailsss a {
+
+    color: #b6a593;
+}
+.newfooternenus .sociallinks a {
+    color: #b6a593;
+}
+
+.gallery-filters {
+    border: 1px solid #363532;
+    background: #363532;
+
+}
+.grid-item-details {
+    border: 1px solid #373633;
+    background: #363532;
+}
+.grid-item-details h3 a {
+    color: #b6a593;
+}
+.grid-item-details h3 {
+    color: #b6a593;
+}
+.box-media-zoom{
+        background: #46443e;
+}
+.modalGallary {
+    background: #46443ede;
+}
+.modalGallary .image-collge-wrap .swiper-slide .captionimg {
+    background: #46443ede;
+}
+.nice-select:hover {
+    border-color: #5f5c56;
+}
+.reservation-modal-item:after {
+    border: 1px dotted #b87333;
+    background: #46443e;
+    box-shadow: 0px 0px 0px 30px #4c4a44;
+}
+.custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email], .custom-form input[type=file], .custom-form input[type=password] {
+    border: 1px solid #5f5c56;
+    background: #5f5c56;
+}
+.custom-form textarea {
+    border: 1px solid #5f5c56;
+}
