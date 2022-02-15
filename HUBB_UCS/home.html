@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+        
+        <meta charset="utf-8" />
+        <title>HUBB UCS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="HUBB UCS Dashboard" name="description" />
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    
+        <link href="assets/libs/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body data-sidebar="dark">
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner-chase">
+                    <div class="chase-dot"></div>
+                    <div class="chase-dot"></div>
+                    <div class="chase-dot"></div>
+                    <div class="chase-dot"></div>
+                    <div class="chase-dot"></div>
+                    <div class="chase-dot"></div>
+                </div>
+            </div>
+        </div>
+    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            
+
+                            <a href="index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="assets/images/logo.svg" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="assets/images/logo-dark.png" alt="" height="19">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm d-lg-none px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+                            <i class="fa fa-fw fa-bars"></i>
+                        </button>
+
+                        <!-- App Search-->
+                        
+
+
+                        
+                    </div>
+
+                    <div class="d-flex">
+
+                        <div class="dropdown d-inline-block d-lg-none ms-2">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="mdi mdi-magnify"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-search-dropdown">
+        
+                                <form class="p-3">
+                                    <div class="form-group m-0">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <form class="app-search d-none d-lg-block">
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="bx bx-search-alt"></span>
+                            </div>
+                        </form>
+
+
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bx bx-bell bx-tada"></i>
+                                <span class="badge bg-danger rounded-pill">3</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                                aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h6 class="m-0" key="t-notifications"> Notifications </h6>
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="#!" class="small" key="t-view-all"> View All</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-simplebar style="max-height: 230px;">
+                                    <a href="#" class="text-reset notification-item">
+                                        <div class="media">
+                                            <div class="avatar-xs me-3">
+                                                <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                    <i class="bx bx-cart"></i>
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="mt-0 mb-1" key="t-your-order">Your order is placed</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1" key="t-grammer">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="text-reset notification-item">
+                                        <div class="media">
+                                            <img src="assets/images/users/avatar-3.jpg"
+                                                class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="media-body">
+                                                <h6 class="mt-0 mb-1">James Lemire</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1" key="t-simplified">It will seem like simplified English.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-hours-ago">1 hours ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="text-reset notification-item">
+                                        <div class="media">
+                                            <div class="avatar-xs me-3">
+                                                <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                    <i class="bx bx-badge-check"></i>
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h6 class="mt-0 mb-1" key="t-shipped">Your item is shipped</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1" key="t-grammer">If several languages coalesce the grammar</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="#" class="text-reset notification-item">
+                                        <div class="media">
+                                            <img src="assets/images/users/avatar-4.jpg"
+                                                class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                            <div class="media-body">
+                                                <h6 class="mt-0 mb-1">Salena Layfield</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1" key="t-occidental">As a skeptical Cambridge friend of mine occidental.</p>
+                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-hours-ago">1 hours ago</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="p-2 border-top d-grid">
+                                    <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">View More..</span> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown dropDawenProfile d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class=" header-profile-user" src="assets/images/users/avatar-1.jpg"
+                                    alt="Header Avatar">
+                                <span class="d-none d-xl-inline-block ms-1" key="t-HuseinElsharkawy">Hussein Elsharkawy</span>
+                                <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i> <span key="t-profile">Profile</span></a>
+                                <a class="dropdown-item" href="#"><i class="bx bx-wallet font-size-16 align-middle me-1"></i> <span key="t-my-wallet">My Wallet</span></a>
+                                <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i class="bx bx-wrench font-size-16 align-middle me-1"></i> <span key="t-settings">Settings</span></a>
+                                <a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span key="t-lock-screen">Lock screen</span></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </header>
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="vertical-menu">
+
+                <div data-simplebar class="h-100">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+                        <!-- Left Menu Start -->
+                        <ul class="metismenu list-unstyled" id="side-menu">
+                            
+                            <li class="">
+                                <a href="charts-apex.html" class="waves-effect">
+                                    <i class="bx bxs-dashboard"></i>
+                                    <span key="t-dashboards">Dashboards</span>
+                                </a>
+                                
+                            </li>
+
+                       
+                          
+                            <li>
+                                <a href="charts-apex.html" class="waves-effect">
+                                    <i class="bx bx-transfer"></i>
+                                    <span key="t-Transaction">Transaction</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="charts-sparkline.html" class="waves-effect">
+                                    <i class="bx bx-task"></i>
+                                    <span key="t-task">task</span>
+                                </a>
+                            </li>
+                            <li class="mm-active">
+                                <a href="#s" class="waves-effect">
+                                    <i class="bx bx-file"></i>
+                                    <span key="t-Documents">Documents</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="charts-knob.html" class="waves-effect">
+                                    <i class="bx bx-upload"></i>
+                                    <span key="t-file-Store">Store</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="charts-flot.html" class="waves-effect">
+                                    <i class="bx bx-bell"></i>
+                                    <span key="t-file-Notification">Notification</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="charts-echart.html" class="waves-effect">
+                                    <i class="bx bx-user"></i>
+                                    <span key="t-file-Profile">Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="charts-chartjs.html" class="waves-effect">
+                                    <i class="bx bx-cog"></i>
+                                    <span key="t-file-Settings">Settings</span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="charts-apex.html" class="waves-effect">
+                                    <i class="bx bxs-bar-chart-alt-2"></i>
+                                    <span key="t-file-Charts">Charts</span>
+                                </a>
+                            </li>
+                            
+
+ 
+
+                        </ul>
+                    </div>
+                    <!-- Sidebar -->
+                </div>
+            </div>
+            <!-- Left Sidebar End -->
+
+            
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        
+                        <!-- end page title -->
+                        <div class="row">
+                            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                                
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                                            <h4 class="mb-sm-0 font-size-18">My Files</h4>
+
+                                            <div class="page-title-right">
+                                                <ol class="breadcrumb m-0">
+                                                    
+                                                    <li class="breadcrumb-item active">
+                                                        <button class="btn btn-info waves-effect waves-light">
+                                                            <i class="bx bx-plus font-size-16 align-middle me-2"></i>
+                                                            Add New
+                                                        </button>
+                                                        </li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-12">
+                                          <div class="carouseFiles">
+                                            <div class="owl-carousel owl-theme">
+                                                <div class="item">
+                                                
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-info rounded">
+                                                                        <i class="bx bxs-file-blank font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">Documents</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-1">
+                                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+                                                <div class="item">
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-warning rounded">
+                                                                        <i class="fab fa-google-drive font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">Google Derive</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-4">
+                                                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-primary rounded">
+                                                                        <i class="bx bxs-cloud font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">One Drive</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-4">
+                                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-info rounded">
+                                                                        <i class="bx bxl-dropbox font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">Dropbox</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-4">
+                                                                    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+                                                
+                                                <div class="item">
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-success rounded">
+                                                                        <i class="bx bxs-file-blank font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">Design</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-4">
+                                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="card shadow-none border FileItem">
+                                                        <div class="card-body p-3">
+                                                            <div class="">
+                                                                <div class="float-end ms-2">
+                                                                    <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-vertical "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="avatar-xs AvatarIcon me-3 mb-3">
+                                                                    <div class="avatar-title  alert-danger rounded">
+                                                                        <i class="bx bxs-file-blank font-size-20 "></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="overflow-hidden mb-4">
+                                                                    <h5 class="font-size-15 text-truncate mb-1"><a href="javascript: void(0);" class="text-body">Design</a></h5>
+
+                                                                </div>
+                                                                <div class="progress animated-progess mb-4">
+                                                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="overflow-hidden me-auto">
+                                                                        <p class="text-muted text-truncate mb-0">12 Files</p>
+                                                                    </div>
+                                                                    <div class="align-self-end ms-2">
+                                                                        <p class="text-bold mb-0 font-size-14">6GB</p>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                
+                                                
+                                                
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                                        <div class="card">
+                                            <div class="card-body">
+
+
+
+                                                <div class="mt-0">
+                                                    <div class="d-flex flex-wrap ">
+                                                        <h5 class="font-size-16 me-3">Recent Order</h5>
+
+                                                        <div class="ms-auto">
+                                                            <a href="javascript: void(0);" class="fw-medium text-reset ViewAll">See More</a>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="table-responsive">
+                                                        <table class="table align-middle table-nowrap table-hover mb-0 table-striped">
+                                                            <thead>
+                                                                <tr>
+                                                                  <th scope="col">Name</th>
+                                                                  <th scope="col">Date modified</th>
+                                                                  <th scope="col" colspan="2">Size</th>
+                                                                </tr>
+                                                              </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium">
+                                                                            <i class="mdi mdi-file-document Icon-info font-size-16 align-middle text-primary me-2"></i> index.html</a>
+                                                                    </td>
+                                                                    <td>12-10-2020, 09:45</td>
+                                                                    <td>09 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-folder-zip Icon-warning font-size-16 align-middle text-warning me-2"></i> Project-A.zip</a></td>
+                                                                    <td>11-10-2020, 17:05</td>
+                                                                    <td>115 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-image Icon-primary font-size-16 align-middle text-muted me-2"></i> Img-1.jpeg</a></td>
+                                                                    <td>11-10-2020, 13:26</td>
+                                                                    <td>86 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-text-box Icon-success font-size-16 align-middle text-muted me-2"></i> update list.txt</a></td>
+                                                                    <td>10-10-2020, 11:32</td>
+                                                                    <td>08 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-folder Icon-danger font-size-16 align-middle text-warning me-2"></i> Project B</a></td>
+                                                                    <td>10-10-2020, 10:51</td>
+                                                                    <td>72 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-text-box Icon-info font-size-16 align-middle text-muted me-2"></i> Changes list.txt</a></td>
+                                                                    <td>09-10-2020, 17:05</td>
+                                                                    <td>07 KB</td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><a href="javascript: void(0);" class="text-dark AvatarIcon fw-medium"><i class="mdi mdi-image Icon-danger font-size-16 align-middle text-success me-2"></i> Img-2.png</a></td>
+                                                                    <td>09-10-2020, 15:12</td>
+                                                                    <td>31 KB</td>
+
+                                                                </tr>
+
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                                    
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-sm-flex flex-wrap">
+                                                    <h4 class="card-title mb-4">Email Sent</h4>
+                                                    <div class="ms-auto">
+                                                        <ul class="nav nav-pills">
+                                                            <li class="nav-item">
+                                                                <div class="dropdown mb-2">
+                                                                        <a class="font-size-16 text-muted dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                                            <i class="mdi mdi-dots-horizontal "></i>
+                                                                        </a>
+
+                                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                                            <a class="dropdown-item" href="#">Open</a>
+                                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                                            <a class="dropdown-item" href="#">Rename</a>
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                            </li>
+                                                           
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div id="stacked-column-chart" class="apex-charts" dir="ltr"></div>
+                                            </div>
+                                        </div>
+                                 
+                                    
+                                    
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                        <!-- end card -->
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                <div class="card filemanager-sidebar">
+                                <div class="card-body">
+                                    <div class="">
+                                        <h5 class="font-size-15 mb-4 text-left">Storage Details</h5>
+                                        <div class="apex-charts" id="radial-chart"></div>
+
+                                        <p class="text-muted mt-4 text-center">48.02 GB (76%) of 64 GB used</p>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <div class="card border shadow-none mb-2">
+                                            <a href="javascript: void(0);" class="text-body">
+                                                <div class="p-2">
+                                                    <div class="d-flex">
+                                                        <div class="avatar-xs align-self-center me-2">
+                                                            <div class="avatar-title rounded bg-transparent text-success font-size-20">
+                                                                <i class="bx bxs-file-blank"></i>
+                                                            </div>
+                                                        </div>
+    
+                                                        <div class="overflow-hidden me-auto">
+                                                            <h5 class="font-size-13 text-truncate mb-1">Documents Files</h5>
+                                                            <p class="text-muted text-truncate mb-0">176 Files</p>
+                                                        </div>
+    
+                                                        <div class="ms-2">
+                                                            <p class="text-muted">6 GB</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="card border shadow-none mb-2">
+                                            <a href="javascript: void(0);" class="text-body">
+                                                <div class="p-2">
+                                                    <div class="d-flex">
+                                                        <div class="avatar-xs align-self-center me-2">
+                                                            <div class="avatar-title rounded bg-transparent text-success font-size-20">
+                                                                <i class="bx bxl-youtube"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="overflow-hidden me-auto">
+                                                            <h5 class="font-size-13 text-truncate mb-1">Meida Files</h5>
+                                                            <p class="text-muted text-truncate mb-0">45 Files</p>
+                                                        </div>
+
+                                                        <div class="ms-2">
+                                                            <p class="text-muted">4.1 GB</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="card border shadow-none mb-2">
+                                            <a href="javascript: void(0);" class="text-body">
+                                                <div class="p-2">
+                                                    <div class="d-flex">
+                                                        <div class="avatar-xs align-self-center me-2">
+                                                            <div class="avatar-title rounded bg-transparent text-warning font-size-20">
+                                                                <i class="bx bxs-folder-open"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="overflow-hidden me-auto">
+                                                            <h5 class="font-size-13 text-truncate mb-1">Other Files</h5>
+                                                            <p class="text-muted text-truncate mb-0">21 Files</p>
+                                                        </div>
+
+                                                        <div class="ms-2">
+                                                            <p class="text-muted">3.2 GB</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="card border shadow-none mb-2">
+                                            <a href="javascript: void(0);" class="text-body">
+                                                <div class="p-2">
+                                                    <div class="d-flex">
+                                                        <div class="avatar-xs align-self-center me-2">
+                                                            <div class="avatar-title rounded bg-transparent text-danger font-size-20">
+                                                                <i class="bx bxs-file-blank"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="overflow-hidden me-auto">
+                                                            <h5 class="font-size-13 text-truncate mb-1">Unknown</h5>
+                                                            <p class="text-muted text-truncate mb-0">21 Files</p>
+                                                        </div>
+
+                                                        <div class="ms-2">
+                                                            <p class="text-muted">2 GB</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                       
+                                    </div>
+                                    
+                                    <div class="">
+                                        <h5 class="font-size-15 mb-4 text-left">Storage Details</h5>
+                                        <div id="donut_chart" class="apex-charts"  dir="ltr"></div>
+
+                                        <p class="text-muted mt-4 text-center">48.02 GB (76%) of 64 GB used</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="d-xl-flex">
+                            <div class="w-100">
+                                <div class="d-md-flex">
+                                    
+                                    <!-- filemanager-leftsidebar -->
+        
+                                    <div class="w-100">
+                                        
+                                    </div>
+                                    <!-- end w-100 -->
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+                
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <script>document.write(new Date().getFullYear())</script> © HUBB UCS.
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="text-sm-end d-none d-sm-block">
+                                    Design by Hussein Elsharkawy
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+ 
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        
+        <script src="assets/libs/owl.carousel/owl.carousel.min.js"></script>
+
+        <!-- apexcharts -->
+        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+        <!-- apexcharts init -->
+        <script src="assets/js/pages/apexcharts.init.js"></script>
+
+                <!-- dashboard init -->
+        <script src="assets/js/pages/dashboard.init.js"></script>
+        <!-- file-manager js -->
+        <script src="assets/js/pages/file-manager.init.js"></script>
+
+        <script src="assets/js/app.js"></script>
+        
+        <script>
+            $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:true,
+    navText: [
+      '<i class="bx bx-left-arrow-alt" aria-hidden="true"></i>',
+      '<i class="bx bx-right-arrow-alt" aria-hidden="true"></i>'
+    ],
+                dots: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+        </script>
+
+    </body>
+
+</html>
