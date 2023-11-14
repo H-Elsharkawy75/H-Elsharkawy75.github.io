@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.sliderContainer {
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    color: #efefef;
+}
+
+.sliderbg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #321d46;
+    height: 40px;
+}
+
+.sliderContainer_success .slider {
+    top: -1px;
+    border: 1px solid #52CCBA;
+    background-color: #52CCBA !important;
+}
+
+.sliderContainer_success .sliderMask {
+    background-color: #299989;
+}
+
+.sliderContainer_success .sliderMask i {
+    color: #fff !important;
+}
+
+.sliderContainer_success .sliderIcon:before {
+    content: "\f00c";
+}
+
+.sliderContainer_fail .slider {
+    background-color: #f57a7a !important;
+}
+
+.sliderContainer_fail .sliderMask {
+    background-color: #a03e3e;
+}
+
+.sliderContainer_fail .sliderMask i {
+    color: #fff !important;
+}
+
+.sliderContainer_fail .sliderIcon:before {
+    content: "\f00d";
+}
+
+.sliderContainer_active .sliderText,
+.sliderContainer_success .sliderText,
+.sliderContainer_fail .sliderText {
+    display: none;
+}
+
+.sliderMask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    background: #3d1f5b;
+}
+
+.sliderMask .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background: #613492;
+    cursor: pointer;
+    transition: background .2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: unset;
+}
+
+.sliderMask .slider:hover {
+    background: #5b2892;
+}
+
+.slider .sliderIcon {
+    color: #f3f3f3 !important;
+}
+
+.slider:hover .sliderIcon {
+    background-position: 0 -13px;
+    color: #fff !important;
+}
+
+.sliderText {
+    position: relative;
+    user-select: none;
+}
+
+.refreshIcon {
+    position: absolute;
+    right: -5px;
+    top: -4px;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 5;
+    transition: color .3s linear;
+    color: #fff !important;
+    background: #613492;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px !important;
+    border-radius: 50%;
+}
+
+.refreshIcon:hover {
+    color: #ddd;
+}

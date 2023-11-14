@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <title>Customer 360</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="assets/media/logo.svg" />
+    <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/plugins/slidercaptcha/slidercaptcha.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.dark.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="d-flex-login">
+        <div class="img-login">
+            <img src="assets/media/login.svg" alt="">
+        </div>
+        <div class="card-login">
+            <div class="card-body">
+                <form class="form w-100" action="#">
+                    <div class="header-login">
+                        <img src="assets/media/logo.svg" alt="">
+                        <h2>Welcome to Customer 360</h2>
+                        <p>One account, All of Customer-360 working for you.</p>
+                    </div>
+                    <div class="fv-row mb-5">
+                        <input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control" />
+                    </div>
+                    <div class="fv-row mb-4">
+                        <input type="password" placeholder="Password" name="password" autocomplete="off"
+                            class="form-control" />
+                    </div>
+                    <div class="fv-row">
+                        <div id="captcha" class="captcha-div"></div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn-login">Log in</button>
+                    </div>
+                </form>
+            </div>
+        </iv>
+
+    </div>
+
+
+    <!-- <div class="center-loader">
+        <div class="loader-circle-9">
+            Loading
+          <span></span>
+        </div>
+        <img src="assets/media/logo-light.svg" class="loader-light" alt="">
+    </div> -->
+
+    <!--begin::Javascript-->
+    <script src="assets/plugins/global/plugins.bundle.js"></script>
+    <script src="assets/plugins/slidercaptcha/longbow.slidercaptcha.js"></script>
+    <script>
+        var captcha = sliderCaptcha({
+            id: 'captcha',
+            localImages: function () {
+            return 'assets/media/captcha/' + Math.round(Math.random() * 12) + '.jpg';
+            },
+            onSuccess: function () {
+            // do something
+            }
+        });
+    </script>
+</body>
+
+</html>
